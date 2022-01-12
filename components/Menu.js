@@ -56,6 +56,7 @@ function Menu() {
             </Link>
             {/*  */}
             <Link
+              //
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
@@ -64,31 +65,53 @@ function Menu() {
               </BlogName>
             </Link>
             {/*  */}
-            <Link href="/coding-with-others">
+            <Link
+              //
+              href="/coding-with-others"
+              as={process.env.BACKEND_URL + "/coding-with-others"}
+            >
               <BlogName onClick={hideContent}>
                 Coding with other people on github
               </BlogName>
             </Link>
             {/*  */}
-            <Link href="/connect-github-account-to-computer">
+            <Link
+              //
+              href="/connect-github-account-to-computer"
+              as={
+                process.env.BACKEND_URL + "/connect-github-account-to-computer"
+              }
+            >
               <BlogName onClick={hideContent}>
                 Connect github account to computer
               </BlogName>
             </Link>
             {/*  */}
-            <Link href="/deploy-netlify">
+            <Link
+              //
+              href="/deploy-netlify"
+              as={process.env.BACKEND_URL + "/deploy-netlify"}
+            >
               <BlogName onClick={hideContent}>
                 Deploy a site on Netlify.
               </BlogName>
             </Link>
             {/*  */}
-            <Link href="/deploy-react-github-pages">
+            <Link
+              //
+              href="/deploy-react-github-pages"
+              as={process.env.BACKEND_URL + "/deploy-react-github-pages"}
+            >
               <BlogName onClick={hideContent}>
                 Deploy a react site on github pages.
               </BlogName>
             </Link>
             {/*  */}
-            <Link href="/writing-commits">
+            <Link
+              //
+              href="/writing-commits"
+              as={process.env.BACKEND_URL + "/writing-commits"}
+            >
               <BlogName onClick={hideContent}>Writing commits</BlogName>
             </Link>
           </BlogsMenu>
