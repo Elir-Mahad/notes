@@ -1,6 +1,4 @@
 import Link from "next/link";
-// import Image from "next/image";
-// import testpic2 from "../assets/rio-skywalker-95.jpeg";
 export default function About() {
   return (
     <div>
@@ -10,8 +8,7 @@ export default function About() {
         <Link href="/" as={process.env.BACKEND_URL + "/"}>
           <a>Home</a>
         </Link>
-        <h1>Chica chica chow</h1>
-        {/* <img src={testpic2} /> */}
+        <h1>Giving up on giving in</h1>
       </div>
     </div>
   );
