@@ -7,12 +7,12 @@ import {
   PostTitle,
   Code,
   LitemTwo,
-  PicWrapper,
+  // PicWrapper,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
-import githubusername from "../assets/githubusername.png";
-import githubuseremail from "../assets/githubuseremail.png";
-import Image from "next/image";
+// import githubusername from "../assets/githubusername.png";
+// import githubuseremail from "../assets/githubuseremail.png";
+// import Image from "next/image";
 
 function ConnectGithubToComputer() {
   return (
@@ -34,23 +34,23 @@ function ConnectGithubToComputer() {
       <BlogBody className={style.weight100}>
         <Sentence>1. Identify your github username and user email:</Sentence>
         <Litem> Your user name is in your github profile.</Litem>
-        <PicWrapper>
+        {/* <PicWrapper>
           <Image
             //
             src={githubusername}
             alt="Github profile user name"
           />
-        </PicWrapper>
+        </PicWrapper> */}
         <Litem>Your email is in your github settings.</Litem>
         <LitemTwo>Go to the github settings.</LitemTwo>
         <LitemTwo>On the left panel, click on the Emails tab.</LitemTwo>
-        <PicWrapper>
+        {/* <PicWrapper>
           <Image
             //
             src={githubuseremail}
             alt="Github settings username"
           />
-        </PicWrapper>
+        </PicWrapper> */}
         <Sentence>2. Declare globally your github username and email:</Sentence>
         <Sentence>
           Make sure you have github in your computer by checking your github
