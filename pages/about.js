@@ -8,7 +8,6 @@ export default function About() {
         <Link href="/" as={process.env.BACKEND_URL + "/"}>
           <a>Home</a>
         </Link>
-        <h1>Giving up on giving in</h1>
       </div>
     </div>
   );
