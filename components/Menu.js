@@ -61,7 +61,7 @@ function Menu() {
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
               <BlogName onClick={hideContent}>
-                Add remote url to local repo
+                How to add a remote url to your local repository
               </BlogName>
             </Link>
             {/*  */}
@@ -71,7 +71,7 @@ function Menu() {
               as={process.env.BACKEND_URL + "/coding-with-others"}
             >
               <BlogName onClick={hideContent}>
-                Coding with other people on github
+                How to code with other people
               </BlogName>
             </Link>
             {/*  */}
@@ -83,7 +83,7 @@ function Menu() {
               }
             >
               <BlogName onClick={hideContent}>
-                Connect github account to computer
+                How to connect your github account to your computer
               </BlogName>
             </Link>
             {/*  */}
@@ -93,7 +93,7 @@ function Menu() {
               as={process.env.BACKEND_URL + "/deploy-netlify"}
             >
               <BlogName onClick={hideContent}>
-                Deploy a site on Netlify.
+                How to deploy a site on Netlify.
               </BlogName>
             </Link>
             {/*  */}
@@ -103,7 +103,7 @@ function Menu() {
               as={process.env.BACKEND_URL + "/deploy-react-github-pages"}
             >
               <BlogName onClick={hideContent}>
-                Deploy a react site on github pages.
+                How to deploy a react site on github pages.
               </BlogName>
             </Link>
             {/*  */}
@@ -112,7 +112,7 @@ function Menu() {
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
             >
-              <BlogName onClick={hideContent}>Writing commits</BlogName>
+              <BlogName onClick={hideContent}>How to write commits</BlogName>
             </Link>
           </BlogsMenu>
         )}
