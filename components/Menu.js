@@ -55,7 +55,10 @@ function Menu() {
               <BlogName onClick={hideContent}>About me</BlogName>
             </Link>
             {/*  */}
-            <Link href="/add-remote-url-to-local-repo">
+            <Link
+              href="/add-remote-url-to-local-repo"
+              as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
+            >
               <BlogName onClick={hideContent}>
                 Add remote url to local repo
               </BlogName>
