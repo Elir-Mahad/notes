@@ -8,6 +8,7 @@
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "imagemin-optipng": "^8.0.0",
     "next": "latest",
     "next-optimized-images": "^2.6.2",
     "react": "^17.0.2",
