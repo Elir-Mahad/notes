@@ -9,6 +9,7 @@ export const LandingPage = styled.div`
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem;
+  font-size: 1.3rem;
 `;
 
 export const LpRow = styled.div`
@@ -20,7 +21,7 @@ export const LpRow = styled.div`
 export const LprTag = styled.p`
   margin-right: 1rem;
   width: 5%;
-  border-right: 1px solid black;
+  // border-right: 1px solid black;
 `;
 
 export const LprContent = styled.p`

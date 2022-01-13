@@ -7,20 +7,16 @@
 .description {
   display: flex;
   align-items: center;
-  background-color: red;
 }
 
 .oneLiner {
-  width: 6rem;
-  background-color: blue;
+  width: 100%;
 }
 
 .words {
   display: flex;
   align-items: center;
-  padding: 1rem;
-  width: 100%;
-  background-color: grey;
+  padding-left: 0.5rem;
 }
 
 .word {

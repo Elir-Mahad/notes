@@ -17,15 +17,23 @@ function Featured() {
         {/*  */}
         <LpRow>
           <LprTag>Space: </LprTag>
-          <LprContent>
-            This is my personal blog. I write about things that i learn, things
-            that i want to remember, and things that i want to teach.{" "}
-          </LprContent>
+          {/* <LprContent> */}
+          <div className={style.description}>
+            <p className={style.oneLiner}>
+              This is my personal blog. I write about
+            </p>
+            <div className={style.words}>
+              <span className={style.word}>react</span>
+              <span className={style.word}>javascript</span>
+              <span className={style.word}>python</span>
+              <span className={style.word}>data</span>
+              <span className={style.word}>drawing</span>
+            </div>
+          </div>
         </LpRow>
         {/*  */}
         <LpRow>
-          <LprTag>Focus:</LprTag>
-          <LprContent>
+          <LprContent style={{ width: "100%" }}>
             “Today’s process of transition allows us to perceive what we are
             losing and what we are gaining- this perception will become
             impossible the moment we fully embrace, and feel fully at home in,
@@ -34,18 +42,6 @@ function Featured() {
             pg.166]
           </LprContent>
         </LpRow>
-        {/*  */}
-        <div className={style.description}>
-          <p className={style.oneLiner}>I write about</p>
-          <div className={style.words}>
-            <span className={style.word}>react</span>
-            <span className={style.word}>javascript</span>
-            <span className={style.word}>python</span>
-            <span className={style.word}>data</span>
-            <span className={style.word}>drawing</span>
-          </div>
-        </div>
-        {/*  */}
       </LandingPage>
     </div>
   );
