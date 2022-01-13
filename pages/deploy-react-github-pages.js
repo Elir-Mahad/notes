@@ -25,7 +25,6 @@ function DeployReactSiteGit() {
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
-          // href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
           rel="stylesheet"
         />
       </Head>
