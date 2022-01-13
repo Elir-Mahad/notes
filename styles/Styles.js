@@ -65,7 +65,7 @@ export const BlogName = styled.p`
 // Individual blog
 
 export const PostTitle = styled.h2`
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: left;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -73,6 +73,7 @@ export const PostTitle = styled.h2`
   padding-left: 2rem;
   padding-right: 2rem;
   @media (max-width: 500px) {
+    font-size: 1.6rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -95,7 +96,7 @@ export const SubHeading = styled.h3`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   text-indent: 50px;
   line-height: 2rem;
