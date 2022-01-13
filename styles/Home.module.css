@@ -1,3 +1,63 @@
 .weight100 {
   font-weight: 100;
 }
+
+/*  */
+
+.description {
+  padding: 3rem;
+  font-size: 35px;
+  display: flex;
+  height: 100%;
+}
+
+.oneLiner {
+  font-weight: 300;
+  align-self: center;
+  display: flex;
+}
+
+.words {
+  text-indent: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.word {
+  font-weight: 400;
+  position: absolute;
+  opacity: 0;
+  animation: slideWords 10s linear infinite;
+  color: purple;
+}
+.word:nth-child(2) {
+  color: red;
+  animation-delay: 2s;
+}
+
+.word:nth-child(3) {
+  color: green;
+  animation-delay: 4s;
+}
+
+.word:nth-child(4) {
+  color: blue;
+  animation-delay: 6s;
+}
+
+.word:nth-child(5) {
+  color: yellow;
+  animation-delay: 8s;
+}
+
+@keyframes slideWords {
+  0%,
+  20% {
+    opacity: 0;
+  }
+
+  10%,
+  15% {
+    opacity: 1;
+  }
+}
