@@ -23,6 +23,11 @@ function DeployReactSiteGit() {
           name="description"
           content="Instructions on how to deploy a react application on github pages"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+          // href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <PostTitle className={style.weight100}>
         How to deploy a react site on github pages

@@ -28,11 +28,17 @@ function RemoteOriginUrl() {
           name="description"
           content="How to add a remote url to your local repository"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+          // href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <PostTitle className={style.weight100}>
         How to add a remote url to your local repository
       </PostTitle>
       <BlogBody className={style.weight100}>
+        {/*  */}
         <Sentence>
           If you have a folder on your computer with some files, and you want to
           upload it to Github, then you must utilize something that's called the

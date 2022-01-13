@@ -25,7 +25,8 @@ function CodingWithOthers() {
           content="Programming with other people. Github workflow. Pair programming."
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+          // href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -37,21 +38,21 @@ function CodingWithOthers() {
           When i was learning how to code, i spent a lot of time coding by
           myself. During this time, the one question that i consistently asked
           myself was:{" "}
-          <em style={{ color: "darkblue" }}>
+          <span style={{ color: "darkblue" }}>
             Is the code that i'm writing going to work ?
-          </em>{" "}
+          </span>{" "}
           No other questions occupied my mind. Everytime that my code worked, i
           felt a sense of accomplishment; and everytime that it didn't work, i
           found myself haunted by the new question:{" "}
-          <em style={{ color: "darkblue" }}>Why didn't it work ? </em>
+          <span style={{ color: "darkblue" }}>Why didn't it work ? </span>
         </Sentence>
         <Sentence>
           Eventually, i started to collaborate with other developers; and here,
           i found myself haunted by a new set of questions:
-          <em style={{ color: "darkblue" }}>
+          <span style={{ color: "darkblue" }}>
             Can another person understand my coding process, by simply reading
             my commits ?
-          </em>{" "}
+          </span>{" "}
           This question indicated a major philosophical shift in my
           persepective. I'll dig into this shift, and its meaning, in another
           post. For now, i will leave you with a set of instructions that i

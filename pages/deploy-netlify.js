@@ -21,6 +21,11 @@ function DeployNetlifySite() {
           name="description"
           content="Instructions on how to deploy a basic html and css website on netlify"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+          // href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <PostTitle className={style.weight100}>
         How to deploy a site on netlify
