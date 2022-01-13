@@ -35,7 +35,7 @@ function ConnectGithubToComputer() {
       <PostTitle className={style.weight100}>
         How to connect your github account to your computer
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody>
         <Sentence>1. Identify your github username and user email:</Sentence>
         <Litem> Your user name is in your github profile.</Litem>
         {/* <PicWrapper>

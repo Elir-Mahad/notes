@@ -29,7 +29,7 @@ function DeployNetlifySite() {
       <PostTitle className={style.weight100}>
         How to deploy a site on netlify
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody>
         <Sentence>
           1. Get a domain from namecheap, hover, godaddy, or any other preferred
           site.

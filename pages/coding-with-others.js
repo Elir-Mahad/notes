@@ -32,7 +32,7 @@ function CodingWithOthers() {
       <PostTitle className={style.weight100}>
         How to code with other people
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody>
         <Sentence>
           When i was learning how to code, i spent a lot of time coding by
           myself. During this time, the one question that i consistently asked

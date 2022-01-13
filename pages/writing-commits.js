@@ -26,7 +26,7 @@ function WritingCommits() {
       <PostTitle className={style.weight100}>
         How to write commits properly
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody>
         <Sentence>
           A commit is a set of instructions for how to go from a previous state
           to a new state.

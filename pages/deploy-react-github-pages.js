@@ -31,7 +31,7 @@ function DeployReactSiteGit() {
       <PostTitle className={style.weight100}>
         How to deploy a react site on github pages
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody>
         <Sentence>
           1. Connect your local folder to your repo and make your first commit.
         </Sentence>
