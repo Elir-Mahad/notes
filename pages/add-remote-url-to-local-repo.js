@@ -10,7 +10,7 @@ import {
   Litem,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
-// import createrepo from "../assets/createrepo.png";
+import createrepo from "../assets/createrepo.png";
 // import remoteurl from "../assets/remoteurl.png";
 // import openrepoinvsc from "../assets/openrepoinvsc.png";
 // import Image from "next/image";
@@ -36,7 +36,7 @@ function RemoteOriginUrl() {
       <PostTitle className={style.weight100}>
         How to add a remote url to your local repository
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody>
         {/*  */}
         <Sentence>
           If you have a folder on your computer with some files, and you want to

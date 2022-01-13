@@ -2,9 +2,9 @@ import Head from "next/head";
 import {
   //
   BlogBody,
-  Litem,
   PostTitle,
-  LitemTwo,
+  Litem,
+  Sentence,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
 
@@ -27,26 +27,26 @@ function WritingCommits() {
         How to write commits properly
       </PostTitle>
       <BlogBody className={style.weight100}>
-        <Litem>
+        <Sentence>
           A commit is a set of instructions for how to go from a previous state
           to a new state.
-        </Litem>
+        </Sentence>
 
-        <Litem>Write a commit as if you are giving orders to:</Litem>
+        <Sentence>Write a commit as if you are giving orders to:</Sentence>
 
-        <LitemTwo>a person on how to change the code.</LitemTwo>
+        <Litem>a person on how to change the code.</Litem>
 
-        <LitemTwo>the codebase to change its behaviour.</LitemTwo>
+        <Litem>the codebase to change its behaviour.</Litem>
 
-        <Litem>
+        <Sentence>
           The preference for present-tense, imperative-style commit messages
           comes from Git itself.
-        </Litem>
+        </Sentence>
 
-        <Litem>
+        <Sentence>
           {" "}
           Example: commit -m “Add all images to the assets folder.”
-        </Litem>
+        </Sentence>
       </BlogBody>
     </div>
   );
