@@ -5,22 +5,22 @@
 /*  */
 
 .description {
-  padding: 3rem;
-  font-size: 35px;
   display: flex;
-  height: 100%;
+  align-items: center;
+  /* background-color: red; */
 }
 
 .oneLiner {
-  font-weight: 300;
-  align-self: center;
-  display: flex;
+  width: 7rem;
+  /* background-color: blue; */
 }
 
 .words {
-  text-indent: 10px;
   display: flex;
   align-items: center;
+  padding: 1rem;
+  width: 100%;
+  /* background-color: grey; */
 }
 
 .word {
