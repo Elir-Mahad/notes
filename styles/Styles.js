@@ -3,6 +3,29 @@ import styled from "styled-components";
 export const WholeApp = styled.div`
   //
 `;
+//
+
+export const LandingPage = styled.div`
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+`;
+
+export const LpRow = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+`;
+
+export const LprTag = styled.p`
+  margin-right: 1rem;
+  width: 5%;
+  border-right: 1px solid black;
+`;
+
+export const LprContent = styled.p`
+  width: 95%;
+`;
 
 // Menu
 
