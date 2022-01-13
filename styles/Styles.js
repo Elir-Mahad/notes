@@ -9,13 +9,13 @@ export const LandingPage = styled.div`
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 `;
 
 export const LpRow = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
 `;
 
 export const LprTag = styled.p`

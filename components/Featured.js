@@ -23,11 +23,11 @@ function Featured() {
               This is my personal blog. I write about
             </p>
             <div className={style.words}>
-              <span className={style.word}>react</span>
-              <span className={style.word}>javascript</span>
-              <span className={style.word}>python</span>
-              <span className={style.word}>data</span>
-              <span className={style.word}>drawing</span>
+              <span className={style.word}>Front-end: Javascript, React</span>
+              <span className={style.word}>Backend: Mongdb, firebase</span>
+              <span className={style.word}>Data science: Python</span>
+              <span className={style.word}>Competitive programming</span>
+              <span className={style.word}>Philosophy + tech </span>
             </div>
           </div>
         </LpRow>
