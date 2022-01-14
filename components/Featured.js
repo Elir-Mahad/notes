@@ -51,10 +51,10 @@ function Featured() {
         {/* <Image src={test} /> */}
         <Image
           loader={myLoader}
-          src="Elir-Mahad/huawei-clone/master/assets/photos/airport.png"
+          src="Elir-Mahad/notes/main/assets/avatar.png"
           alt="Picture of the author"
-          width={500}
-          height={500}
+          width={100}
+          height={200}
         />
       </LandingPage>
     </div>
