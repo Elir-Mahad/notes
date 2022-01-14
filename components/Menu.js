@@ -51,8 +51,17 @@ function Menu() {
 
         {menuContent && (
           <BlogsMenu>
-            <Link href="https://mahad.codes/">
+            {/*  */}
+            <Link
+              //
+              href="/"
+              as={process.env.BACKEND_URL + "/"}
+            >
               <BlogName onClick={hideContent}>About me</BlogName>
+            </Link>
+            {/*  */}
+            <Link href="https://mahad.codes/">
+              <BlogName onClick={hideContent}>Portfolio</BlogName>
             </Link>
             {/*  */}
             <Link
