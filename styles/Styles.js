@@ -27,10 +27,15 @@ export const LandingBox = styled.div`
     width: 100%;
     margin: 0rem;
   }
+  @media (max-width: 450px) {
+    align-items: unset;
+    padding: 0.5rem;
+  }
 `;
 
 export const LpText = styled.div`
   text-transform: uppercase;
+  // background-color: purple;
 `;
 
 export const LpTopBox = styled.div`
@@ -38,11 +43,12 @@ export const LpTopBox = styled.div`
   align-items: center;
   padding-bottom: 0.5rem;
   border-bottom: 10px double white;
+  // background-color: green;
 `;
 
 export const LpTbLogo = styled.div`
   //
-  @media (max-width: 500px) {
+  @media (max-width: 450px) {
     width: 4rem;
   }
 `;
@@ -50,6 +56,7 @@ export const LpTbLogo = styled.div`
 export const LpTbTwoNamesBar = styled.div`
   margin-left: 1rem;
   width: 100%;
+  // background-color: red;
 `;
 
 export const NickName = styled.h1`
@@ -61,8 +68,8 @@ export const NickName = styled.h1`
   @media (max-width: 1000px) {
     font-size: 2rem;
   }
-  @media (max-width: 500px) {
-    font-size: 1.5rem;
+  @media (max-width: 450px) {
+    font-size: 1.4rem;
   }
 `;
 
@@ -71,24 +78,34 @@ export const RealName = styled.h2`
   letter-spacing: 0.2rem;
   color: grey;
   margin: 0;
+  padding-bottom: 0.5rem;
   @media (max-width: 1000px) {
     font-size: 1.3rem;
   }
-  @media (max-width: 500px) {
-    font-size: 1.1rem;
+  @media (max-width: 450px) {
+    font-size: 1rem;
   }
 `;
 
 export const LpRow = styled.div`
   display: flex;
   align-items: center;
+  @media (max-width: 450px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const LprTag = styled.p`
+  padding-bottom: 0.2rem;
   margin-right: 1rem;
   color: grey;
   width: 7rem;
-  text-align: justify;
+  // text-align: justify;
+  @media (max-width: 450px) {
+    margin-right: 0rem;
+    width: 6rem;
+    // background-color: green;
+  }
 `;
 
 export const LprContent = styled.p`
@@ -99,6 +116,14 @@ export const LprContent = styled.p`
 export const LpAnimBox = styled.div`
   background-color: black;
   color: white;
+`;
+
+export const LpAnimHeading = styled.p`
+  //
+  @media (max-width: 450px) {
+    text-align: center;
+    font-size: 0.9rem;
+  }
 `;
 
 export const LpPic = styled.div`

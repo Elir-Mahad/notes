@@ -13,6 +13,7 @@ import {
   NickName,
   RealName,
   LpTbLogo,
+  LpAnimHeading,
 } from "../styles/Styles";
 import Image from "next/image";
 //
@@ -76,7 +77,10 @@ function Landing() {
           </LpRow>
           {/*  */}
           <LpAnimBox>
-            <p> You will find here a record of my notes.</p>
+            <LpAnimHeading>
+              {" "}
+              You will find here a record of my notes.
+            </LpAnimHeading>
             <div className={style.description}>
               <p className={style.oneLiner}>I write about</p>
               <div className={style.words}>

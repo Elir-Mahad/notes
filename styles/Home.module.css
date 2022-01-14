@@ -53,6 +53,21 @@
   animation-delay: 8s;
 }
 
+@media (max-width: 450px) {
+  .description {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .oneLiner {
+    font-size: 0.9rem;
+  }
+  .words {
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+}
+
 @keyframes slideWords {
   0%,
   20% {
