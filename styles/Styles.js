@@ -9,7 +9,18 @@ export const LandingPage = styled.div`
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  display: flex;
+`;
+
+export const LpText = styled.div`
+  width: 50%;
+`;
+
+export const LpPic = styled.div`
+  width: 50%;
+  border: 1px solid black;
+  background-color: red;
 `;
 
 export const LpRow = styled.div`
@@ -20,12 +31,10 @@ export const LpRow = styled.div`
 
 export const LprTag = styled.p`
   margin-right: 1rem;
-  width: 5%;
-  // border-right: 1px solid black;
 `;
 
 export const LprContent = styled.p`
-  width: 95%;
+  // width: 95%;
 `;
 
 // Menu
