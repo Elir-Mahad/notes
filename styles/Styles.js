@@ -8,6 +8,7 @@ export const WholeApp = styled.div`
 export const LandingPage = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem;
@@ -21,8 +22,7 @@ export const LpText = styled.div`
 `;
 
 export const LpPic = styled.div`
-  border: 1px solid black;
-  // background-color: red;
+  border: 2px solid white;
 `;
 
 export const LpRow = styled.div`

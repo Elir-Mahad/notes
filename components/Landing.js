@@ -71,10 +71,10 @@ function Landing() {
         <LpPic>
           <Image
             loader={myLoader}
-            src="Elir-Mahad/notes/main/assets/avatar.png"
+            src="Elir-Mahad/notes/main/assets/chess.jpeg"
             alt="Picture of the author"
-            width={250}
-            height={500}
+            width={500}
+            height={400}
           />
         </LpPic>
       </LandingPage>
