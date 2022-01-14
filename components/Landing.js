@@ -1,6 +1,8 @@
 import style from "../styles/Home.module.css";
 import {
+  LandingBox,
   LandingPage,
+  LpAnimBox,
   LpPic,
   LprContent,
   LpRow,
@@ -21,8 +23,8 @@ const myLoader = ({ src, width, quality }) => {
 
 function Landing() {
   return (
-    <div>
-      <LandingPage>
+    <LandingPage>
+      <LandingBox>
         <LpText>
           <LpTopBox>
             <Image
@@ -60,23 +62,20 @@ function Landing() {
             <LprContent>Web developer </LprContent>
           </LpRow>
           {/*  */}
-          {/* <LpRow>
+          <LpRow>
             <LprTag>Powers:</LprTag>
             <LprContent>Reading minds, seeking ghosts </LprContent>
-          </LpRow> */}
+          </LpRow>
           {/*  */}
           <LpRow>
             <LprTag>Currently learning:</LprTag>
             <LprContent>Data science with python </LprContent>
           </LpRow>
           {/*  */}
-          <LpRow>
-            {/* <LprTag>Space: </LprTag> */}
-            {/* <LprContent> */}
+          <LpAnimBox>
+            <p> You will find here a record of notes.</p>
             <div className={style.description}>
-              <p className={style.oneLiner}>
-                This is my personal blog. I write about
-              </p>
+              <p className={style.oneLiner}>I write about</p>
               <div className={style.words}>
                 <span className={style.word}>Front-end: Javascript, React</span>
                 <span className={style.word}>Backend: Mongdb, firebase</span>
@@ -85,7 +84,7 @@ function Landing() {
                 <span className={style.word}>Philosophy + tech </span>
               </div>
             </div>
-          </LpRow>
+          </LpAnimBox>
           {/*  */}
         </LpText>
         <LpPic>
@@ -97,8 +96,8 @@ function Landing() {
             height={400}
           />
         </LpPic>
-      </LandingPage>
-    </div>
+      </LandingBox>
+    </LandingPage>
   );
 }
 

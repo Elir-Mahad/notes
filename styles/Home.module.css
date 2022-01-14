@@ -7,11 +7,12 @@
 .description {
   display: flex;
   align-items: center;
+  /* background-color: red; */
 }
 
-.oneLiner {
-  width: 100%;
-}
+/* .oneLiner {
+  background-color: green;
+} */
 
 .words {
   display: flex;

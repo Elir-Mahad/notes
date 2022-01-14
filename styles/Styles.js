@@ -7,17 +7,25 @@ export const WholeApp = styled.div`
 
 export const LandingPage = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+`;
+
+export const LandingBox = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem;
   background-color: black;
   color: white;
+  width: 60rem;
 `;
 
 export const LpText = styled.div`
-  //
+  text-transform: uppercase;
 `;
 
 export const LpTopBox = styled.div`
@@ -30,7 +38,6 @@ export const LpTopBox = styled.div`
 export const LpTwoNamesBar = styled.div`
   margin-left: 1rem;
   width: 100%;
-  text-transform: uppercase;
 `;
 
 export const NickName = styled.h1`
@@ -55,10 +62,21 @@ export const LpRow = styled.div`
 
 export const LprTag = styled.p`
   margin-right: 1rem;
+  color: grey;
+  // background-color: red;
+  width: 7rem;
+  text-align: justify;
 `;
 
 export const LprContent = styled.p`
-  //
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid white;
+`;
+
+export const LpAnimBox = styled.div`
+  background-color: black;
+  color: white;
+  // font-size: 1.2rem;
 `;
 
 export const LpPic = styled.div`
