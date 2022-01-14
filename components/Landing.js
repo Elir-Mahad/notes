@@ -9,9 +9,10 @@ import {
   LprTag,
   LpText,
   LpTopBox,
-  LpTwoNamesBar,
+  LpTbTwoNamesBar,
   NickName,
   RealName,
+  LpTbLogo,
 } from "../styles/Styles";
 import Image from "next/image";
 //
@@ -27,14 +28,16 @@ function Landing() {
       <LandingBox>
         <LpText>
           <LpTopBox>
-            <Image
-              loader={myLoader}
-              src="Elir-Mahad/notes/main/assets/logo.png"
-              alt="Picture of the author"
-              width={80}
-              height={120}
-            />
-            <LpTwoNamesBar>
+            <LpTbLogo>
+              <Image
+                loader={myLoader}
+                src="Elir-Mahad/notes/main/assets/logo.png"
+                alt="Picture of the author"
+                width={80}
+                height={120}
+              />
+            </LpTbLogo>
+            <LpTbTwoNamesBar>
               <NickName>Pattern seeker</NickName>
               <RealName>Mohamood, Mahad</RealName>
               <Image
@@ -44,7 +47,7 @@ function Landing() {
                 width={160}
                 height={30}
               />
-            </LpTwoNamesBar>
+            </LpTbTwoNamesBar>
           </LpTopBox>
 
           <LpRow>

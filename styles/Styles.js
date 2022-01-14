@@ -40,7 +40,11 @@ export const LpTopBox = styled.div`
   border-bottom: 10px double white;
 `;
 
-export const LpTwoNamesBar = styled.div`
+export const LpTbLogo = styled.div`
+  //
+`;
+
+export const LpTbTwoNamesBar = styled.div`
   margin-left: 1rem;
   width: 100%;
 `;
@@ -54,6 +58,9 @@ export const NickName = styled.h1`
   @media (max-width: 1000px) {
     font-size: 2rem;
   }
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const RealName = styled.h2`
@@ -63,6 +70,9 @@ export const RealName = styled.h2`
   margin: 0;
   @media (max-width: 1000px) {
     font-size: 1.3rem;
+  }
+  @media (max-width: 500px) {
+    font-size: 1.1rem;
   }
 `;
 
