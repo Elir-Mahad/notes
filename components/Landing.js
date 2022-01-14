@@ -27,15 +27,15 @@ function Landing() {
           <LpTopBox>
             <Image
               loader={myLoader}
-              src="Elir-Mahad/notes/main/public/favicon.ico"
+              src="Elir-Mahad/notes/main/assets/logo.png"
               alt="Picture of the author"
               width={80}
-              height={50}
+              height={120}
             />
             <LpTwoNamesBar>
               <NickName>Pattern seeker</NickName>
               <RealName>Mohamood, Mahad</RealName>
-              {/* barcode image */}
+              <div style={{ width: "22rem" }}>{/*  */}</div>
             </LpTwoNamesBar>
           </LpTopBox>
 

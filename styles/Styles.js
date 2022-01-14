@@ -21,7 +21,7 @@ export const LpTopBox = styled.div`
   display: flex;
   align-items: center;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid white;
+  border-bottom: 10px double white;
 `;
 
 export const LpTwoNamesBar = styled.div`
