@@ -14,15 +14,25 @@ const myLoader = ({ src, width, quality }) => {
     quality || 75
   }`;
 };
+
 function Landing() {
   return (
     <div>
       <LandingPage>
         <LpText>
           <div>
-            <h1>Pattern seeker</h1>
-            <h2>Mohamood, Mahad</h2>
-            {/* barcode image */}
+            <Image
+              loader={myLoader}
+              src="Elir-Mahad/notes/main/public/favicon.ico"
+              alt="Picture of the author"
+              width={80}
+              height={50}
+            />
+            <div>
+              <h1>Pattern seeker</h1>
+              <h2>Mohamood, Mahad</h2>
+              {/* barcode image */}
+            </div>
           </div>
 
           <LpRow>
@@ -71,9 +81,9 @@ function Landing() {
         <LpPic>
           <Image
             loader={myLoader}
-            src="Elir-Mahad/notes/main/assets/chess.jpeg"
+            src="Elir-Mahad/notes/main/assets/cropchess.jpeg"
             alt="Picture of the author"
-            width={500}
+            width={400}
             height={400}
           />
         </LpPic>
