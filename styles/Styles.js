@@ -81,7 +81,9 @@ export const LpAnimBox = styled.div`
 
 export const LpPic = styled.div`
   margin-left: 2rem;
+  // background-color: red;
   border: 2px solid white;
+  height: 403px;
 `;
 
 // Menu
