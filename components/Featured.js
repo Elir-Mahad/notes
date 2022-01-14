@@ -1,6 +1,5 @@
 import style from "../styles/Home.module.css";
 import { LandingPage, LprContent, LpRow, LprTag } from "../styles/Styles";
-// import test from "../assets/createrepo.png";
 import Image from "next/image";
 //
 const myLoader = ({ src, width, quality }) => {
@@ -8,7 +7,6 @@ const myLoader = ({ src, width, quality }) => {
     quality || 75
   }`;
 };
-
 function Featured() {
   return (
     <div>
