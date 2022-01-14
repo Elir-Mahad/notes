@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Featured from "../components/Featured";
+import Landing from "../components/Landing";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Featured />
+      <Landing />
     </div>
   );
 }

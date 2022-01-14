@@ -7,7 +7,7 @@ const myLoader = ({ src, width, quality }) => {
     quality || 75
   }`;
 };
-function Featured() {
+function Landing() {
   return (
     <div>
       <LandingPage>
@@ -48,17 +48,16 @@ function Featured() {
             pg.166]
           </LprContent>
         </LpRow>
-        {/* <Image src={test} /> */}
         <Image
           loader={myLoader}
           src="Elir-Mahad/notes/main/assets/avatar.png"
           alt="Picture of the author"
-          width={100}
-          height={200}
+          width={300}
+          height={600}
         />
       </LandingPage>
     </div>
   );
 }
 
-export default Featured;
+export default Landing;
