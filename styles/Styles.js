@@ -17,6 +17,27 @@ export const LandingPage = styled.div`
   color: white;
 `;
 
+export const LpTopBox = styled.div`
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid white;
+`;
+
+export const LpTwoNamesBar = styled.div`
+  margin-left: 1rem;
+  width: 100%;
+`;
+
+export const NickName = styled.h1`
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid white;
+`;
+
+export const RealName = styled.h2`
+  color: grey;
+`;
+
 export const LpText = styled.div`
   width: 50%;
 `;

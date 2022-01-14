@@ -6,6 +6,10 @@ import {
   LpRow,
   LprTag,
   LpText,
+  LpTopBox,
+  LpTwoNamesBar,
+  NickName,
+  RealName,
 } from "../styles/Styles";
 import Image from "next/image";
 //
@@ -20,7 +24,7 @@ function Landing() {
     <div>
       <LandingPage>
         <LpText>
-          <div>
+          <LpTopBox>
             <Image
               loader={myLoader}
               src="Elir-Mahad/notes/main/public/favicon.ico"
@@ -28,12 +32,12 @@ function Landing() {
               width={80}
               height={50}
             />
-            <div>
-              <h1>Pattern seeker</h1>
-              <h2>Mohamood, Mahad</h2>
+            <LpTwoNamesBar>
+              <NickName>Pattern seeker</NickName>
+              <RealName>Mohamood, Mahad</RealName>
               {/* barcode image */}
-            </div>
-          </div>
+            </LpTwoNamesBar>
+          </LpTopBox>
 
           <LpRow>
             <LprTag>Citizenship:</LprTag>
