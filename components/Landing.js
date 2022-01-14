@@ -63,8 +63,8 @@ function Landing() {
           </LpRow>
           {/*  */}
           <LpRow>
-            <LprTag>Powers:</LprTag>
-            <LprContent>Reading minds, seeking ghosts </LprContent>
+            <LprTag>powers:</LprTag>
+            <LprContent>Javascript, python </LprContent>
           </LpRow>
           {/*  */}
           <LpRow>
@@ -73,7 +73,7 @@ function Landing() {
           </LpRow>
           {/*  */}
           <LpAnimBox>
-            <p> You will find here a record of notes.</p>
+            <p> You will find here a record of my notes.</p>
             <div className={style.description}>
               <p className={style.oneLiner}>I write about</p>
               <div className={style.words}>
