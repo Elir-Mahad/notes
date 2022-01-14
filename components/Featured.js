@@ -1,8 +1,14 @@
 import style from "../styles/Home.module.css";
 import { LandingPage, LprContent, LpRow, LprTag } from "../styles/Styles";
-import test from "../assets/createrepo.png";
+// import test from "../assets/createrepo.png";
 import Image from "next/image";
 //
+const myLoader = ({ src, width, quality }) => {
+  return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
+    quality || 75
+  }`;
+};
+
 function Featured() {
   return (
     <div>
@@ -44,7 +50,14 @@ function Featured() {
             pg.166]
           </LprContent>
         </LpRow>
-        <Image src={test} />
+        {/* <Image src={test} /> */}
+        <Image
+          loader={myLoader}
+          src="Elir-Mahad/huawei-clone/master/assets/photos/airport.png"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
       </LandingPage>
     </div>
   );
