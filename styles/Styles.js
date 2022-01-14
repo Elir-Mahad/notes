@@ -42,6 +42,9 @@ export const LpTopBox = styled.div`
 
 export const LpTbLogo = styled.div`
   //
+  @media (max-width: 500px) {
+    width: 4rem;
+  }
 `;
 
 export const LpTbTwoNamesBar = styled.div`
