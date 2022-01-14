@@ -63,7 +63,6 @@ export const LpRow = styled.div`
 export const LprTag = styled.p`
   margin-right: 1rem;
   color: grey;
-  // background-color: red;
   width: 7rem;
   text-align: justify;
 `;
@@ -76,14 +75,10 @@ export const LprContent = styled.p`
 export const LpAnimBox = styled.div`
   background-color: black;
   color: white;
-  // font-size: 1.2rem;
 `;
 
 export const LpPic = styled.div`
   margin-left: 2rem;
-  // background-color: red;
-  // border: 2px solid white;
-  // height: 403px;
 `;
 
 // Menu
