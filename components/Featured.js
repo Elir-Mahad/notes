@@ -1,5 +1,7 @@
 import style from "../styles/Home.module.css";
 import { LandingPage, LprContent, LpRow, LprTag } from "../styles/Styles";
+import test from "../assets/createrepo.png";
+import Image from "next/image";
 //
 function Featured() {
   return (
@@ -42,6 +44,7 @@ function Featured() {
             pg.166]
           </LprContent>
         </LpRow>
+        <Image src={test} />
       </LandingPage>
     </div>
   );

@@ -6,6 +6,7 @@ const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
   assetPrefix: !debug ? "/notes/" : "",
+  images: { loader: "custom" },
 };
 
 // module.exports = withPlugins([optimizedImages]);
