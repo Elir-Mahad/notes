@@ -26,29 +26,30 @@
   position: absolute;
   opacity: 0;
   animation: slideWords 10s linear infinite;
-  color: purple;
+  color: white;
+  border-bottom: 2px solid white;
 }
 .word:nth-child(2) {
-  color: darkred;
-  border-bottom: 2px solid black;
+  color: white;
+  border-bottom: 2px solid white;
   animation-delay: 2s;
 }
 
 .word:nth-child(3) {
-  color: darkseagreen;
-  border-bottom: 2px solid black;
+  color: white;
+  border-bottom: 2px solid white;
   animation-delay: 4s;
 }
 
 .word:nth-child(4) {
-  color: blue;
-  border-bottom: 2px solid black;
+  color: white;
+  border-bottom: 2px solid white;
   animation-delay: 6s;
 }
 
 .word:nth-child(5) {
-  color: darkolivegreen;
-  border-bottom: 2px solid black;
+  color: white;
+  border-bottom: 2px solid white;
   animation-delay: 8s;
 }
 
