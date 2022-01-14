@@ -22,6 +22,11 @@ export const LandingBox = styled.div`
   background-color: black;
   color: white;
   width: 60rem;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    width: 100%;
+    margin: 0rem;
+  }
 `;
 
 export const LpText = styled.div`
@@ -43,9 +48,12 @@ export const LpTwoNamesBar = styled.div`
 export const NickName = styled.h1`
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   border-bottom: 2px solid white;
   margin: 0;
+  @media (max-width: 1000px) {
+    font-size: 2rem;
+  }
 `;
 
 export const RealName = styled.h2`
@@ -53,6 +61,9 @@ export const RealName = styled.h2`
   letter-spacing: 0.2rem;
   color: grey;
   margin: 0;
+  @media (max-width: 1000px) {
+    font-size: 1.3rem;
+  }
 `;
 
 export const LpRow = styled.div`
@@ -79,6 +90,9 @@ export const LpAnimBox = styled.div`
 
 export const LpPic = styled.div`
   margin-left: 2rem;
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;
 
 // Menu
