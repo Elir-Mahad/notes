@@ -35,7 +35,13 @@ function Landing() {
             <LpTwoNamesBar>
               <NickName>Pattern seeker</NickName>
               <RealName>Mohamood, Mahad</RealName>
-              <div style={{ width: "22rem" }}>{/*  */}</div>
+              <Image
+                loader={myLoader}
+                src="Elir-Mahad/notes/main/assets/barcode.png"
+                alt="Picture of the author"
+                width={160}
+                height={30}
+              />
             </LpTwoNamesBar>
           </LpTopBox>
 

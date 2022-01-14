@@ -12,9 +12,12 @@ export const LandingPage = styled.div`
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem;
-  font-size: 1.2rem;
   background-color: black;
   color: white;
+`;
+
+export const LpText = styled.div`
+  //
 `;
 
 export const LpTopBox = styled.div`
@@ -27,23 +30,22 @@ export const LpTopBox = styled.div`
 export const LpTwoNamesBar = styled.div`
   margin-left: 1rem;
   width: 100%;
+  text-transform: uppercase;
 `;
 
 export const NickName = styled.h1`
-  padding-bottom: 0.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
   border-bottom: 2px solid white;
+  margin: 0;
 `;
 
 export const RealName = styled.h2`
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
   color: grey;
-`;
-
-export const LpText = styled.div`
-  width: 50%;
-`;
-
-export const LpPic = styled.div`
-  border: 2px solid white;
+  margin: 0;
 `;
 
 export const LpRow = styled.div`
@@ -56,7 +58,12 @@ export const LprTag = styled.p`
 `;
 
 export const LprContent = styled.p`
-  // width: 95%;
+  //
+`;
+
+export const LpPic = styled.div`
+  margin-left: 2rem;
+  border: 2px solid white;
 `;
 
 // Menu
