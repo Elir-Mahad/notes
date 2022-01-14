@@ -40,10 +40,10 @@ function Landing() {
             <LprContent>Web developer </LprContent>
           </LpRow>
           {/*  */}
-          <LpRow>
+          {/* <LpRow>
             <LprTag>Powers:</LprTag>
             <LprContent>Reading minds, seeking ghosts </LprContent>
-          </LpRow>
+          </LpRow> */}
           {/*  */}
           <LpRow>
             <LprTag>Currently learning:</LprTag>
@@ -51,7 +51,7 @@ function Landing() {
           </LpRow>
           {/*  */}
           <LpRow>
-            <LprTag>Space: </LprTag>
+            {/* <LprTag>Space: </LprTag> */}
             {/* <LprContent> */}
             <div className={style.description}>
               <p className={style.oneLiner}>
@@ -73,8 +73,8 @@ function Landing() {
             loader={myLoader}
             src="Elir-Mahad/notes/main/assets/avatar.png"
             alt="Picture of the author"
-            width={300}
-            height={600}
+            width={250}
+            height={500}
           />
         </LpPic>
       </LandingPage>

@@ -6,11 +6,14 @@ export const WholeApp = styled.div`
 //
 
 export const LandingPage = styled.div`
+  display: flex;
+  justify-content: center;
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem;
   font-size: 1.2rem;
-  display: flex;
+  background-color: black;
+  color: white;
 `;
 
 export const LpText = styled.div`
@@ -18,15 +21,13 @@ export const LpText = styled.div`
 `;
 
 export const LpPic = styled.div`
-  width: 50%;
   border: 1px solid black;
-  background-color: red;
+  // background-color: red;
 `;
 
 export const LpRow = styled.div`
   display: flex;
   align-items: center;
-  // margin-bottom: 1rem;
 `;
 
 export const LprTag = styled.p`
