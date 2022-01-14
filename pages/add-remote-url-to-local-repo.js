@@ -10,7 +10,7 @@ import {
   Litem,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
-import createrepo from "../assets/createrepo.png";
+// import createrepo from "../assets/createrepo.png";
 // import remoteurl from "../assets/remoteurl.png";
 // import openrepoinvsc from "../assets/openrepoinvsc.png";
 // import Image from "next/image";
@@ -29,7 +29,7 @@ function RemoteOriginUrl() {
           content="How to add a remote url to your local repository"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap"
           rel="stylesheet"
         />
       </Head>

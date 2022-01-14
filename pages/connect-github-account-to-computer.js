@@ -28,7 +28,7 @@ function ConnectGithubToComputer() {
           content="How to connect your github account to your computer"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap"
           rel="stylesheet"
         />
       </Head>
