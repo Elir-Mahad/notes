@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import Layout from "../components/Layout";
 //
 // import { useEffect } from "react";
-// import Script from "next/script";
+import Script from "next/script";
 // import { useRouter } from "next/router";
 // import * as gtag from "../lib/gtag";
 //
@@ -10,6 +10,20 @@ function MyApp({ Component, pageProps }) {
   //
   return (
     <Layout>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-N5QH1XFTC1"`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-N5QH1XFTC1');
+        `}
+      </Script>
       <Component {...pageProps} />
     </Layout>
   );
