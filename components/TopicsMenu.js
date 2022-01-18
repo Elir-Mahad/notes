@@ -68,9 +68,7 @@ function TopicsMenu() {
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
-              <TopicName onClick={hideContent}>
-                How to add a remote url to your local repository
-              </TopicName>
+              <TopicName onClick={hideContent}>Git-Github</TopicName>
             </Link>
             {/*  */}
             <Link
@@ -78,9 +76,7 @@ function TopicsMenu() {
               href="/coding-with-others"
               as={process.env.BACKEND_URL + "/coding-with-others"}
             >
-              <TopicName onClick={hideContent}>
-                How to code with other people
-              </TopicName>
+              <TopicName onClick={hideContent}>React</TopicName>
             </Link>
             {/*  */}
             <Link
@@ -90,19 +86,7 @@ function TopicsMenu() {
                 process.env.BACKEND_URL + "/connect-github-account-to-computer"
               }
             >
-              <TopicName onClick={hideContent}>
-                How to connect your github account to your computer
-              </TopicName>
-            </Link>
-            {/*  */}
-            <Link
-              //
-              href="/deploy-netlify"
-              as={process.env.BACKEND_URL + "/deploy-netlify"}
-            >
-              <TopicName onClick={hideContent}>
-                How to deploy a site on Netlify.
-              </TopicName>
+              <TopicName onClick={hideContent}>JavaScript and python</TopicName>
             </Link>
             {/*  */}
             <Link
@@ -111,7 +95,7 @@ function TopicsMenu() {
               as={process.env.BACKEND_URL + "/deploy-react-github-pages"}
             >
               <TopicName onClick={hideContent}>
-                How to deploy a react site on github pages.
+                Competitive programming
               </TopicName>
             </Link>
             {/*  */}
@@ -120,7 +104,7 @@ function TopicsMenu() {
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
             >
-              <TopicName onClick={hideContent}>How to write commits</TopicName>
+              <TopicName onClick={hideContent}>Tech Theory</TopicName>
             </Link>
           </BlogsMenu>
         )}
