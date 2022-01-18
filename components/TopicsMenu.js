@@ -7,6 +7,7 @@ import {
   TbMheading,
   TbMicon,
   CustomMenu,
+  PostCount,
 } from "../styles/Styles.js";
 import Link from "next/link";
 import { MdClose } from "react-icons/md";
@@ -68,7 +69,10 @@ function TopicsMenu() {
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
-              <TopicName onClick={hideContent}>Git-Github</TopicName>
+              <TopicName onClick={hideContent}>
+                Git-Github
+                <PostCount>1</PostCount>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -76,7 +80,10 @@ function TopicsMenu() {
               href="/coding-with-others"
               as={process.env.BACKEND_URL + "/coding-with-others"}
             >
-              <TopicName onClick={hideContent}>React</TopicName>
+              <TopicName onClick={hideContent}>
+                React
+                <PostCount>1</PostCount>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -86,7 +93,10 @@ function TopicsMenu() {
                 process.env.BACKEND_URL + "/connect-github-account-to-computer"
               }
             >
-              <TopicName onClick={hideContent}>JavaScript and python</TopicName>
+              <TopicName onClick={hideContent}>
+                JavaScript and python
+                <PostCount>1</PostCount>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -96,6 +106,7 @@ function TopicsMenu() {
             >
               <TopicName onClick={hideContent}>
                 Competitive programming
+                <PostCount>1</PostCount>
               </TopicName>
             </Link>
             {/*  */}
@@ -104,7 +115,10 @@ function TopicsMenu() {
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
             >
-              <TopicName onClick={hideContent}>Tech Theory</TopicName>
+              <TopicName onClick={hideContent}>
+                Tech Theory
+                <PostCount>1</PostCount>
+              </TopicName>
             </Link>
           </BlogsMenu>
         )}
