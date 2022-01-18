@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  BlogName,
+  TopicName,
   BlogsMenu,
   TopBlogsMenu,
   BlogMenuBox,
@@ -56,11 +56,11 @@ function TopicsMenu() {
               href="/"
               as={process.env.BACKEND_URL + "/"}
             >
-              <BlogName onClick={hideContent}>About me</BlogName>
+              <TopicName onClick={hideContent}>About me</TopicName>
             </Link>
             {/*  */}
             <Link href="https://mahad.codes/">
-              <BlogName onClick={hideContent}>Portfolio</BlogName>
+              <TopicName onClick={hideContent}>Portfolio</TopicName>
             </Link>
             {/*  */}
             <Link
@@ -68,9 +68,9 @@ function TopicsMenu() {
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
-              <BlogName onClick={hideContent}>
+              <TopicName onClick={hideContent}>
                 How to add a remote url to your local repository
-              </BlogName>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -78,9 +78,9 @@ function TopicsMenu() {
               href="/coding-with-others"
               as={process.env.BACKEND_URL + "/coding-with-others"}
             >
-              <BlogName onClick={hideContent}>
+              <TopicName onClick={hideContent}>
                 How to code with other people
-              </BlogName>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -90,9 +90,9 @@ function TopicsMenu() {
                 process.env.BACKEND_URL + "/connect-github-account-to-computer"
               }
             >
-              <BlogName onClick={hideContent}>
+              <TopicName onClick={hideContent}>
                 How to connect your github account to your computer
-              </BlogName>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -100,9 +100,9 @@ function TopicsMenu() {
               href="/deploy-netlify"
               as={process.env.BACKEND_URL + "/deploy-netlify"}
             >
-              <BlogName onClick={hideContent}>
+              <TopicName onClick={hideContent}>
                 How to deploy a site on Netlify.
-              </BlogName>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -110,9 +110,9 @@ function TopicsMenu() {
               href="/deploy-react-github-pages"
               as={process.env.BACKEND_URL + "/deploy-react-github-pages"}
             >
-              <BlogName onClick={hideContent}>
+              <TopicName onClick={hideContent}>
                 How to deploy a react site on github pages.
-              </BlogName>
+              </TopicName>
             </Link>
             {/*  */}
             <Link
@@ -120,7 +120,7 @@ function TopicsMenu() {
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
             >
-              <BlogName onClick={hideContent}>How to write commits</BlogName>
+              <TopicName onClick={hideContent}>How to write commits</TopicName>
             </Link>
           </BlogsMenu>
         )}
