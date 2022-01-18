@@ -197,6 +197,10 @@ export const TopicName = styled.p`
   padding: 0.5rem;
 `;
 
+export const PostCount = styled.span`
+  //
+`;
+
 // Individual blog
 
 export const PostTitle = styled.h2`
