@@ -74,8 +74,7 @@ function Menu() {
               </BlogName>
             </Link>
             {/*  */}
-            <Link
-              //
+            {/* <Link
               href="/coding-with-others"
               as={process.env.BACKEND_URL + "/coding-with-others"}
             >
@@ -83,9 +82,7 @@ function Menu() {
                 How to code with other people
               </BlogName>
             </Link>
-            {/*  */}
             <Link
-              //
               href="/connect-github-account-to-computer"
               as={
                 process.env.BACKEND_URL + "/connect-github-account-to-computer"
@@ -95,9 +92,7 @@ function Menu() {
                 How to connect your github account to your computer
               </BlogName>
             </Link>
-            {/*  */}
             <Link
-              //
               href="/deploy-netlify"
               as={process.env.BACKEND_URL + "/deploy-netlify"}
             >
@@ -105,7 +100,6 @@ function Menu() {
                 How to deploy a site on Netlify.
               </BlogName>
             </Link>
-            {/*  */}
             <Link
               //
               href="/deploy-react-github-pages"
@@ -115,14 +109,12 @@ function Menu() {
                 How to deploy a react site on github pages.
               </BlogName>
             </Link>
-            {/*  */}
             <Link
-              //
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
             >
               <BlogName onClick={hideContent}>How to write commits</BlogName>
-            </Link>
+            </Link> */}
           </BlogsMenu>
         )}
       </BlogMenuBox>
