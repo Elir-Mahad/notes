@@ -5,7 +5,7 @@ import {
   Sentence,
   PostTitle,
   Code,
-  // PicWrapper,
+  PicWrapper,
   UrlLink,
   Litem,
 } from "../styles/Styles.js";
@@ -13,7 +13,13 @@ import style from "../styles/Home.module.css";
 // import createrepo from "../assets/createrepo.png";
 // import remoteurl from "../assets/remoteurl.png";
 // import openrepoinvsc from "../assets/openrepoinvsc.png";
-// import Image from "next/image";
+import Image from "next/image";
+//
+const myLoader = ({ src, width, quality }) => {
+  return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
+    quality || 75
+  }`;
+};
 
 function RemoteOriginUrl() {
   return (
@@ -50,31 +56,40 @@ function RemoteOriginUrl() {
           url to establish this connection.
         </Sentence>
         <Sentence>1. In your github account, create a repository:</Sentence>
-        {/* <PicWrapper>
+        <PicWrapper>
           <Image
             //
-            src={createrepo}
+            loader={myLoader}
+            src="Elir-Mahad/notes/main/assets/createrepo.png"
             alt="Github page for creating a new repository"
+            width={500}
+            height={400}
           />
-        </PicWrapper> */}
+        </PicWrapper>
         <Sentence>2. Copy the remote origin url:</Sentence>
-        {/* <PicWrapper>
+        <PicWrapper>
           <Image
             //
-            src={remoteurl}
+            loader={myLoader}
+            src="Elir-Mahad/notes/main/assets/remoteurl.png"
             alt="Github repository quick set up page"
+            width={500}
+            height={400}
           />
-        </PicWrapper> */}
+        </PicWrapper>
         <Sentence>
           3. Open your visual studio code, then open your project inside it:
         </Sentence>
-        {/* <PicWrapper style={{ width: "40rem" }}>
+        <PicWrapper style={{ width: "40rem" }}>
           <Image
             //
-            src={openrepoinvsc}
+            loader={myLoader}
+            src="Elir-Mahad/notes/main/assets/openrepoinvsc.png"
             alt="Visual studio code with the game repository opened inside it"
+            width={500}
+            height={400}
           />
-        </PicWrapper> */}
+        </PicWrapper>
         <Sentence>
           4. Open the visual studio code terminal and paste the remote url:
         </Sentence>
