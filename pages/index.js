@@ -17,7 +17,6 @@ export default function Home() {
         />
       </Head>
       <Landing />
-      <h1>Test2</h1>
     </div>
   );
 }
