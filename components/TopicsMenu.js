@@ -75,7 +75,7 @@ function TopicsMenu() {
               </TopicName>
             </Link>
             {/*  */}
-            <Link
+            {/* <Link
               //
               href="/coding-with-others"
               as={process.env.BACKEND_URL + "/coding-with-others"}
@@ -84,9 +84,9 @@ function TopicsMenu() {
                 React
                 <PostCount>1</PostCount>
               </TopicName>
-            </Link>
+            </Link> */}
             {/*  */}
-            <Link
+            {/* <Link
               //
               href="/connect-github-account-to-computer"
               as={
@@ -97,9 +97,9 @@ function TopicsMenu() {
                 JavaScript and python
                 <PostCount>1</PostCount>
               </TopicName>
-            </Link>
+            </Link> */}
             {/*  */}
-            <Link
+            {/* <Link
               //
               href="/deploy-react-github-pages"
               as={process.env.BACKEND_URL + "/deploy-react-github-pages"}
@@ -108,9 +108,9 @@ function TopicsMenu() {
                 Competitive programming
                 <PostCount>1</PostCount>
               </TopicName>
-            </Link>
+            </Link> */}
             {/*  */}
-            <Link
+            {/* <Link
               //
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
@@ -119,7 +119,7 @@ function TopicsMenu() {
                 Tech Theory
                 <PostCount>1</PostCount>
               </TopicName>
-            </Link>
+            </Link> */}
           </BlogsMenu>
         )}
       </BlogMenuBox>
