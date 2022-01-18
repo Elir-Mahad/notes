@@ -12,7 +12,7 @@ import Link from "next/link";
 import { MdClose } from "react-icons/md";
 import { GrMenu } from "react-icons/gr";
 //
-function AlphabeticalMenu() {
+function Menu() {
   //
   const [openIcon, setOpenIcon] = useState(true);
 
@@ -130,4 +130,4 @@ function AlphabeticalMenu() {
   );
 }
 
-export default AlphabeticalMenu;
+export default Menu;
