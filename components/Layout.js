@@ -1,10 +1,10 @@
 import { WholeApp } from "../styles/Styles";
-import AlphabeticalMenu from "./AlphabeticalMenu";
+import Menu from "./Menu";
 
 function Layout({ children }) {
   return (
     <WholeApp>
-      <AlphabeticalMenu />
+      <Menu />
       <div>{children}</div>
     </WholeApp>
   );
