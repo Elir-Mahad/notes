@@ -191,6 +191,12 @@ export const BlogName = styled.p`
   padding: 0.5rem;
 `;
 
+export const TopicName = styled.p`
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+`;
+
 // Individual blog
 
 export const PostTitle = styled.h2`
