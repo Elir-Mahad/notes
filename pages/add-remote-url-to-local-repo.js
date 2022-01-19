@@ -13,7 +13,6 @@ import {
   LitemTwo,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
-import Image from "next/image";
 //
 const myLoader = ({ src, width, quality }) => {
   return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
