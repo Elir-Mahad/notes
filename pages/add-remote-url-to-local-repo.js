@@ -56,40 +56,10 @@ function RemoteOriginUrl() {
           url to establish this connection.
         </Sentence>
         <Sentence>1. In your github account, create a repository:</Sentence>
-        <PicWrapper>
-          <Image
-            //
-            loader={myLoader}
-            src="Elir-Mahad/notes/main/assets/createrepo.png"
-            alt="Github page for creating a new repository"
-            width={500}
-            height={400}
-          />
-        </PicWrapper>
         <Sentence>2. Copy the remote origin url:</Sentence>
-        <PicWrapper>
-          <Image
-            //
-            loader={myLoader}
-            src="Elir-Mahad/notes/main/assets/remoteurl.png"
-            alt="Github repository quick set up page"
-            width={500}
-            height={400}
-          />
-        </PicWrapper>
         <Sentence>
           3. Open your visual studio code, then open your project inside it:
         </Sentence>
-        <PicWrapper style={{ width: "40rem" }}>
-          <Image
-            //
-            loader={myLoader}
-            src="Elir-Mahad/notes/main/assets/openrepoinvsc.png"
-            alt="Visual studio code with the game repository opened inside it"
-            width={500}
-            height={400}
-          />
-        </PicWrapper>
         <Sentence>
           4. Open the visual studio code terminal and paste the remote url:
         </Sentence>
