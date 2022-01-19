@@ -14,12 +14,6 @@ import {
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
 //
-const myLoader = ({ src, width, quality }) => {
-  return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
-    quality || 75
-  }`;
-};
-
 function RemoteOriginUrl() {
   return (
     <div>
