@@ -57,9 +57,10 @@ function RemoteOriginUrl() {
           </UrlLink>{" "}
           . To follow along, you should already be logged into visual studio
           code with your github account. In the code snippets,{" "}
-          <CodeRes>the green code is the terminal response</CodeRes> and elir is
-          my computers username. When you are trying out the code, elir will be
-          replaced by your computers username.
+          <CodeRes>the green code is the terminal response</CodeRes>, elir is my
+          computers username, and Elir-Mahad is my github username. When you are
+          trying out the code, elir will be replaced by your computers username,
+          and Elir-Mahad will be replaced by your github username.
         </HighlightedSentence>
 
         {/* 1ST STEP ------------------------------------------ */}
@@ -202,8 +203,23 @@ function RemoteOriginUrl() {
         </Litem>
 
         <Litem>
-          If you are logged in, paste the remote url in the visual studio code
-          terminal.
+          If you are logged in, then{" "}
+          <UrlLink href="https://www.javatpoint.com/git-init">
+            {" "}
+            initialize your folder.
+          </UrlLink>
+        </Litem>
+
+        <LiCode>
+          git init <br />
+          <CodeRes>
+            Initialized empty Git repository in /Users/elir/Desktop/game/.git/
+          </CodeRes>
+        </LiCode>
+
+        <Litem>
+          After initialzing your folder, paste the remote url in the visual
+          studio code terminal.
         </Litem>
 
         <LiCode>
@@ -211,7 +227,7 @@ function RemoteOriginUrl() {
         </LiCode>
 
         <Litem>
-          Confirm that your local folder is connected to your github repository:
+          Confirm that your local folder is connected to your github repository.
         </Litem>
 
         <LiCode>
