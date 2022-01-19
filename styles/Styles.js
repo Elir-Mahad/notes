@@ -247,11 +247,14 @@ export const Sentence = styled.p`
   line-height: 2rem;
 `;
 
-// export const HighlightedSentence = styled.p`
-//   font-size: 1.4rem;
-//   margin-bottom: 0.5rem;
-//   line-height: 2rem;
-// `;
+export const HighlightedSentence = styled.p`
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
+  padding: 0.2rem;
+  border: 1px dotted grey;
+  font-style: italic;
+`;
 
 // export const ListHeading = styled.h2`
 //   font-size: 1.3rem;
@@ -275,6 +278,19 @@ export const LitemTwo = styled.li`
   line-height: 2rem;
 `;
 
+export const PicWrapper = styled.div`
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 50rem;
+`;
+
+export const UrlLink = styled.a`
+  color: darkblue;
+  border-bottom: 1px solid darkblue;
+`;
+
+// Code snippets
+
 export const Code = styled.p`
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
@@ -285,13 +301,17 @@ export const Code = styled.p`
   border: 1px solid grey;
 `;
 
-export const PicWrapper = styled.div`
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: 50rem;
+export const LiCode = styled.p`
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  line-height: 2rem;
+  border: 1px solid grey;
+  margin-left: 2.3rem;
 `;
 
-export const UrlLink = styled.a`
-  color: darkblue;
-  border-bottom: 1px solid darkblue;
+export const CodeRes = styled.span`
+  color: darkgreen;
 `;
