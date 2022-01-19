@@ -66,63 +66,94 @@ function RemoteOriginUrl() {
             the terminal commands
           </UrlLink>{" "}
           . To follow along, you should already be logged into visual studio
-          code with your github account. In the code snippets, the green code is
-          the terminal response and elir is my computers username. When you are
-          trying out the code, elir will be replaced by your computers username.
+          code with your github account. In the code snippets,{" "}
+          <CodeRes>the green code is the terminal response</CodeRes> and elir is
+          my computers username. When you are trying out the code, elir will be
+          replaced by your computers username.
         </HighlightedSentence>
 
-        <Sentence>1. Create your local folder and files.</Sentence>
+        {/* 1ST STEP ------------------------------------------ */}
+
+        <Sentence>
+          1. Create the project folder and files on your desktop.
+        </Sentence>
+
+        <Litem>
+          For this tutorial, the name of our project folder will be 'game'.
+        </Litem>
 
         <Litem>Open your terminal.</Litem>
 
         <Litem>Navigate into your Desktop folder.</Litem>
+
         <LiCode>cd Desktop</LiCode>
 
         <Litem>Confirm that you are in the Desktop folder.</Litem>
+
         <LiCode>
           pwd <br />
           <CodeRes> /Users/elir/Desktop</CodeRes>
         </LiCode>
 
         <Litem>Create a folder called 'game'.</Litem>
+
         <LiCode>mkdir game</LiCode>
 
         <Litem>Navigate into the game folder.</Litem>
+
         <LiCode>cd game</LiCode>
 
         <Litem>Confirm that you are in the game folder.</Litem>
+
         <LiCode>
           pwd <br />
           <CodeRes>game</CodeRes>
         </LiCode>
 
         <Litem>Create the file index.html inside the game folder.</Litem>
+
         <LiCode>touch index.html</LiCode>
 
         <Litem>Create the file styles.css inside the game folder.</Litem>
+
         <LiCode>touch styles.css</LiCode>
 
         <Litem>List all items in the game folder.</Litem>
+
         <LiCode>
           ls <br />
           <CodeRes>index.html styles.css</CodeRes>
         </LiCode>
 
-        <Sentence>2. Open the game folder inside visual studio code.</Sentence>
+        {/* 2ND STEP -------------------------------------------- */}
+
+        <Sentence>
+          2. Open the project folder inside visual studio code.
+        </Sentence>
 
         <Litem>Open visual studio code.</Litem>
+
         <Litem>
           In top left corner, click on the explorer tab (right above the
           magnifying glass) .
         </Litem>
+
         <Litem>Click on the open folder button.</Litem>
+
         <Litem>Navigate to your folder.</Litem>
+
         <Litem>Click open.</Litem>
+
         <Litem>Minimize the visual studio code program.</Litem>
 
-        <Sentence>3. Create the repository and copy the remote url.</Sentence>
+        {/* 3RD STEP ---------------------------------------------*/}
+
+        <Sentence>
+          3. Create the github repository and copy its remote url.
+        </Sentence>
 
         <Litem>Open your browser, go to github.com, and login.</Litem>
+
         <Litem>
           In your github account,{" "}
           <UrlLink href="https://docs.github.com/en/get-started/quickstart/create-a-repo">
@@ -140,16 +171,22 @@ function RemoteOriginUrl() {
           Inside the box that starts with "…or create a new repository on the
           command line", you find the line:{" "}
         </Litem>
+
         <LiCode>
           git remote add origin https://github.com/Elir-Mahad/game.git
         </LiCode>
+
         <LitemTwo>
           In your page, Elir-mahad will be replaced by your username.
         </LitemTwo>
 
         <Litem>Copy the git remote add origin line to your clipboard.</Litem>
 
-        <Sentence>4. Connect your game folder to the game repository.</Sentence>
+        {/* 4TH STEP ------------------------------------------- */}
+
+        <Sentence>
+          4. Add the remote url of the github repository to your local folder.
+        </Sentence>
 
         <Litem>Navigate back into your visual studio code.</Litem>
 
@@ -158,6 +195,7 @@ function RemoteOriginUrl() {
         <Litem>
           Verify that you are logged in with the correct github username.
         </Litem>
+
         <LiCode>
           {" "}
           git config --list <br />
@@ -166,6 +204,7 @@ function RemoteOriginUrl() {
             user.email=mahad@gmail.com
           </CodeRes>
         </LiCode>
+
         <Litem>
           {" "}
           In your terminal, elir-mahad should be replaced with your github
@@ -199,14 +238,30 @@ function RemoteOriginUrl() {
           desktop, is now connected to game repository that's in your github.
         </LitemTwo>
 
-        {/* <Sentence>
-          5. Removing an old remote url from a project and adding a new one.
+        {/* 5TH STEP -------------------------------------------- */}
+
+        <Sentence>
+          5. How to Remove an old remote url from a project and add a new one.
         </Sentence>
+
         <Litem>
-          If you've already added a remote url to your folder, but you want to
-          replace it with a new remote url then in your terminal type:
+          If you've already added a remote url to your project folder, but you
+          want to replace it with a new remote url then in your visual studio
+          terminal type:
         </Litem>
-        <Code>git remote remove origin</Code> */}
+
+        <LiCode>git remote remove origin</LiCode>
+
+        <LitemTwo>This should remove the previous remote url.</LitemTwo>
+
+        <Litem>Verify that the previous url has been removed.</Litem>
+
+        <LiCode>git remote -v</LiCode>
+        <LitemTwo>
+          If there is no response, then the previous url has been removed.
+        </LitemTwo>
+
+        <Litem>If you already have a new remote url, then repeat step 4.</Litem>
       </BlogBody>
     </div>
   );
