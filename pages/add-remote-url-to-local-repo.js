@@ -28,7 +28,7 @@ function RemoteOriginUrl() {
   return (
     <div>
       <Head>
-        <title>How to add a remote url to your local repository</title>
+        <title>How to add a remote url to your local project folder</title>
         <meta
           name="keywords"
           content="Github, Git, frontend development, JavaScript, Tutorial, remote origin url"
