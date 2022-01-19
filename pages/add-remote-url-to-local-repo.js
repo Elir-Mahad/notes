@@ -13,9 +13,6 @@ import {
   LitemTwo,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
-// import createrepo from "../assets/createrepo.png";
-// import remoteurl from "../assets/remoteurl.png";
-// import openrepoinvsc from "../assets/openrepoinvsc.png";
 import Image from "next/image";
 //
 const myLoader = ({ src, width, quality }) => {
