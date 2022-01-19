@@ -79,7 +79,7 @@ function RemoteOriginUrl() {
         </Sentence>
 
         <Litem>
-          For this tutorial, the name of our project folder will be 'game'.
+          For this tutorial, the name of the project folder will be 'game'.
         </Litem>
 
         <Litem>Open your terminal.</Litem>
@@ -134,7 +134,7 @@ function RemoteOriginUrl() {
         <Litem>Open visual studio code.</Litem>
 
         <Litem>
-          In top left corner, click on the explorer tab (right above the
+          In the top left corner, click on the explorer tab (right above the
           magnifying glass) .
         </Litem>
 
@@ -169,7 +169,7 @@ function RemoteOriginUrl() {
 
         <Litem>
           Inside the box that starts with "…or create a new repository on the
-          command line", you find the line:{" "}
+          command line", you will find the line:{" "}
         </Litem>
 
         <LiCode>
@@ -235,7 +235,8 @@ function RemoteOriginUrl() {
 
         <LitemTwo>
           This terminal response is evidence that the game folder on your
-          desktop, is now connected to game repository that's in your github.
+          desktop, is now connected to the game repository that's in your
+          github.
         </LitemTwo>
 
         {/* 5TH STEP -------------------------------------------- */}
