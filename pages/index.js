@@ -6,10 +6,13 @@ export default function Home() {
     <div>
       <Head>
         <title>Mahad's Notes</title>
-        <meta name="keywords" content=" Frontend development, JavaScript" />
+        <meta
+          name="keywords"
+          content=" Frontend development, JavaScript, Mahad Mohamood"
+        />
         <meta
           name="description"
-          content="Notes on various topics regarding coding"
+          content="Notes on various topics regarding software development"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap"

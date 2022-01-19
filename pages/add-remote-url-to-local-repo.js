@@ -21,11 +21,11 @@ function RemoteOriginUrl() {
         <title>How to add a remote url to your local project folder</title>
         <meta
           name="keywords"
-          content="Github, Git, frontend development, JavaScript, Tutorial, remote origin url"
+          content="Github, Git, frontend development, JavaScript, Tutorial, add remote origin url, remove remote orign url"
         />
         <meta
           name="description"
-          content="How to add a remote url to your local repository"
+          content="How to add a remote url to your local project folder"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap"
