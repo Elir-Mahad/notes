@@ -70,7 +70,7 @@ function Menu() {
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
               <BlogName onClick={hideContent}>
-                How to add a remote url to your local repository
+                How to add a remote url to your local project folder
               </BlogName>
             </Link>
             {/*  */}

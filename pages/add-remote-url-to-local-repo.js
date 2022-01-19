@@ -5,7 +5,7 @@ import {
   Sentence,
   HighlightedSentence,
   PostTitle,
-  Code,
+  // Code,
   LiCode,
   UrlLink,
   Litem,
