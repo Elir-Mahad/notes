@@ -43,7 +43,7 @@ function RemoteOriginUrl() {
         />
       </Head>
       <PostTitle className={style.weight100}>
-        How to add a remote url to your local repository
+        How to add a remote url to your local project folder
       </PostTitle>
       <BlogBody>
         {/*  */}
