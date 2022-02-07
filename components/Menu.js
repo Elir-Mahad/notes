@@ -57,6 +57,7 @@ function Menu() {
             <Link href="https://mahad.codes/">
               <BlogName onClick={hideContent}>Portfolio</BlogName>
             </Link>
+            {/*  */}
             <Link
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
@@ -65,6 +66,7 @@ function Menu() {
                 How to add a remote url to your local project folder
               </BlogName>
             </Link>
+            {/*  */}
             <Link
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
