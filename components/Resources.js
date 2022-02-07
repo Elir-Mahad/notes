@@ -1,12 +1,12 @@
 import React from "react";
 
-function Resources() {
+function Resources({ topic, firstLink, secondLink, thirdLink }) {
   return (
     <div>
-      <p>Learn more here:</p>
-      <a>First url</a>
-      <a>Second url</a>
-      <a>Third url</a>
+      <p>Resources about {topic} </p>
+      <a>{firstLink}</a>
+      <a>{secondLink}</a>
+      <a>{thirdLink}</a>
     </div>
   );
 }
