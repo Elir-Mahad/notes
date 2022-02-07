@@ -315,3 +315,19 @@ export const LiCode = styled.p`
 export const CodeRes = styled.span`
   color: darkgreen;
 `;
+
+// Resources
+
+export const PostResources = styled.div`
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+`;
+
+export const PsHeading = styled.h2`
+  font-weight: 100;
+`;
+
+export const Resource = styled.p`
+  margin-bottom: 1rem;
+`;

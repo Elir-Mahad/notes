@@ -271,7 +271,11 @@ function RemoteOriginUrl() {
 
         <Litem>If you already have a new remote url, then repeat step 4.</Litem>
         <Resources
-        //
+          //
+          topic="github's remote url"
+          firstLink="XXX"
+          secondLink="YYY"
+          thirdLink="www"
         />
       </BlogBody>
     </div>
