@@ -1,7 +1,15 @@
 import React from "react";
 import { PostResources, PsHeading, Resource, UrlLink } from "../styles/Styles";
 
-function Resources({ topic, firstLink, secondLink, thirdLink }) {
+function Resources({
+  topic,
+  firstResTitle,
+  firstLink,
+  secondResTitle,
+  secondLink,
+  thirdResTitle,
+  thirdLink,
+}) {
   return (
     <PostResources>
       <PsHeading>Resources about {topic} </PsHeading>

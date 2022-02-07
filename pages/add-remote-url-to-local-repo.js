@@ -273,8 +273,11 @@ function RemoteOriginUrl() {
         <Resources
           //
           topic="github's remote url"
+          firstResTitle="trial 1"
           firstLink="XXX"
+          secondResTitle="trial 2"
           secondLink="YYY"
+          thirdResTitle="trial 3"
           thirdLink="www"
         />
       </BlogBody>
