@@ -275,8 +275,8 @@ function RemoteOriginUrl() {
           topic="github's remote url"
           firstResTitle="GitHub - Create Local Repository and push to github | Push an existing repository to github"
           firstLink="https://www.youtube.com/watch?v=vbQ2bYHxxEA"
-          secondResTitle="trial 2"
-          secondLink="YYY"
+          secondResTitle="Add, Rename & Remove Remote origin url to the Git Repo. What is Origin in Remote - GIT"
+          secondLink="https://www.youtube.com/watch?v=YxTmfSuI74o"
           thirdResTitle="trial 3"
           thirdLink="www"
         />
