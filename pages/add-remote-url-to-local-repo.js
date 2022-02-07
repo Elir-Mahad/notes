@@ -273,8 +273,8 @@ function RemoteOriginUrl() {
         <Resources
           //
           topic="github's remote url"
-          firstResTitle="trial 1"
-          firstLink="XXX"
+          firstResTitle="GitHub - Create Local Repository and push to github | Push an existing repository to github"
+          firstLink="https://www.youtube.com/watch?v=vbQ2bYHxxEA"
           secondResTitle="trial 2"
           secondLink="YYY"
           thirdResTitle="trial 3"
