@@ -21,11 +21,11 @@ function RemoteOriginUrl() {
         <title>How to add a remote url to your local project folder</title>
         <meta
           name="keywords"
-          content="Github, Git, frontend development, JavaScript, Tutorial, add remote origin url, remove remote orign url"
+          content="Github, Git, frontend development, JavaScript, Tutorial, add remote origin url, remove remote orign url, Mahad Mohamood, github projects, vscode github, github repository"
         />
         <meta
           name="description"
-          content="How to add a remote url to your local project folder"
+          content="In this tutorial, you will learn about Github’s remote url, and then use visual studio code and git to upload a folder to your GitHub repository. "
         />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap"
