@@ -25,7 +25,7 @@ function WritingCommits() {
       </Head>
       <PostTitle className={style.weight100}>
         How to write commits properly
-        {/* Testing 2*/}
+        {/* Testing 3*/}
       </PostTitle>
       <BlogBody>
         <Sentence>
