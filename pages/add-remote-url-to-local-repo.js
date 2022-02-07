@@ -13,6 +13,7 @@ import {
   LitemTwo,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
+import Resources from "../components/Resources.js";
 //
 function RemoteOriginUrl() {
   return (
@@ -269,6 +270,9 @@ function RemoteOriginUrl() {
         </LitemTwo>
 
         <Litem>If you already have a new remote url, then repeat step 4.</Litem>
+        <Resources
+        //
+        />
       </BlogBody>
     </div>
   );
