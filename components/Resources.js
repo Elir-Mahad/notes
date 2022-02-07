@@ -1,5 +1,5 @@
 import React from "react";
-import { PostResources, PsHeading, Resource, UrlLink } from "../styles/Styles";
+import { PostResources, PsHeading, Resource, RLink } from "../styles/Styles";
 
 function Resources({
   topic,
@@ -14,13 +14,13 @@ function Resources({
     <PostResources>
       <PsHeading>Resources about {topic} </PsHeading>
       <Resource>
-        1: <UrlLink href={firstLink}>{firstResTitle}</UrlLink>
+        Video: <RLink href={firstLink}>{firstResTitle}</RLink>
       </Resource>
       <Resource>
-        2: <UrlLink href={secondLink}>{secondResTitle}</UrlLink>
+        Video: <RLink href={secondLink}>{secondResTitle}</RLink>
       </Resource>
       <Resource>
-        3: <UrlLink href={thirdLink}>{thirdResTitle}</UrlLink>
+        Video: <RLink href={thirdLink}>{thirdResTitle}</RLink>
       </Resource>
     </PostResources>
   );

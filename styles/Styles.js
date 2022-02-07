@@ -328,6 +328,12 @@ export const PsHeading = styled.h2`
   font-weight: 100;
 `;
 
-export const Resource = styled.p`
+export const Resource = styled.li`
   margin-bottom: 1rem;
+  margin-left: 2rem;
+  list-style-type: square;
+`;
+
+export const RLink = styled.a`
+  color: darkblue;
 `;
