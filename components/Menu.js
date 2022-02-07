@@ -51,27 +51,25 @@ function Menu() {
 
         {menuContent && (
           <BlogsMenu>
-            {/*  */}
-            <Link
-              //
-              href="/"
-              as={process.env.BACKEND_URL + "/"}
-            >
+            <Link href="/" as={process.env.BACKEND_URL + "/"}>
               <BlogName onClick={hideContent}>About me</BlogName>
             </Link>
-            {/*  */}
             <Link href="https://mahad.codes/">
               <BlogName onClick={hideContent}>Portfolio</BlogName>
             </Link>
-            {/*  */}
             <Link
-              //
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
             >
               <BlogName onClick={hideContent}>
                 How to add a remote url to your local project folder
               </BlogName>
+            </Link>
+            <Link
+              href="/writing-commits"
+              as={process.env.BACKEND_URL + "/writing-commits"}
+            >
+              <BlogName onClick={hideContent}>How to write commits</BlogName>
             </Link>
             {/*  */}
             {/* <Link
@@ -81,8 +79,9 @@ function Menu() {
               <BlogName onClick={hideContent}>
                 How to code with other people
               </BlogName>
-            </Link>
-            <Link
+            </Link> */}
+
+            {/* <Link
               href="/connect-github-account-to-computer"
               as={
                 process.env.BACKEND_URL + "/connect-github-account-to-computer"
@@ -91,16 +90,18 @@ function Menu() {
               <BlogName onClick={hideContent}>
                 How to connect your github account to your computer
               </BlogName>
-            </Link>
-            <Link
+            </Link> */}
+
+            {/* <Link
               href="/deploy-netlify"
               as={process.env.BACKEND_URL + "/deploy-netlify"}
             >
               <BlogName onClick={hideContent}>
                 How to deploy a site on Netlify.
               </BlogName>
-            </Link>
-            <Link
+            </Link> */}
+
+            {/* <Link
               //
               href="/deploy-react-github-pages"
               as={process.env.BACKEND_URL + "/deploy-react-github-pages"}
@@ -108,12 +109,6 @@ function Menu() {
               <BlogName onClick={hideContent}>
                 How to deploy a react site on github pages.
               </BlogName>
-            </Link>
-            <Link
-              href="/writing-commits"
-              as={process.env.BACKEND_URL + "/writing-commits"}
-            >
-              <BlogName onClick={hideContent}>How to write commits</BlogName>
             </Link> */}
           </BlogsMenu>
         )}
