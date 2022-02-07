@@ -6,13 +6,13 @@ function Resources({ topic, firstLink, secondLink, thirdLink }) {
     <PostResources>
       <PsHeading>Resources about {topic} </PsHeading>
       <Resource>
-        1: <UrlLink>{firstLink}</UrlLink>
+        1: <UrlLink href={firstLink}>{firstResTitle}</UrlLink>
       </Resource>
       <Resource>
-        2: <UrlLink>{secondLink}</UrlLink>
+        2: <UrlLink href={secondLink}>{secondResTitle}</UrlLink>
       </Resource>
       <Resource>
-        3: <UrlLink>{thirdLink}</UrlLink>
+        3: <UrlLink href={thirdLink}>{thirdResTitle}</UrlLink>
       </Resource>
     </PostResources>
   );
