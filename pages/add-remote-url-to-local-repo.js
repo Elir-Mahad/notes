@@ -46,8 +46,8 @@ function RemoteOriginUrl() {
             url
           </UrlLink>{" "}
           that connects your local folder to the repository that you have
-          created on github. In this post, i will show you how to use the remote
-          url to establish this connection.
+          created on github. In this tutorial, i will show you how to use the
+          remote url to establish this connection.
         </Sentence>
 
         <HighlightedSentence>
@@ -197,11 +197,11 @@ function RemoteOriginUrl() {
           </CodeRes>
         </LiCode>
 
-        <Litem>
+        <LitemTwo>
           {" "}
           In your terminal, elir-mahad should be replaced with your github
           username; and mahad@gmail.com should be replaced with your email.
-        </Litem>
+        </LitemTwo>
 
         <Litem>
           If you are logged in, then{" "}
@@ -254,7 +254,7 @@ function RemoteOriginUrl() {
 
         <Litem>
           If you've already added a remote url to your project folder, but you
-          want to replace it with a new remote url then in your visual studio
+          want to replace it with a new remote url, then in your visual studio
           terminal type:
         </Litem>
 
