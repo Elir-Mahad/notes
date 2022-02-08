@@ -71,7 +71,9 @@ function Menu() {
               href="/writing-commits"
               as={process.env.BACKEND_URL + "/writing-commits"}
             >
-              <BlogName onClick={hideContent}>How to write commits</BlogName>
+              <BlogName onClick={hideContent}>
+                How to write a conventional commit with scope
+              </BlogName>
             </Link>
             {/*  */}
             {/* <Link
