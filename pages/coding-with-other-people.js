@@ -54,10 +54,7 @@ function Collab() {
             Can another person understand my coding process, by simply reading
             my commits ?
           </span>{" "}
-          This question indicated a major shift in my persepective. I'll dig
-          into this shift, and its meaning, in another post. For now, i will
-          leave you with a set of instructions that i often return to whenever
-          i'm coding with others.
+          This question indicated a major shift in my persepective.
         </Sentence>
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
