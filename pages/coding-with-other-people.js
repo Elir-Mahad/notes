@@ -6,6 +6,8 @@ import {
   Sentence,
   PostTitle,
   Code,
+  LiCode,
+  CodeRes,
   LitemTwo,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
@@ -47,65 +49,69 @@ function Collab() {
         </Sentence>
         <Sentence>
           Eventually, i started to collaborate with other developers; and here,
-          i found myself haunted by a new set of questions:
+          i found myself haunted by a new set of questions:{" "}
           <span style={{ color: "darkblue" }}>
             Can another person understand my coding process, by simply reading
             my commits ?
           </span>{" "}
-          This question indicated a major philosophical shift in my
-          persepective. I'll dig into this shift, and its meaning, in another
-          post. For now, i will leave you with a set of instructions that i
-          often return to whenever i'm coding with others.
+          This question indicated a major shift in my persepective. I'll dig
+          into this shift, and its meaning, in another post. For now, i will
+          leave you with a set of instructions that i often return to whenever
+          i'm coding with others.
         </Sentence>
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
-        <Code>git pull master</Code>
+        <LiCode>git pull master</LiCode>
         <Sentence>2. Work on a issues</Sentence>
         <Litem>
           Before you create a branch, write an issue outlining all the new tasks
-          / features that you will be coding out.
+          that you will be working on.
         </Litem>
         <Sentence>3. Create a branch of the master branch</Sentence>
         <Litem>
           For example, if you want to create a branch called header of the
           master branch, first make sure that you are on the master branch:
         </Litem>
-        <Code>git branch</Code>
-        <Litem>terminal response: </Litem>
-        <Code>master</Code>
+        <LiCode>
+          git branch <br />
+          <CodeRes>master</CodeRes>
+        </LiCode>
 
         <Litem>Then create the header branch:</Litem>
-        <Code>git branch header</Code>
+        <LiCode>git branch header</LiCode>
         <Litem>Enter the header branch:</Litem>
-        <Code>git checkout header</Code>
+        <LiCode>git checkout header</LiCode>
         <Litem>Check which branch you are currenlty in:</Litem>
-        <Code>git branch</Code>
-        <Litem>Terminal response:</Litem>
-        <Code>Switched to branch 'header'</Code>
-        <litem>
+        <LiCode>
+          git branch <br />
+          <CodeRes> Switched to branch 'header'</CodeRes>
+        </LiCode>
+
+        <Litem>
           Finally, write the code for the header feature in this branch.
-        </litem>
+        </Litem>
 
         <Sentence>4. Push your new branch into the master branch:</Sentence>
         <Litem>
-          For example, if you just finished writing all your code for the header
-          branch then in the terminal write:
+          If you just finished writing all your code for the header branch, then
+          in the terminal write:
         </Litem>
-        <Code>
+        <LiCode>
           git add . <br />
           git commit -m 'Add header code' <br />
           git push <br />
-        </Code>
+        </LiCode>
 
         <Litem>
           If this is your first push, then you will get this response:
         </Litem>
 
-        <Code>git push --set-upstream origin master</Code>
+        <LiCode>git push --set-upstream origin master</LiCode>
 
         <Litem>
           Copy and paste this into the terminal so that from now onwards
-          whenever you want to push to your branch you will only type ‘git push’
+          whenever you want to push to your branch you will only type ‘git
+          push’.
         </Litem>
 
         <Sentence>5. Create a pull request:</Sentence>
@@ -160,18 +166,17 @@ function Collab() {
 
         <Litem>
           Change the branch back to the master or whatever the branch that
-          you're going to be merging into is called.
+          you're going to be merging into is called. In this example we will
+          simply switch back into the master branch.
         </Litem>
 
-        <Litem>Switch to the master branch</Litem>
-
-        <Code>git checkout master</Code>
+        <LiCode>git checkout master</LiCode>
 
         <Litem>
           Update your local repo master branch with the latest changes:
         </Litem>
 
-        <Code>git pull master</Code>
+        <LiCode>git pull master</LiCode>
         <Litem>
           This is an important step, especially when your’e working with
           multiple people who are all working on different branches.
@@ -203,20 +208,29 @@ function Collab() {
         </LitemTwo>
 
         <Litem>
-          If your local repo is updated, then you should see ‘Already up to
-          date’ in the terminal.
+          Once you update your local repo, double check to make sure that it has
+          in fact been updated.:
         </Litem>
+        <LiCode>
+          git pull master <br />
+          <CodeRes>Already up to date</CodeRes>
+        </LiCode>
+        <LitemTwo>
+          {" "}
+          The response `Already up to date` is prove that you are already
+          updated.{" "}
+        </LitemTwo>
 
         <Litem>
           Create a new branch called button, off the updated local repo master
           branch:
         </Litem>
 
-        <Code>git branch ‘button’</Code>
+        <LiCode>git branch ‘button’</LiCode>
 
         <Litem>Enter the new button branch:</Litem>
 
-        <Code>git checkout button</Code>
+        <LiCode>git checkout button</LiCode>
       </BlogBody>
     </div>
   );
