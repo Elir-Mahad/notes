@@ -116,17 +116,17 @@ function WritingCommits() {
           Create, Document, Modify, Update, Remove etc{" "}
         </Litem>
 
-        <LitemTwo> Capitalize the first word </LitemTwo>
+        <Litem> Capitalize the first word </Litem>
 
         <Litem> Use all lower case in the subject line</Litem>
 
         <Litem> Write the commit in present-tense, imperative-style </Litem>
 
-        <Litem>
+        <LitemTwo>
           {" "}
           Write it as if you are giving orders to a person on how to change the
           code, or to the codebase on how it should change its behaviour{" "}
-        </Litem>
+        </LitemTwo>
 
         <Litem> Remove unnecessary punctuation marks </Litem>
 
@@ -135,11 +135,11 @@ function WritingCommits() {
         <SubHeading>Commit examples</SubHeading>
         <Sentence>
           Now that you have an overall understanding of what the terms type,
-          scope, and subject mean, here are a few commit examples:
+          scope, and subject mean, here are a few commit examples. Each examples
+          is following the format of <em>type(scope): subject</em>:
         </Sentence>
 
         <Code>
-          type(scope): subject <br />
           feat(nav): add a new feature to the nav component <br />
           fix(header): fix a useEffect bug in the header <br />
           doc(readme): add a component hierarchy section to the readme file{" "}
@@ -149,7 +149,7 @@ function WritingCommits() {
 
         <Resources
           //
-          topic="git commit message"
+          topic="git commit messages"
           firstResTitle="How to Write a Great Git Commit Message"
           firstLink="https://www.youtube.com/watch?v=JiZACkPNm8U"
           secondResTitle="Write git commit messages like a PRO with Conventional Commits"
