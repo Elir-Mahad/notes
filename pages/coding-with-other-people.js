@@ -20,7 +20,7 @@ function Collab() {
         <title>How to code with other people</title>
         <meta
           name="keywords"
-          content="Github, Git, frontend development, JavaScript, Tutorial, Pair progamming"
+          content="Github, Git, frontend development, git test, JavaScript, Tutorial, Pair progamming"
         />
         <meta
           name="description"
