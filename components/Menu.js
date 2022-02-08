@@ -69,21 +69,21 @@ function Menu() {
             {/*  */}
             <Link
               href="/writing-commits"
-              as={process.env.BACKEND_URL + "/writing-commits"}
+              as={process.env.BACKEND_URL + "/writing-commit-messages"}
             >
               <BlogName onClick={hideContent}>
                 How to write a conventional commit with scope
               </BlogName>
             </Link>
             {/*  */}
-            {/* <Link
+            <Link
               href="/coding-with-others"
-              as={process.env.BACKEND_URL + "/coding-with-others"}
+              as={process.env.BACKEND_URL + "/coding-with-other-people"}
             >
               <BlogName onClick={hideContent}>
                 How to code with other people
               </BlogName>
-            </Link> */}
+            </Link>
 
             {/* <Link
               href="/connect-github-account-to-computer"
