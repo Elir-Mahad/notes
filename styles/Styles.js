@@ -342,3 +342,14 @@ export const Resource = styled.li`
 export const RLink = styled.a`
   color: darkblue;
 `;
+
+// python
+
+export const Chapter = styled.h2`
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  width: 15rem;
+`;
