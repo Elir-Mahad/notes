@@ -76,6 +76,13 @@ function Menu() {
               </BlogName>
             </Link>
             {/*  */}
+            <Link
+              href="/intro-to-python"
+              as={process.env.BACKEND_URL + "/intro-to-python"}
+            >
+              <BlogName onClick={hideContent}>Intro to python</BlogName>
+            </Link>
+            {/*  */}
             {/* <Link
               href="/coding-with-other-people"
               as={process.env.BACKEND_URL + "/coding-with-other-people"}
