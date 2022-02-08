@@ -11,7 +11,7 @@ import {
 import style from "../styles/Home.module.css";
 //
 
-function CodingWithOthers() {
+function Collab() {
   return (
     <div>
       <Head>
@@ -222,4 +222,4 @@ function CodingWithOthers() {
   );
 }
 
-export default CodingWithOthers;
+export default Collab;
