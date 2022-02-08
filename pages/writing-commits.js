@@ -29,7 +29,7 @@ function WritingCommits() {
         />
       </Head>
       <PostTitle className={style.weight100}>
-        How to write commits properly
+        How to write a conventional commit with scope
         {/* Testing 9*/}
       </PostTitle>
       <BlogBody>
@@ -41,51 +41,61 @@ function WritingCommits() {
           </UrlLink>
           . At its core, a commit message is a set of instructions for how the
           code should change from a previous state to a new state. When you push
-          your code to your repository, you will be able to see your commit in
+          your code to your repository, you will be able to see your commits in
           the commit history. If your commits were written properly, then the
-          commit message log will tell a story of how the project progressed
-          over time; and as a result, other developers will be able to trace the
+          commit history will tell a story of how the project progressed over
+          time; and as a result, other developers will be able to trace the
           projects progression, and easily find and fix bugs.
         </Sentence>
         <SubHeading>How are commit messages written ?</SubHeading>
         <Sentence>
           There a few different formats for writing commit messages. Today we
-          will consider this format <Code> type(scope): subject</Code>
+          will focus on{" "}
+          <UrlLink href="https://www.conventionalcommits.org/en/v1.0.0-beta.2/">
+            conventional commits
+          </UrlLink>{" "}
+          . More specifically, we will deconstruct the process of writing a
+          commit message with scope.
         </Sentence>
+
+        <Sentence>Here is what commit message with scope looks like:</Sentence>
+
+        <Code> type(scope): subject</Code>
         <Sentence>
-          If we break down this format, we notice that it is made of three parts
-          (type, scope, subject). Each part has a specific definition.
+          When we break down this format, we notice that it is made of three
+          parts (type, scope, subject). Each of these parts has a specific
+          definition. We now break down each part individually.
         </Sentence>
         <SubHeading>What does type mean ? </SubHeading>
         <Sentence>
           Type is a tag that identifies the type of change that you are making.{" "}
         </Sentence>
         <Sentence>These are some of the well-known commit types:</Sentence>
-        <Litem>feat – identifies changes regarding a new feature </Litem>
-        <Litem>fix – identifies that a bug has been fixed</Litem>
+        <Litem>Feat – identifies changes regarding a new feature. </Litem>
+        <Litem>Fix – identifies that a bug has been fixed.</Litem>
         <Litem>
-          docs – identifies updates to the documentation such as the readme
-          file, or the code comments
+          Docs – identifies updates to the documentation such as the readme
+          file, or the code comments.
         </Litem>
         <Litem>
-          style – identifies updates to the css styles, code formatting, missing
-          semi-colons, etc
+          Style – identifies updates to the css styles, code formatting, missing
+          semi-colons, etc.
         </Litem>
         <Litem>
-          refactor – identifies updates involving code refactoring, such as
-          renaming files
+          Refactor – identifies updates involving code refactoring, such as
+          renaming files.
         </Litem>
         <Litem>
-          chore – identifies changes such as adding / removing / updating
-          assets, dependencies etc
+          Chore – identifies changes such as adding / removing / updating
+          assets, dependencies etc.
         </Litem>
-        <Litem> test – identifies updates about tests </Litem>
-        <Litem>perf – identifies updates about performance improvements</Litem>
+        <Litem> Test – identifies updates about tests. </Litem>
+        <Litem>Perf – identifies updates about performance improvements.</Litem>
         <Litem>
-          build – identifies updates that affect the build system or external
-          dependencies
+          Build – identifies updates that affect the build system or external
+          dependencies.
         </Litem>
-        <Litem> revert – reverts a previous commit </Litem>
+        <Litem> Revert – reverts a previous commit. </Litem>
 
         <Sentence>
           I believe that the conventional types mentioned above aren't
@@ -95,18 +105,18 @@ function WritingCommits() {
         </Sentence>
 
         <Litem>
-          content - identifies content updates, such as adding or modifying
-          texts and images etc
+          Content - identifies content updates, such as adding or modifying
+          texts and images etc.
         </Litem>
 
         <Litem>
-          flayout - identifies updates to the code structure in a single file,
-          such as moving functions above objects
+          Flayout - identifies updates to the code structure in a single file,
+          such as moving functions above objects.
         </Litem>
 
         <Litem>
-          rlayout - identifies updates to the code architecture, such as moving
-          a file into a folder
+          Rlayout - identifies updates to the code architecture, such as moving
+          a file into a folder.
         </Litem>
         {/*  */}
 
@@ -127,32 +137,27 @@ function WritingCommits() {
         <Sentence> Rules when writing the subject:</Sentence>
 
         <Litem>
-          {" "}
-          The first word in your commit should identify an action. Example: Add,
-          Create, Document, Modify, Update, Remove etc{" "}
+          The first word in your commit should identify an action. Example: add,
+          create, document, modify, update, remove etc.
         </Litem>
 
-        <Litem> Capitalize the first word </Litem>
-
-        <Litem> Use all lower case in the subject line</Litem>
-
-        <Litem> Write the commit in present-tense, imperative-style </Litem>
+        <Litem> Write the commit in present-tense, imperative-style. </Litem>
 
         <LitemTwo>
           {" "}
           Write it as if you are giving orders to a person on how to change the
-          code, or to the codebase on how it should change its behaviour{" "}
+          code, or to the codebase on how it should change its behaviour.
         </LitemTwo>
 
-        <Litem> Remove unnecessary punctuation marks </Litem>
+        <Litem> Remove unnecessary punctuation marks. </Litem>
 
-        <Litem> Do not end the subject line with a period </Litem>
-
-        <SubHeading>Commit examples</SubHeading>
+        <Litem> Do not end the subject line with a period. </Litem>
         <Sentence>
           Now that you have an overall understanding of what the terms type,
-          scope, and subject mean, here are a few commit examples. Each examples
-          is following the format of <em>type(scope): subject</em>:
+          scope, and subject mean, we have one more key point to mention. When
+          you are writing conventional commits,{" "}
+          <em>the whole message should be in lowercase.</em> With that said,
+          here are a few examples of conventional commits with scope:
         </Sentence>
 
         <Code>
