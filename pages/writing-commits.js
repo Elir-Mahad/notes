@@ -144,6 +144,8 @@ function WritingCommits() {
           topic="git commit message"
           firstResTitle="How to Write a Great Git Commit Message"
           firstLink="https://www.youtube.com/watch?v=JiZACkPNm8U"
+          secondResTitle="Write git commit messages like a PRO with Conventional Commits"
+          secondLink="https://www.youtube.com/watch?v=OJqUWvmf4gg"
         />
       </BlogBody>
     </div>
