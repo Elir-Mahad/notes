@@ -20,9 +20,12 @@ function WritingCommits() {
         <title>Writing commits</title>
         <meta
           name="keywords"
-          content="Github, Git, frontend development, JavaScript, Tutorial, writing commits"
+          content="Github, Git, frontend development, JavaScript, Tutorial, writing commits, github commits, Mahad Mohamood, conventional commits, commit with scope, git and github, commit with scope,  github projects, vscode github, github repository"
         />
-        <meta name="description" content="How to write commits properly" />
+        <meta
+          name="description"
+          content="In this tutorial, you will learn about conventional commit messages, and how to use type, scope, and subject to write an effective commit message"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap"
           rel="stylesheet"
