@@ -61,13 +61,15 @@ function WritingCommits() {
           commit message with scope.
         </Sentence>
 
-        <Sentence>Here is what commit message with scope looks like:</Sentence>
+        <Sentence>
+          Here is what a commit message with scope looks like:
+        </Sentence>
 
         <Code> type(scope): subject</Code>
         <Sentence>
           When we break down this format, we notice that it is made of three
           parts (type, scope, subject). Each of these parts has a specific
-          definition. We now break down each part individually.
+          definition. We will now break down each part individually.
         </Sentence>
         <SubHeading>What does type mean ? </SubHeading>
         <Sentence>
@@ -126,8 +128,8 @@ function WritingCommits() {
         <SubHeading>What does scope mean ? </SubHeading>
 
         <Sentence>
-          The scope identifies the area (file/files/specific parts) in the code
-          where something has changed.
+          The scope identifies the area (file / files / specific parts) in the
+          code where something has changed.
         </Sentence>
 
         <SubHeading>What does subject mean ?</SubHeading>
@@ -170,18 +172,17 @@ function WritingCommits() {
           <br />
           style(font): change font type from ubuntu to roboto{" "}
         </Code>
-
-        <Resources
-          //
-          topic="git commit messages"
-          firstResTitle="How to Write a Great Git Commit Message"
-          firstLink="https://www.youtube.com/watch?v=JiZACkPNm8U"
-          secondResTitle="Write git commit messages like a PRO with Conventional Commits"
-          secondLink="https://www.youtube.com/watch?v=OJqUWvmf4gg"
-          thirdResTitle="Git and GitHub explained for beginners"
-          thirdLink="https://www.youtube.com/watch?v=8Dd7KRpKeaE"
-        />
       </BlogBody>
+      <Resources
+        //
+        topic="git commit messages"
+        firstResTitle="How to Write a Great Git Commit Message"
+        firstLink="https://www.youtube.com/watch?v=JiZACkPNm8U"
+        secondResTitle="Write git commit messages like a PRO with Conventional Commits"
+        secondLink="https://www.youtube.com/watch?v=OJqUWvmf4gg"
+        thirdResTitle="Git and GitHub explained for beginners"
+        thirdLink="https://www.youtube.com/watch?v=8Dd7KRpKeaE"
+      />
     </div>
   );
 }

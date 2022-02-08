@@ -270,17 +270,17 @@ function RemoteOriginUrl() {
         </LitemTwo>
 
         <Litem>If you already have a new remote url, then repeat step 4.</Litem>
-        <Resources
-          //
-          topic="github's remote url"
-          firstResTitle="GitHub - Create Local Repository and push to github | Push an existing repository to github"
-          firstLink="https://www.youtube.com/watch?v=vbQ2bYHxxEA"
-          secondResTitle="Add, Rename & Remove Remote origin url to the Git Repo. What is Origin in Remote - GIT"
-          secondLink="https://www.youtube.com/watch?v=YxTmfSuI74o"
-          thirdResTitle="Git and GitHub explained for beginners"
-          thirdLink="https://www.youtube.com/watch?v=8Dd7KRpKeaE"
-        />
       </BlogBody>
+      <Resources
+        //
+        topic="github's remote url"
+        firstResTitle="GitHub - Create Local Repository and push to github | Push an existing repository to github"
+        firstLink="https://www.youtube.com/watch?v=vbQ2bYHxxEA"
+        secondResTitle="Add, Rename & Remove Remote origin url to the Git Repo. What is Origin in Remote - GIT"
+        secondLink="https://www.youtube.com/watch?v=YxTmfSuI74o"
+        thirdResTitle="Git and GitHub explained for beginners"
+        thirdLink="https://www.youtube.com/watch?v=8Dd7KRpKeaE"
+      />
     </div>
   );
 }
