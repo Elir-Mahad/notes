@@ -157,6 +157,8 @@ function WritingCommits() {
         <Litem> Remove unnecessary punctuation marks. </Litem>
 
         <Litem> Do not end the subject line with a period. </Litem>
+
+        <SubHeading>Final words and commit examples</SubHeading>
         <Sentence>
           Now that you have an overall understanding of what the terms type,
           scope, and subject mean, we have one more key point to mention. When
