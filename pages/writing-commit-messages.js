@@ -160,11 +160,23 @@ function WritingCommits() {
         </Sentence>
 
         <Code>
-          feat(nav): add a new feature to the nav component <br />
-          fix(header): fix a useEffect bug in the header <br />
-          doc(readme): add a component hierarchy section to the readme file{" "}
+          git commit -m "feat(nav): add a new feature to the nav component"{" "}
           <br />
-          style(font): change font type from ubuntu to roboto{" "}
+          git commit -m "fix(header): fix a useEffect bug in the header" <br />
+          git commit -m "doc(readme): add a component hierarchy section to the
+          readme file"
+          <br />
+          git commit -m "style(font): change font type from ubuntu to roboto"{" "}
+        </Code>
+        <SubHeading>Linking issues to commits</SubHeading>
+        <Sentence>
+          Imagine that you're working on a task that's listed in a Github issue.
+          This issue has the number 17. Now, if you want to link this issue to
+          your commit mesage, then at the end of the commit message, insert a
+          hashtag + the issue number like this:{" "}
+        </Sentence>
+        <Code>
+          git commit -m "fix(header): fix a useEffect bug in the header #17"
         </Code>
       </BlogBody>
       <Resources
