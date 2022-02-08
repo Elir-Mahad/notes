@@ -236,21 +236,21 @@ export const SubHeading = styled.h2`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1.5rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
   text-indent: 50px;
   line-height: 2rem;
 `;
 
 export const Sentence = styled.p`
-  font-size: 1.4rem;
   margin-bottom: 1rem;
+  font-size: 1.4rem;
   line-height: 2rem;
 `;
 
 export const HighlightedSentence = styled.p`
+  margin-bottom: 1rem;
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
   line-height: 2rem;
   padding: 0.2rem;
   border: 1px dotted grey;
@@ -258,24 +258,24 @@ export const HighlightedSentence = styled.p`
 `;
 
 // export const ListHeading = styled.h2`
+// margin-bottom: 1rem;
 //   // font-size: 1.3rem;
-//   margin-bottom: 0.5rem;
 //   line-height: 2rem;
 //   color: darkred;
 //   font-weight: 100;
 // `;
 
 export const Litem = styled.li`
-  font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
   margin-left: 2.3rem;
   list-style-type: square;
   line-height: 2rem;
 `;
 
 export const LitemTwo = styled.li`
-  font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
   margin-left: 3.2rem;
   list-style-type: circle;
   line-height: 2rem;
@@ -295,8 +295,8 @@ export const UrlLink = styled.a`
 // Code snippets
 
 export const Code = styled.p`
+  margin-bottom: 1rem;
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
   padding: 1rem;
   background-color: #f6f8fa;
   border-radius: 5px;
@@ -305,8 +305,8 @@ export const Code = styled.p`
 `;
 
 export const LiCode = styled.p`
+  margin-bottom: 1rem;
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
   padding: 1rem;
   background-color: #f6f8fa;
   border-radius: 5px;

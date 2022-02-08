@@ -7,6 +7,8 @@ import {
   Sentence,
   Code,
   SubHeading,
+  UrlLink,
+  LitemTwo,
 } from "../styles/Styles.js";
 import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
@@ -31,13 +33,19 @@ function WritingCommits() {
         {/* Testing 9*/}
       </PostTitle>
       <BlogBody>
-        <SubHeading>What is a commit message ?</SubHeading>
         <Sentence>
-          A commit message is a set of instructions for how to the code should
-          change from a previous state to a new state. The commit message log
-          should tell a story of how the project progressed over time. If the
-          commit log has well written commits, then this will help developers
-          trace the projects progression and find and fix bugs.
+          In this tutorial, we are going to discuss commit messages. Commit
+          messages are very imporant part of the git{" "}
+          <UrlLink href="https://www.youtube.com/watch?v=3a2x1iJFJWc">
+            workflow
+          </UrlLink>
+          . At its core, a commit message is a set of instructions for how the
+          code should change from a previous state to a new state. When you push
+          your code to your repository, you will be able to see your commit in
+          the commit history. If your commits were written properly, then the
+          commit message log will tell a story of how the project progressed
+          over time; and as a result, other developers will be able to trace the
+          projects progression, and easily find and fix bugs.
         </Sentence>
         <SubHeading>How are commit messages written ?</SubHeading>
         <Sentence>
@@ -50,14 +58,14 @@ function WritingCommits() {
         </Sentence>
         <SubHeading>What does type mean ? </SubHeading>
         <Sentence>
-          Type is a tag the identities the type of change that you are making.{" "}
+          Type is a tag that identifies the type of change that you are making.{" "}
         </Sentence>
         <Sentence>These are some of the well-known commit types:</Sentence>
         <Litem>feat – identifies changes regarding a new feature </Litem>
         <Litem>fix – identifies that a bug has been fixed</Litem>
         <Litem>
           {" "}
-          docs – identifies updates to the documentation such as a the readme
+          docs – identifies updates to the documentation such as the readme
           file, or the code comments{" "}
         </Litem>
         <Litem>
@@ -89,15 +97,15 @@ function WritingCommits() {
         <SubHeading>What does scope mean ? </SubHeading>
 
         <Sentence>
-          The scope identifies the area (files/ files/specific parts) in the
-          code where something has changed.
+          The scope identifies the area (file/files/specific parts) in the code
+          where something has changed.
         </Sentence>
 
         <SubHeading>What does subject mean ?</SubHeading>
 
         <Sentence>
-          Subject refers to a sentence that’s usually 50 characters that
-          describes changes that you made, and why you’ve made these changes.
+          Subject refers to a sentence that’s usually 50 characters long that
+          describes changes that you've made, and why you’ve made these changes.
         </Sentence>
 
         <Sentence> Rules when writing the subject:</Sentence>
@@ -105,24 +113,24 @@ function WritingCommits() {
         <Litem>
           {" "}
           The first word in your commit should identify an action. Example: Add,
-          Create, Document, Modify, Update, Remove etc.{" "}
+          Create, Document, Modify, Update, Remove etc{" "}
         </Litem>
 
-        <Litem> Capitalize the first word. </Litem>
+        <LitemTwo> Capitalize the first word </LitemTwo>
 
-        <Litem> Use all lower case in the subject line.</Litem>
+        <Litem> Use all lower case in the subject line</Litem>
 
-        <Litem> Write the commit in present-tense, imperative-style. </Litem>
+        <Litem> Write the commit in present-tense, imperative-style </Litem>
 
         <Litem>
           {" "}
           Write it as if you are giving orders to a person on how to change the
-          code, or to the codebase on how it should change its behaviour.{" "}
+          code, or to the codebase on how it should change its behaviour{" "}
         </Litem>
 
-        <Litem> Remove unnecessary punctuation marks. </Litem>
+        <Litem> Remove unnecessary punctuation marks </Litem>
 
-        <Litem> Do not end the subject line with a period. </Litem>
+        <Litem> Do not end the subject line with a period </Litem>
 
         <SubHeading>Commit examples</SubHeading>
         <Sentence>
