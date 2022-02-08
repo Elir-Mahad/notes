@@ -20,7 +20,7 @@ function Collab() {
         <title>How to code with other people</title>
         <meta
           name="keywords"
-          content="Github, Git, frontend development, JavaScript, Tutorial, Pair progamming"
+          content="Github, Git, Trunk based development, frontend development, JavaScript, Tutorial, Pair progamming"
         />
         <meta
           name="description"
@@ -56,6 +56,7 @@ function Collab() {
           </span>{" "}
           This question indicated a major shift in my persepective.
         </Sentence>
+        <Sentence></Sentence>
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
         <LiCode>git pull master</LiCode>
