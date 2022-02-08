@@ -325,6 +325,8 @@ export const PostResources = styled.div`
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
 `;
 
 export const PsHeading = styled.h2`
