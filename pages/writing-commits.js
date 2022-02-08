@@ -8,6 +8,7 @@ import {
   Code,
   SubHeading,
 } from "../styles/Styles.js";
+import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
 
 function WritingCommits() {
@@ -137,6 +138,13 @@ function WritingCommits() {
           <br />
           style(font): change font type from ubuntu to roboto{" "}
         </Code>
+
+        <Resources
+          //
+          topic="git commit message"
+          firstResTitle="How to Write a Great Git Commit Message"
+          firstLink="https://www.youtube.com/watch?v=JiZACkPNm8U"
+        />
       </BlogBody>
     </div>
   );
