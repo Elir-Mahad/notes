@@ -88,7 +88,8 @@ function WritingCommits() {
         </Litem>
         <Litem>
           Refactor – identifies updates involving code refactoring, such as
-          renaming files.
+          renaming files, moving functions above objects in a file, moving a
+          file into a folder
         </Litem>
         <Litem>
           Chore – identifies changes such as adding / removing / updating
@@ -104,9 +105,9 @@ function WritingCommits() {
 
         <Sentence>
           I believe that the conventional types mentioned above aren't
-          exhaustive. Therefore, i've created a few custom types for myself. I
-          will now list these types and their meanings. Feel free to use them,
-          but keep in mind that these are not standard types.
+          exhaustive. Therefore, i've created a custom types for myself. I will
+          now list these types and their meanings. Feel free to use them, but
+          keep in mind that these are not standard types.
         </Sentence>
 
         <Litem>
@@ -114,15 +115,6 @@ function WritingCommits() {
           texts and images etc.
         </Litem>
 
-        <Litem>
-          Flayout - identifies updates to the code structure in a single file,
-          such as moving functions above objects.
-        </Litem>
-
-        <Litem>
-          Rlayout - identifies updates to the code architecture, such as moving
-          a file into a folder.
-        </Litem>
         {/*  */}
 
         <SubHeading>What does scope mean ? </SubHeading>
