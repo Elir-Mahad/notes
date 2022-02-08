@@ -146,6 +146,8 @@ function WritingCommits() {
           firstLink="https://www.youtube.com/watch?v=JiZACkPNm8U"
           secondResTitle="Write git commit messages like a PRO with Conventional Commits"
           secondLink="https://www.youtube.com/watch?v=OJqUWvmf4gg"
+          thirdResTitle="Git and GitHub explained for beginners"
+          thirdLink="https://www.youtube.com/watch?v=8Dd7KRpKeaE"
         />
       </BlogBody>
     </div>
