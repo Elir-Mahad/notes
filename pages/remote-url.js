@@ -15,7 +15,7 @@ import {
 import style from "../styles/Home.module.css";
 import Resources from "../components/Resources.js";
 //
-function RemoteOriginUrl() {
+function RemoteUrl() {
   return (
     <div>
       <Head>
@@ -285,4 +285,4 @@ function RemoteOriginUrl() {
   );
 }
 
-export default RemoteOriginUrl;
+export default RemoteUrl;
