@@ -2,6 +2,7 @@ import Head from "next/head";
 import {
   //
   BlogBody,
+  Chapter,
   Code,
   Litem,
   PostTitle,
@@ -33,6 +34,7 @@ function IntroPython() {
           wherever I see similarities between javascript and python, i will
           point them out.{" "}
         </Sentence>
+        <Chapter> Chapter 1</Chapter>
         <SubHeading>How to declare variables/constants in python ?</SubHeading>
         <Sentence>
           When declaring constants, you don’t have to preface the name of the

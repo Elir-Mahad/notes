@@ -347,9 +347,8 @@ export const RLink = styled.a`
 
 export const Chapter = styled.h2`
   font-weight: 100;
-  font-size: 2rem;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid black;
-  width: 15rem;
+  width: 10rem;
 `;
