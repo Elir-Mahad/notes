@@ -68,7 +68,7 @@ function Menu() {
             </Link>
             {/*  */}
             <Link
-              href="/writing-commits"
+              href="/writing-commits-messages"
               as={process.env.BACKEND_URL + "/writing-commit-messages"}
             >
               <BlogName onClick={hideContent}>
@@ -77,7 +77,7 @@ function Menu() {
             </Link>
             {/*  */}
             <Link
-              href="/coding-with-others"
+              href="/coding-with-other-people"
               as={process.env.BACKEND_URL + "/coding-with-other-people"}
             >
               <BlogName onClick={hideContent}>
