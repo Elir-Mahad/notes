@@ -227,11 +227,12 @@ export const BlogBody = styled.div`
   }
 `;
 
-export const SubHeading = styled.h3`
+export const SubHeading = styled.h2`
   margin-bottom: 1rem;
   margin-top: 1rem;
   line-height: 2rem;
   color: darkblue;
+  font-weight: 100;
 `;
 
 export const Paragraph = styled.p`
@@ -243,7 +244,7 @@ export const Paragraph = styled.p`
 
 export const Sentence = styled.p`
   font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   line-height: 2rem;
 `;
 
@@ -257,9 +258,11 @@ export const HighlightedSentence = styled.p`
 `;
 
 // export const ListHeading = styled.h2`
-//   font-size: 1.3rem;
+//   // font-size: 1.3rem;
 //   margin-bottom: 0.5rem;
 //   line-height: 2rem;
+//   color: darkred;
+//   font-weight: 100;
 // `;
 
 export const Litem = styled.li`

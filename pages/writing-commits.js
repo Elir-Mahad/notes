@@ -5,6 +5,8 @@ import {
   PostTitle,
   Litem,
   Sentence,
+  Code,
+  SubHeading,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
 
@@ -28,26 +30,60 @@ function WritingCommits() {
         {/* Testing 9*/}
       </PostTitle>
       <BlogBody>
+        <SubHeading>What is a commit message ?</SubHeading>
         <Sentence>
-          A commit is a set of instructions for how to go from a previous state
-          to a new state.
+          A commit message is a set of instructions for how to the code should
+          change from a previous state to a new state. The commit message log
+          should tell a story of how the project progressed over time. If the
+          commit log has well written commits, then this will help developers
+          trace the projects progression and find and fix bugs.
         </Sentence>
-
-        <Sentence>Write a commit as if you are giving orders to:</Sentence>
-
-        <Litem>a person on how to change the code.</Litem>
-
-        <Litem>the codebase to change its behaviour.</Litem>
-
+        <SubHeading>How are commit messages written ?</SubHeading>
         <Sentence>
-          The preference for present-tense, imperative-style commit messages
-          comes from Git itself.
+          There a few different formats for writing commit messages. Today we
+          will consider this format <Code> type(scope): subject</Code>
         </Sentence>
-
         <Sentence>
+          If we break down this format, we notice that it is made of three parts
+          (type, scope, subject). Each part has a specific definition.
+        </Sentence>
+        <SubHeading>What does type mean ? </SubHeading>
+        <Sentence>
+          Type is a tag the identities the type of change that you are making.{" "}
+        </Sentence>
+        <Sentence>These are some of the well-known commit types:</Sentence>
+        <Litem>feat – identifies changes regarding a new feature </Litem>
+        <Litem>fix – identifies that a bug has been fixed</Litem>
+        <Litem>
           {" "}
-          Example: commit -m “Add all images to the assets folder.”
-        </Sentence>
+          docs – identifies updates to the documentation such as a the readme
+          file, or the code comments{" "}
+        </Litem>
+        <Litem>
+          {" "}
+          style – identifies updates to the css styles, code formatting, missing
+          semi-colons, etc
+        </Litem>
+        <Litem>
+          {" "}
+          refactor – identifies updates involving code refactoring{" "}
+        </Litem>
+        <Litem>
+          {" "}
+          chore – identifies changes such as adding / removing / updating
+          assets, dependencies etc{" "}
+        </Litem>
+        <Litem> test – identifies updates about tests </Litem>
+        <Litem>
+          {" "}
+          perf – identifies updates about performance improvements{" "}
+        </Litem>
+        <Litem>
+          {" "}
+          build – identifies updates that affect the build system or external
+          dependencies{" "}
+        </Litem>
+        <Litem> revert – reverts a previous commit </Litem>
       </BlogBody>
     </div>
   );
