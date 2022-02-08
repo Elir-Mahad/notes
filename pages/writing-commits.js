@@ -64,35 +64,51 @@ function WritingCommits() {
         <Litem>feat – identifies changes regarding a new feature </Litem>
         <Litem>fix – identifies that a bug has been fixed</Litem>
         <Litem>
-          {" "}
           docs – identifies updates to the documentation such as the readme
-          file, or the code comments{" "}
+          file, or the code comments
         </Litem>
         <Litem>
-          {" "}
           style – identifies updates to the css styles, code formatting, missing
           semi-colons, etc
         </Litem>
         <Litem>
-          {" "}
-          refactor – identifies updates involving code refactoring{" "}
+          refactor – identifies updates involving code refactoring, such as
+          renaming files
         </Litem>
         <Litem>
-          {" "}
           chore – identifies changes such as adding / removing / updating
-          assets, dependencies etc{" "}
+          assets, dependencies etc
         </Litem>
         <Litem> test – identifies updates about tests </Litem>
+        <Litem>perf – identifies updates about performance improvements</Litem>
         <Litem>
-          {" "}
-          perf – identifies updates about performance improvements{" "}
-        </Litem>
-        <Litem>
-          {" "}
           build – identifies updates that affect the build system or external
-          dependencies{" "}
+          dependencies
         </Litem>
         <Litem> revert – reverts a previous commit </Litem>
+
+        <Sentence>
+          I believe that the conventional types mentioned above aren't
+          exhaustive. Therefore, i've created a few custom types for myself. I
+          will now list these types and their meanings. Feel free to use them,
+          but keep in mind that these are not standard types.
+        </Sentence>
+
+        <Litem>
+          content - identifies content updates, such as adding or modifying
+          texts and images etc
+        </Litem>
+
+        <Litem>
+          flayout - identifies updates to the code structure in a single file,
+          such as moving functions above objects
+        </Litem>
+
+        <Litem>
+          rlayout - identifies updates to the code architecture, such as moving
+          a file into a folder
+        </Litem>
+        {/*  */}
 
         <SubHeading>What does scope mean ? </SubHeading>
 
