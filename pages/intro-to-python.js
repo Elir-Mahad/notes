@@ -11,6 +11,7 @@ import IntroPyOne from "../components/intropychaps/IntroPyOne";
 import IntroPyTwo from "../components/intropychaps/IntroPyTwo";
 import IntroPyThree from "../components/intropychaps/IntroPyThree.js";
 import IntroPyFour from "../components/intropychaps/IntroPyFour.js";
+import PostMenu from "../components/PostMenu.js";
 //
 function IntroPython() {
   return (
@@ -25,6 +26,7 @@ function IntroPython() {
         />
       </Head>
       <PostTitle className={style.weight100}>Intro to python</PostTitle>
+      <PostMenu />
       <BlogBody>
         <Sentence>
           {" "}
@@ -39,6 +41,7 @@ function IntroPython() {
         <IntroPyTwo />
         <IntroPyThree />
         <IntroPyFour />
+        {/*  */}
       </BlogBody>
       {/* <Resources
         //
