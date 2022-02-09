@@ -45,6 +45,21 @@ function PostMenu() {
         <PmOptions>
           <PmOtitle>Table of contents</PmOtitle>
           <ol>
+            {/* Chapter three below */}
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to get info about different functions using python ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>How to install python packages ?</PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>How to import packages and modules?</PmOption>
+            </Link>
+
             {/* Chapter four below */}
             <Link to="about" spy={true} smooth={true}>
               <PmOption>Overview of numpy package </PmOption>
