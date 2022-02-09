@@ -2,15 +2,12 @@ import Head from "next/head";
 import {
   //
   BlogBody,
-  Chapter,
-  Code,
-  Litem,
   PostTitle,
   Sentence,
-  SubHeading,
 } from "../styles/Styles.js";
 // import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
+import IntroPyOne from "../components/intropychaps/IntroPyOne";
 
 function IntroPython() {
   return (
@@ -35,6 +32,7 @@ function IntroPython() {
           point them out.{" "}
         </Sentence>
         {/*  */}
+        <IntroPyOne />
       </BlogBody>
       {/* <Resources
         //
