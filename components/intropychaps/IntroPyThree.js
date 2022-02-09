@@ -63,7 +63,7 @@ function IntroPyThree() {
         #output
       </Code>
 
-      <Sentence> How to install python packages ?</Sentence>
+      <SubHeading> How to install python packages ?</SubHeading>
 
       <Sentence>
         Install package http://pip.readthedocs.org/en/stable/installing/ <br />
@@ -72,7 +72,7 @@ function IntroPyThree() {
         In your computers Terminal type: pip3 install numpy
       </Sentence>
 
-      <Sentence>How to import packages and modules?</Sentence>
+      <SubHeading>How to import packages and modules?</SubHeading>
 
       <Code>
         import numpy <br />
