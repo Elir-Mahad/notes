@@ -355,19 +355,23 @@ export const Chapter = styled.h2`
 // Post menu
 
 export const PostMenuBox = styled.div`
-  background-color: #f6f6f6;
   //
-  height: 15rem;
-  width: 15rem;
-  border: 1px solid black;
-  padding: 0.5rem;
-  margin-right: 2rem;
-  //
-  overflow: auto;
   z-index: 2;
   position: fixed;
   right: 0;
   top: 100px;
+  // width: 15rem;
+  // height: 15rem;
+  margin-right: 2rem;
+`;
+
+export const PmOptions = styled.div`
+  overflow: auto;
+  height: 15rem;
+  width: 15rem;
+  padding: 1rem;
+  background-color: #f6f6f6;
+  border: 1px solid black;
 `;
 
 export const PmIcon = styled.button`
