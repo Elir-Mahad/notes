@@ -21,7 +21,7 @@ function IntroPyFour() {
         just have strings. The float and boolean will be converted to strings.
       </Sentence>
 
-      <SubHeading>How to converting a list into a numpy array ?</SubHeading>
+      <SubHeading>How to convert a list into a numpy array ?</SubHeading>
 
       <Code>
         height = [1.73, 1.68, 1.71, 1.89, 1.79] <br /># The constant height
