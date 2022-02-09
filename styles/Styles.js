@@ -351,3 +351,17 @@ export const Chapter = styled.h2`
   border: 1px solid black;
   width: 10rem;
 `;
+
+// Post menu
+
+export const PostMenu = styled.div`
+  //
+`;
+
+export const PmIcon = styled.button`
+  //
+`;
+
+export const PmOption = styled.p`
+  //
+`;
