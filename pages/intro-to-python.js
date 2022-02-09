@@ -8,7 +8,8 @@ import {
 // import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
 import IntroPyOne from "../components/intropychaps/IntroPyOne";
-
+import IntroPyTwo from "../components/intropychaps/IntroPyTwo";
+//
 function IntroPython() {
   return (
     <div>
@@ -33,6 +34,7 @@ function IntroPython() {
         </Sentence>
         {/*  */}
         <IntroPyOne />
+        <IntroPyTwo />
       </BlogBody>
       {/* <Resources
         //

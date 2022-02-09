@@ -230,4 +230,4 @@ function IntroPyTwo() {
   );
 }
 
-export default IntroPyOne;
+export default IntroPyTwo;
