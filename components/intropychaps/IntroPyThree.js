@@ -5,6 +5,7 @@ import {
   Litem,
   Sentence,
   SubHeading,
+  UrlLink,
 } from "../../styles/Styles.js";
 
 function IntroPyThree() {
@@ -66,7 +67,11 @@ function IntroPyThree() {
       <SubHeading> How to install python packages ?</SubHeading>
 
       <Sentence>
-        Install package http://pip.readthedocs.org/en/stable/installing/ <br />
+        Install package{" "}
+        <UrlLink href="http://pip.readthedocs.org/en/stable/installing/">
+          from here
+        </UrlLink>{" "}
+        <br />
         Download get-pip.py <br />
         In your computers Terminal type: python3 get-pip.py <br />
         In your computers Terminal type: pip3 install numpy
