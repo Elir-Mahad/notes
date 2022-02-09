@@ -105,7 +105,7 @@ function WritingCommits() {
 
         <Sentence>
           I believe that the conventional types mentioned above aren't
-          exhaustive. Therefore, i've created a custom types for myself. I will
+          exhaustive. Therefore, i've created custom types for myself. I will
           now list these types and their meanings. Feel free to use them, but
           keep in mind that these are not standard types.
         </Sentence>
@@ -133,7 +133,8 @@ function WritingCommits() {
 
         <Sentence>
           Subject refers to a sentence that’s usually 50 characters long that
-          describes changes that you've made, and why you’ve made these changes.
+          describes the changes that you've made, and why you’ve made these
+          changes.
         </Sentence>
 
         <Sentence> Rules when writing the subject:</Sentence>
