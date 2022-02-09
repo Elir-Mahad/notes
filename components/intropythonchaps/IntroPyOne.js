@@ -7,7 +7,7 @@ import {
   SubHeading,
 } from "../../styles/Styles.js";
 
-function IntroPythonChapOne() {
+function IntroPyOne() {
   return (
     <div>
       <Chapter> Chapter 1</Chapter>
@@ -66,4 +66,4 @@ function IntroPythonChapOne() {
   );
 }
 
-export default IntroPythonChapOne;
+export default IntroPyOne;
