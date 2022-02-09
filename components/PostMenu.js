@@ -8,6 +8,7 @@ import {
 } from "../styles/Styles";
 import { CgMenuGridO } from "react-icons/cg";
 import { CgMenuMotion } from "react-icons/cg";
+import { Link } from "react-scroll";
 //
 function PostMenu() {
   //
@@ -44,22 +45,77 @@ function PostMenu() {
         <PmOptions>
           <PmOtitle>Table of contents</PmOtitle>
           <ol>
-            <PmOption>Overview of numpy package </PmOption>
-            <PmOption>Convert a list into a numpy array</PmOption>
-            <PmOption>Print out the mean of a numpy array</PmOption>
-            <PmOption>Print out the median of a numpy array</PmOption>
-            <PmOption>Overview of 2d numpy arrays</PmOption>
-            <PmOption>Print out the shape of a 2dnumpy array</PmOption>
-            <PmOption>Print out a specific index of a 2dnumpy array</PmOption>
-            <PmOption>Print out columns of a 2dnumpy array</PmOption>
-            <PmOption>Print out a row of a 2dnumpy array</PmOption>
-            <PmOption>Print out a column of a 2dnumpy array</PmOption>
-            <PmOption>Print out the mean of a 2d numpy array</PmOption>
-            <PmOption>Print out the median of a 2d numpy array</PmOption>
-            <PmOption>
-              Print out out the ‘correlation coefficient matrix’ of a 2d numpy
-              array
-            </PmOption>
+            {/* Chapter four below */}
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>Overview of numpy package </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>How to convert a list into a numpy array ?</PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>How to print out the mean of a numpy array ?</PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to print out the median of a numpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>Overview of 2d numpy arrays</PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to print out the shape of a 2dnumpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                {" "}
+                How to print out a specific index of a 2dnumpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                {" "}
+                How to print out columns of a 2dnumpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>How to print out a row of a 2dnumpy array ?</PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to print out a column of a 2dnumpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to print out the mean of a 2d numpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to print out the median of a 2d numpy array ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to print out out the ‘correlation coefficient matrix’ of a
+                2d numpy ? array
+              </PmOption>
+            </Link>
           </ol>
         </PmOptions>
       )}

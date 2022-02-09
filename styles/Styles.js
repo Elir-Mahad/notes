@@ -381,7 +381,7 @@ export const PmIcon = styled.button`
 export const PmOptions = styled.div`
   overflow: auto;
   height: 15rem;
-  width: 15rem;
+  width: 20rem;
   background-color: #f6f6f6;
   border: 1px solid black;
   border-radius: 1rem;
