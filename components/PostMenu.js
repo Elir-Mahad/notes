@@ -47,53 +47,44 @@ function PostMenu() {
           <ol>
             {/* Chapter one below */}
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to declare variables/constants in python</PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How many data types does Python have </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>Adding different data types</PmOption>
             </Link>
 
-            {/*  */}
             {/* Chapter two below */}
+
             <Link to="" spy={true} smooth={true}>
               <PmOption>What is a List </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to select elements in a list </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>Can Lists can contain other lists </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to select a range of elements in a list</PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to change the value of a list element </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to add and remove elements </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 How to copy elements in a list into another list, and only make
@@ -102,59 +93,53 @@ function PostMenu() {
             </Link>
 
             {/* Chapter three below */}
+
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 How to get info about different functions using python
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 Overview of the max, count, and replace functions
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to install python packages </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to import packages and modules</PmOption>
             </Link>
 
             {/* Chapter four below */}
+
             <Link to="" spy={true} smooth={true}>
               <PmOption>Overview of numpy package </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to convert a list into a numpy array </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to print out the mean of a numpy array </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to print out the median of a numpy array</PmOption>
             </Link>
-            {/*  */}
+
             <Link to="" spy={true} smooth={true}>
               <PmOption>What are 2d numpy arrays</PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to print out the shape of a 2dnumpy array</PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 {" "}
@@ -163,7 +148,6 @@ function PostMenu() {
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 {" "}
@@ -171,33 +155,28 @@ function PostMenu() {
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 How to use range to print out a row of a 2dnumpy array
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 How to use range to print out a column of a 2dnumpy array
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to print out the mean of a 2d numpy array</PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 How to print out the median of a 2d numpy array
               </PmOption>
             </Link>
 
-            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
                 How to print out out the ‘correlation coefficient matrix’ of a
