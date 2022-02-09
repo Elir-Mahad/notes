@@ -76,7 +76,7 @@ function WritingCommits() {
           Type is a tag that identifies the type of change that you are making.{" "}
         </Sentence>
         <Sentence>These are some of the well-known commit types:</Sentence>
-        <Litem>Feat – identifies changes regarding a new feature. </Litem>
+        <Litem>Feat – identifies a new feature. </Litem>
         <Litem>Fix – identifies that a bug has been fixed.</Litem>
         <Litem>
           Docs – identifies updates to the documentation such as the readme
@@ -113,6 +113,11 @@ function WritingCommits() {
         <Litem>
           Content - identifies content updates, such as adding or modifying
           texts and images etc.
+        </Litem>
+
+        <Litem>
+          Enhance - identifies additions and updates to an already existing
+          feature.
         </Litem>
 
         {/*  */}

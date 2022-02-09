@@ -207,7 +207,7 @@ function IntroPython() {
 
         <Sentence>
           In the below example, we are going to change the value of a list
-          element by redefining it. For example:
+          element by redefining it:
         </Sentence>
 
         <Code>
@@ -249,7 +249,7 @@ function IntroPython() {
 
         <Sentence>
           In the below example we are going to add elements to, and remove
-          elements from, a list. For example:
+          elements from, a list:
         </Sentence>
 
         <Code>
