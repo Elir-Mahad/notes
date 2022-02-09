@@ -136,10 +136,9 @@ function IntroPyFour() {
       </Code>
 
       <SubHeading>
-        How to printing out a specific range in a 2dnumpy array ?
+        {" "}
+        How to use range to print out a specific index of a 2dnumpy array?
       </SubHeading>
-
-      <Sentence>Example 1: print out a specific index</Sentence>
 
       <Code>
         Import numpy as np <br />
@@ -156,7 +155,9 @@ function IntroPyFour() {
         1.71 <br /># output
       </Code>
 
-      <Sentence>Example 2: print out the 1 and 2nd column</Sentence>
+      <SubHeading>
+        How to use range to print out columns of a 2dnumpy array?
+      </SubHeading>
 
       <Code>
         Import numpy as np <br />
@@ -182,7 +183,9 @@ function IntroPyFour() {
         ]) # output
       </Code>
 
-      <Sentence>Example 3: print out a row</Sentence>
+      <SubHeading>
+        How to use range to print out a row of a 2dnumpy array?
+      </SubHeading>
 
       <Code>
         Import numpy as np <br />
@@ -200,7 +203,9 @@ function IntroPyFour() {
         [65.4, 59.2, 63.6, 88.4, 68.7] <br /># output
       </Code>
 
-      <Sentence>Example 4: print out a column</Sentence>
+      <SubHeading>
+        How to use range to print out a column of a 2dnumpy array?
+      </SubHeading>
 
       <Code>
         Import numpy as np <br />
