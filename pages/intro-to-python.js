@@ -10,6 +10,7 @@ import style from "../styles/Home.module.css";
 import IntroPyOne from "../components/intropychaps/IntroPyOne";
 import IntroPyTwo from "../components/intropychaps/IntroPyTwo";
 import IntroPyThree from "../components/intropychaps/IntroPyThree.js";
+import IntroPyFour from "../components/intropychaps/IntroPyFour.js";
 //
 function IntroPython() {
   return (
@@ -37,6 +38,7 @@ function IntroPython() {
         <IntroPyOne />
         <IntroPyTwo />
         <IntroPyThree />
+        <IntroPyFour />
       </BlogBody>
       {/* <Resources
         //
