@@ -47,51 +47,57 @@ function PostMenu() {
           <ol>
             {/* Chapter one below */}
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to declare variables/constants in python</PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How many data types does Python have </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
-              <PmOption>
-                Adding different data types leads to different behaviours.
-              </PmOption>
+              <PmOption>Adding different data types</PmOption>
             </Link>
 
+            {/*  */}
             {/* Chapter two below */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>What is a List </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to select elements in a list </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>Can Lists can contain other lists </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
-              <PmOption>
-                How to get select a range of elements in a list
-              </PmOption>
+              <PmOption>How to select a range of elements in a list</PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
-              <PmOption>How to change a list element </PmOption>
+              <PmOption>How to change the value of a list element </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to add and remove elements </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>
-                How to copy elements in a list into another list, and only
-                making changes to the 2nd list
+                How to copy elements in a list into another list, and only make
+                changes to the 2nd list
               </PmOption>
             </Link>
 
@@ -102,10 +108,19 @@ function PostMenu() {
               </PmOption>
             </Link>
 
+            {/*  */}
+            <Link to="" spy={true} smooth={true}>
+              <PmOption>
+                Overview of the max, count, and replace functions
+              </PmOption>
+            </Link>
+
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to install python packages </PmOption>
             </Link>
 
+            {/*  */}
             <Link to="" spy={true} smooth={true}>
               <PmOption>How to import packages and modules</PmOption>
             </Link>

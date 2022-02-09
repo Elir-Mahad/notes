@@ -81,9 +81,7 @@ function IntroPyTwo() {
         Print (fam2[1,1]) <br /># print out the element in row 1, index 1 = 1.68
       </Code>
 
-      <SubHeading>
-        How to get select a range of elements in a list ?{" "}
-      </SubHeading>
+      <SubHeading>How to select a range of elements in a list ? </SubHeading>
       <Sentence>
         We can select a range of elements in a list through a process which is
         formally known as list slicing. <br />
@@ -122,7 +120,7 @@ function IntroPyTwo() {
         provided, python counts to the end of the list
       </Code>
 
-      <SubHeading>How to change a list element ?</SubHeading>
+      <SubHeading>How to change the value of a list element ?</SubHeading>
 
       <Sentence>
         In the below example, we are going to change the value of a list element
@@ -196,8 +194,8 @@ function IntroPyTwo() {
       </Code>
 
       <SubHeading>
-        How to copy elements in a list into another list, and only making
-        changes to the 2nd list ?
+        How to copy elements in a list into another list, and only make changes
+        to the 2nd list ?
       </SubHeading>
 
       <Sentence>

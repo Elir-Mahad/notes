@@ -51,7 +51,7 @@ function IntroPyOne() {
 
       <Litem> Boolean Type: bool </Litem>
 
-      <SubHeading>Adding different data types in python </SubHeading>
+      <SubHeading>Adding different data types </SubHeading>
       <Sentence>
         Adding different data types often leads to different behaviours.{" "}
       </Sentence>
