@@ -45,6 +45,24 @@ function PostMenu() {
         <PmOptions>
           <PmOtitle>Table of contents</PmOtitle>
           <ol>
+            {/* Chapter one below */}
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                How to declare variables/constants in python ?
+              </PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>How many data types does Python have ?</PmOption>
+            </Link>
+
+            <Link to="about" spy={true} smooth={true}>
+              <PmOption>
+                Adding different data types leads to different behaviours.
+              </PmOption>
+            </Link>
+
             {/* Chapter two below */}
             <Link to="about" spy={true} smooth={true}>
               <PmOption>What is a List ?</PmOption>
