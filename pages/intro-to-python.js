@@ -26,7 +26,7 @@ function IntroPython() {
         />
       </Head>
       <PostTitle className={style.weight100}>Intro to python</PostTitle>
-      <PostMenu />
+      {/* <PostMenu /> */}
       <BlogBody>
         <Sentence>
           {" "}
@@ -37,6 +37,7 @@ function IntroPython() {
           point them out.{" "}
         </Sentence>
         {/*  */}
+        <PostMenu />
         <IntroPyOne />
         <IntroPyTwo />
         <IntroPyThree />

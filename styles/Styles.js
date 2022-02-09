@@ -172,7 +172,6 @@ export const TbMicon = styled.div`
   padding-top: 0.5rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-
   background-color: white;
 `;
 
@@ -360,24 +359,41 @@ export const PostMenuBox = styled.div`
   position: fixed;
   right: 0;
   top: 100px;
-  // width: 15rem;
-  // height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   margin-right: 2rem;
+  @media (max-width: 500px) {
+    margin-right: 1rem;
+  }
+`;
+
+export const PmIcon = styled.button`
+  font-size: 1.8rem;
+  border-radius: 50%;
+  height: 2.4rem;
+  background-color: #f6f6f6;
+  border: 1px solid black;
+  padding: 0.2rem;
+  cursor: pointer;
 `;
 
 export const PmOptions = styled.div`
   overflow: auto;
   height: 15rem;
   width: 15rem;
-  padding: 1rem;
   background-color: #f6f6f6;
   border: 1px solid black;
+  border-radius: 1rem;
 `;
 
-export const PmIcon = styled.button`
-  //
+export const PmOtitle = styled.p`
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
 `;
 
-export const PmOption = styled.p`
-  //
+export const PmOption = styled.li`
+  padding: 0.5rem;
 `;
