@@ -229,7 +229,6 @@ export const BlogBody = styled.div`
 
 export const SubHeading = styled.h2`
   margin-bottom: 1rem;
-  margin-top: 1rem;
   line-height: 2rem;
   color: darkblue;
   font-weight: 100;
