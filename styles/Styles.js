@@ -381,7 +381,7 @@ export const PmIcon = styled.button`
 export const PmOptions = styled.div`
   overflow: auto;
   height: 15rem;
-  width: 20rem;
+  width: 30rem;
   background-color: #f6f6f6;
   border: 1px solid black;
   border-radius: 1rem;
@@ -392,8 +392,14 @@ export const PmOtitle = styled.p`
   color: white;
   text-align: center;
   padding: 0.5rem;
+  letter-spacing: 0.1rem;
 `;
 
 export const PmOption = styled.li`
-  padding: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+  // border-bottom: 1px solid black;
+  // background-color: red;
 `;
