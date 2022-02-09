@@ -89,7 +89,7 @@ function WritingCommits() {
         <Litem>
           Refactor – identifies updates involving code refactoring, such as
           renaming files, moving functions above objects in a file, moving a
-          file into a folder
+          file into a folder.
         </Litem>
         <Litem>
           Chore – identifies changes such as adding / removing / updating
