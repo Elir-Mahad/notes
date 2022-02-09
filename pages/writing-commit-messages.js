@@ -38,7 +38,7 @@ function WritingCommits() {
       <BlogBody>
         <Sentence>
           In this tutorial, we are going to discuss commit messages. Commit
-          messages are very imporant part of the git{" "}
+          messages are a very imporant part of the git{" "}
           <UrlLink href="https://www.youtube.com/watch?v=3a2x1iJFJWc">
             workflow
           </UrlLink>
