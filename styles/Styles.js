@@ -354,7 +354,7 @@ export const Chapter = styled.h2`
 
 // Post menu
 
-export const PostMenu = styled.div`
+export const PostMenuBox = styled.div`
   //
 `;
 
