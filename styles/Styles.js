@@ -358,6 +358,9 @@ export const PostResources = styled.div`
 
 export const PsHeading = styled.h2`
   font-weight: 100;
+  @media (max-width: 500px) {
+    font-size: 1.3rem;
+  }
 `;
 
 export const Resource = styled.li`
@@ -432,6 +435,9 @@ export const PmOtitle = styled.p`
   text-align: center;
   padding: 0.5rem;
   letter-spacing: 0.1rem;
+  @media (max-width: 500px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const PmOption = styled.li`
@@ -443,4 +449,7 @@ export const PmOption = styled.li`
   padding-left: 0.2rem;
   letter-spacing: 0.1rem;
   cursor: pointer;
+  @media (max-width: 500px) {
+    font-size: 0.9rem;
+  }
 `;
