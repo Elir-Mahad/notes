@@ -49,31 +49,31 @@ function InterPythonToc() {
             {/* Chapter one below 3 parts */}
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: How to make a plot with two lists.
             </PmOption>
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: How to make a scatter plot with two lists.
             </PmOption>
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: What are histograms ?
             </PmOption>
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: How to make a histogram ?
             </PmOption>
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: Population pyramid with age, gender, and population.
             </PmOption>
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: How to add axis labels and plot title.
             </PmOption>
 
             <PmOption onClick={hideContent} className={style.pmitem}>
-              {/*  */}
+              C1: How to add ticks (custom axis values) and historical data.
             </PmOption>
           </ol>
         </PmOptions>
