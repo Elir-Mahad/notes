@@ -10,11 +10,11 @@ import {
 function IntroPyFour() {
   return (
     <div>
-      <Chapter> Chapter 4</Chapter>
+      <Chapter id="chap4.1"> Chapter 4</Chapter>
 
       <SubHeading>Overview of numpy package </SubHeading>
 
-      <Sentence>
+      <Sentence id="chap4.2">
         The Numpy package makes the process of making calculations on arrays a
         lot smoother and faster. Numpy arrays can contain only one type. If the
         list contains a float, a string and a boolean, the resulting array will
@@ -38,7 +38,7 @@ function IntroPyFour() {
         # print the numpy array <br />
       </Code>
 
-      <Code>
+      <Code id="chap4.3">
         ([1.73, 1.68, 1.71, 1.89, 1.79]) <br /># this is the output; the smooth
         brackets indicates that this is a numpy array.
       </Code>
@@ -66,7 +66,7 @@ function IntroPyFour() {
         12.8 <br /># output
       </Code>
 
-      <Code>
+      <Code id="chap4.4">
         Math for calculating the mean: <br />
         20 + 2 + 7 + 1+ 34 = 64 <br />
         64 / 5 = 12.8 <br />
@@ -94,7 +94,7 @@ function IntroPyFour() {
         7.0 <br /># output
       </Code>
 
-      <Code>
+      <Code id="chap4.5">
         Math for calculating the median: <br />
         First reorder them from lowest to highest: 1, 2, 7, 20, 34 . <br />
         There are 5 numbers and the middle number is 7.
@@ -107,7 +107,7 @@ function IntroPyFour() {
         example of a 2d numpy array:
       </Sentence>
 
-      <Code>
+      <Code id="chap4.6">
         np_2d = np.array([ <br />
         [1.73, 1.68, 1.71, 1.89, 1.79], <br />
         [65.4, 59.2, 63.6, 88.4, 68.7] <br />
@@ -128,7 +128,7 @@ function IntroPyFour() {
         ]) # write in our 2d numpy array <br />
       </Code>
 
-      <Code>
+      <Code id="chap4.7">
         print(np_2d.shape) <br />
         # print the number of rows and columns of this 2d array in the format of
         (rows, columns) <br />
@@ -149,7 +149,7 @@ function IntroPyFour() {
         ]) # write in our 2d numpy array <br />
       </Code>
 
-      <Code>
+      <Code id="chap4.8">
         print(np_2d[0, 2]) <br />
         # print the item in this index (0 row, 2 column) <br />
         1.71 <br /># output
@@ -176,7 +176,7 @@ function IntroPyFour() {
         range format
       </Code>
 
-      <Code>
+      <Code id="chap4.9">
         array([ <br />
         [1.68, 1.71 ], <br />
         [ 59.2, 63.6 ] <br />
@@ -196,7 +196,7 @@ function IntroPyFour() {
         ]) # write in our 2d numpy array
       </Code>
 
-      <Code>
+      <Code id="chap4.10">
         print(np_2d[1,:]) <br />
         # print the items in the index <br />
         # row 1 and all columns because column is not specified <br />
@@ -216,7 +216,7 @@ function IntroPyFour() {
         ]) # write in our 2d numpy array
       </Code>
 
-      <Code>
+      <Code id="chap4.11">
         print(np_2d[:,0]) <br />
         # print the items in the index <br />
         # column 1 and all rows because row is not specified <br />
@@ -246,7 +246,7 @@ function IntroPyFour() {
         #output
       </Code>
 
-      <Code>
+      <Code id="chap4.12">
         Math to calculation the mean: <br />
         1.73 + 1.68 + 1.71 + 1.89 + 1.79 + 65.4 + 59.2 + 63.6 + 88.4 + 68.7 =
         354.1 <br />
@@ -275,7 +275,7 @@ function IntroPyFour() {
         30.545 <br /># output
       </Code>
 
-      <Code>
+      <Code id="chap4.13">
         Math to calculate the median: <br />
         First reorder them from lowest to highest: <br />
         [1.68, 1.71, 1.73, 1.79, 1.89, 59.2, 63.6, 65.4, 68.7, 88.4] <br />
