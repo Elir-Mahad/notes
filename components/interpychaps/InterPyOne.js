@@ -2,6 +2,12 @@ import React from "react";
 import { SubHeading, Code } from "../../styles/Styles";
 import Image from "next/image";
 
+const myLoader = ({ src, width, quality }) => {
+  return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
+    quality || 75
+  }`;
+};
+
 function InterPyOne() {
   return (
     <div>
