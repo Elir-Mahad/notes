@@ -5,13 +5,13 @@ import {
   PmIcon,
   PmOption,
   PmOtitle,
-} from "../styles/Styles";
-import style from "../styles/Home.module.css";
+} from "../../styles/Styles";
+import style from "../../styles/Home.module.css";
 import { CgMenuGridO } from "react-icons/cg";
 import { CgMenuMotion } from "react-icons/cg";
 import { Link } from "react-scroll";
 //
-function PostMenu() {
+function IntroPythonToc() {
   //
   const [openIcon, setOpenIcon] = useState(true);
 
@@ -227,4 +227,4 @@ function PostMenu() {
   );
 }
 
-export default PostMenu;
+export default IntroPythonToc;

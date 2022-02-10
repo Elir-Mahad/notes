@@ -11,7 +11,7 @@ import IntroPyOne from "../components/intropychaps/IntroPyOne";
 import IntroPyTwo from "../components/intropychaps/IntroPyTwo";
 import IntroPyThree from "../components/intropychaps/IntroPyThree.js";
 import IntroPyFour from "../components/intropychaps/IntroPyFour.js";
-import PostMenu from "../components/PostMenu.js";
+import IntroPythonToc from "../components/tableofcontents/IntroPythonToc";
 //
 function IntroPython() {
   return (
@@ -43,7 +43,7 @@ function IntroPython() {
           point them out.{" "}
         </Sentence>
         {/*  */}
-        <PostMenu />
+        <IntroPythonToc />
         <IntroPyOne />
         <IntroPyTwo />
         <IntroPyThree />
