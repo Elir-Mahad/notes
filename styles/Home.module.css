@@ -2,6 +2,10 @@
   font-weight: 100;
 }
 
+.pmitem:hover {
+  background-color: lightblue;
+}
+
 /*  */
 
 .description {

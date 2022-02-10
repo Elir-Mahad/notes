@@ -399,7 +399,9 @@ export const PmOption = styled.li`
   margin-left: 0.5rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.2rem;
   letter-spacing: 0.1rem;
-  // border-bottom: 1px solid black;
-  // background-color: red;
+  cursor: pointer;
 `;
