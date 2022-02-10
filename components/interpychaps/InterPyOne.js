@@ -150,6 +150,40 @@ function InterPyOne() {
         width={550}
         height={400}
       />
+      {/*  */}
+
+      <SubHeading>How to add axis labels and plot title.</SubHeading>
+
+      <Code>
+        import matplotlib.pyplot as plt <br />
+        # import matplotlib <br />
+        year = [1950, 1951, 1952… 2100] <br />
+        # the variable year contains a list of years <br />
+        pop = [2.538, 2.57, 2.62, ..., 10.85] <br />
+        # the variable pop contains a list of populations <br />
+        plt.plot(year, pop) <br />
+        # make a plot <br />
+        # x-axis values = year <br />
+        #y-axis values= population
+      </Code>
+
+      <Code>
+        plt.xlabel('Year') <br />
+        # add x-axis label <br />
+        plt.ylabel('Population') <br />
+        # add y-axis label <br />
+        plt.title('World Population Projections') <br />
+        # add plot title <br />
+        plt.show() <br /># show the plot
+      </Code>
+
+      <Image
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/axis-label-title.png"
+        alt="A line graph, with years on x-axis, and population on y-axis, axis labels, and a title."
+        width={550}
+        height={400}
+      />
     </div>
   );
 }
