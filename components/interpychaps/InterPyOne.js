@@ -32,7 +32,7 @@ function InterPyOne() {
       <Image
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/regular-plot.png"
-        alt="graph with years on x-axis, population on y-axis"
+        alt="A line graph, with years on x-axis, and population on y-axis."
         width={550}
         height={400}
       />
@@ -60,7 +60,7 @@ function InterPyOne() {
       <Image
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/scatter-plot.png"
-        alt="graph with years on x-axis, population on y-axis"
+        alt="A scatter graph with years on x-axis, population on y-axis."
         width={550}
         height={400}
       />
@@ -77,10 +77,19 @@ function InterPyOne() {
         the data points are distributed over the x-axis.{" "}
       </Sentence>
 
+      <Sentence>
+        In the below example, althought both plots have the similar data, you
+        can see that the data distribution is much more clear in the histogram:
+      </Sentence>
+
       <Image
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/histogram-explanation.png"
-        alt="graph with years on x-axis, population on y-axis"
+        alt="A comaprison between two graphs. One one graph, 
+        there is a x-axis with data points distributed on the x-axis. 
+        The other graph is a histogram plot with three bins, 
+        4 data points in the left bin, 6 data points in the middle bin, 
+        2 data points in the right bin."
         width={550}
         height={400}
       />
@@ -108,7 +117,10 @@ function InterPyOne() {
       <Image
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/histogram-example.png"
-        alt="graph with years on x-axis, population on y-axis"
+        alt="A histogram plot with three bins, 
+        4 data points in the left bin, 
+        6 data points in the middle bin, 
+        2 data points in the right bin."
         width={550}
         height={400}
       />
