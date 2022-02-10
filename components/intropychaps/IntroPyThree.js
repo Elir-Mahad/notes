@@ -11,7 +11,7 @@ import {
 function IntroPyThree() {
   return (
     <div>
-      <Chapter> Chapter 3</Chapter>
+      <Chapter id="chap3.1"> Chapter 3</Chapter>
       <SubHeading>
         How to get info about different functions using python ?
       </SubHeading>
@@ -19,7 +19,7 @@ function IntroPyThree() {
         To learn about any function type into the console: help(function-name).
         For example:
       </Sentence>
-      <Code>help(max), help(round) etc</Code>
+      <Code id="chap3.2">help(max), help(round) etc</Code>
 
       <SubHeading>Overview of the max, count, and replace functions</SubHeading>
 
@@ -52,7 +52,7 @@ function IntroPyThree() {
         second. For example:{" "}
       </Sentence>
 
-      <Code>
+      <Code id="chap3.3">
         sister = ‘liz’ <br />
         # the variable sister stores the string liz <br />
         sister.replace(“z”, “sa”) <br />
@@ -66,7 +66,7 @@ function IntroPyThree() {
 
       <SubHeading> How to install python packages ?</SubHeading>
 
-      <Sentence>
+      <Sentence id="chap3.4">
         Install package{" "}
         <UrlLink href="http://pip.readthedocs.org/en/stable/installing/">
           from here
