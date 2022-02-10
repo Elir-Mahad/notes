@@ -372,7 +372,8 @@ export const PmIcon = styled.button`
   font-size: 1.8rem;
   border-radius: 50%;
   height: 2.4rem;
-  background-color: #f6f6f6;
+  background-color: black;
+  color: white;
   border: 1px solid black;
   padding: 0.2rem;
   cursor: pointer;
