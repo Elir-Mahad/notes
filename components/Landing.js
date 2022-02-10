@@ -33,7 +33,7 @@ function Landing() {
               <Image
                 loader={myLoader}
                 src="Elir-Mahad/notes/main/assets/logo.png"
-                alt="Picture of the author"
+                alt="a logo"
                 width={80}
                 height={120}
               />
@@ -44,7 +44,7 @@ function Landing() {
               <Image
                 loader={myLoader}
                 src="Elir-Mahad/notes/main/assets/barcode.png"
-                alt="Picture of the author"
+                alt="a barcode"
                 width={160}
                 height={30}
               />
@@ -98,7 +98,7 @@ function Landing() {
           <Image
             loader={myLoader}
             src="Elir-Mahad/notes/main/assets/cropchess.jpeg"
-            alt="Picture of the author"
+            alt="Picture of Mahad Mohamood"
             width={400}
             height={400}
           />
