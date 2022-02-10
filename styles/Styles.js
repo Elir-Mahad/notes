@@ -343,9 +343,17 @@ export const CodeRes = styled.span`
 export const PostResources = styled.div`
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  //
   margin-bottom: 2rem;
   margin-top: 2rem;
+  //
   padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  @media (max-width: 500px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 `;
 
 export const PsHeading = styled.h2`
@@ -356,6 +364,9 @@ export const Resource = styled.li`
   margin-bottom: 1rem;
   margin-left: 2rem;
   list-style-type: square;
+  @media (max-width: 700px) {
+    margin-left: 1rem;
+  }
 `;
 
 export const RLink = styled.a`
