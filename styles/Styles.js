@@ -385,6 +385,12 @@ export const PmOptions = styled.div`
   background-color: #f6f6f6;
   border: 1px solid black;
   border-radius: 1rem;
+  @media (max-width: 600px) {
+    width: 20rem;
+  }
+  @media (max-width: 400px) {
+    width: 15rem;
+  }
 `;
 
 export const PmOtitle = styled.p`
