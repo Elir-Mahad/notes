@@ -1,5 +1,6 @@
 import React from "react";
 import { SubHeading, Code } from "../../styles/Styles";
+import Image from "next/image";
 
 function InterPyOne() {
   return (
