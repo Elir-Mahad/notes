@@ -25,6 +25,14 @@ function InterPyOne() {
         # x-axis values = year, y-axis values= population <br />
         plt.show() <br /># show the plot
       </Code>
+
+      <Image
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/regular-plot.png"
+        alt="graph with years on x-axis, population on y-axis"
+        width={400}
+        height={400}
+      />
     </div>
   );
 }
