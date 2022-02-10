@@ -8,7 +8,7 @@ export default function Home() {
         <title>Mahad's Notes</title>
         <meta
           name="keywords"
-          content=" Frontend development, JavaScript, Mahad Mohamood"
+          content=" Frontend development, JavaScript, Mahad Mohamood, Coding blog, Coding tutorials, Data science,"
         />
         <meta
           name="description"
