@@ -10,7 +10,7 @@ import {
 function IntroPyOne() {
   return (
     <div>
-      <Chapter> Chapter 1</Chapter>
+      <Chapter id="chap1.1"> Chapter 1</Chapter>
       <SubHeading>How to declare variables/constants in python ?</SubHeading>
       <Sentence>
         When declaring constants, you don’t have to preface the name of the
@@ -30,7 +30,7 @@ function IntroPyOne() {
         1.79 // this is the output
       </Code>
       <Sentence>Here is a python print statement:</Sentence>
-      <Code>
+      <Code id="chap1.2">
         print(height) <br />
         1.79 # this is the output
       </Code>
@@ -49,7 +49,7 @@ function IntroPyOne() {
 
       <Litem>Mapping Type: dict </Litem>
 
-      <Litem> Boolean Type: bool </Litem>
+      <Litem id="chap1.3"> Boolean Type: bool </Litem>
 
       <SubHeading>Adding different data types </SubHeading>
       <Sentence>
