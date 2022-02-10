@@ -33,12 +33,12 @@ function PostMenu() {
   return (
     <PostMenuBox>
       {openIcon && (
-        <PmIcon onClick={showContent}>
+        <PmIcon className={style.pmicon} onClick={showContent}>
           <CgMenuGridO />
         </PmIcon>
       )}
       {closeIcon && (
-        <PmIcon onClick={hideContent}>
+        <PmIcon className={style.pmicon} onClick={hideContent}>
           <CgMenuMotion />
         </PmIcon>
       )}
