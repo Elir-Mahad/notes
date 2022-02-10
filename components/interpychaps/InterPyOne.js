@@ -1,5 +1,5 @@
 import React from "react";
-import { SubHeading, Code } from "../../styles/Styles";
+import { SubHeading, Code, Sentence, UrlLink } from "../../styles/Styles";
 import Image from "next/image";
 
 const myLoader = ({ src, width, quality }) => {
@@ -60,6 +60,54 @@ function InterPyOne() {
       <Image
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/scatter-plot.png"
+        alt="graph with years on x-axis, population on y-axis"
+        width={550}
+        height={400}
+      />
+      {/*  */}
+
+      <SubHeading> What are histograms ? </SubHeading>
+
+      <Sentence>
+        {" "}
+        Histograms are useful for identifying the distribution of the data. In
+        other words, are the data points equally distributed or are the data
+        points clustered in one part of the graph. A histogram groups the number
+        of data points based on the bin (which is a range), so you will see how
+        the data points are distributed over the x-axis.{" "}
+      </Sentence>
+
+      <Image
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/histogram-explanation.png"
+        alt="graph with years on x-axis, population on y-axis"
+        width={550}
+        height={400}
+      />
+
+      <Sentence>
+        {" "}
+        For more information: check out this{" "}
+        <UrlLink href="https://corporatefinanceinsttute.com/resources/excel/study/histogram/">
+          blog
+        </UrlLink>
+      </Sentence>
+
+      <SubHeading> How to make a histogram ? </SubHeading>
+
+      <Code>
+        import matplotlib.pyplot as plt <br />
+        # import matplotlib <br />
+        values = [0, 0.6, 1.4, 1.6, 2.2, 2.5, 2.6, 3.2, 3.5, 3.9, 4.2,6] <br />
+        # the variable values contains a list of numbers <br />
+        plt.hist(values, bins=3) <br />
+        # make a histogram plot with all the values inserted in 3 bins <br />
+        plt.show() <br /># show the histogram plot
+      </Code>
+
+      <Image
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/histogram-example.png"
         alt="graph with years on x-axis, population on y-axis"
         width={550}
         height={400}
