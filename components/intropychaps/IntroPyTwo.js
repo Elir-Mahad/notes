@@ -10,7 +10,7 @@ import {
 function IntroPyTwo() {
   return (
     <div>
-      <Chapter> Chapter 2</Chapter>
+      <Chapter id="chap2.1"> Chapter 2</Chapter>
       <SubHeading>What is a list ?</SubHeading>
       <Sentence>
         In JavaScript, an array is a list of values. <br />
@@ -28,7 +28,7 @@ function IntroPyTwo() {
       <Sentence>
         A python lists can contain different data types. For example:
       </Sentence>
-      <Code>
+      <Code id="chap2.2">
         [ "liz", 1.73, "emma", 2, 1.68, "mom" , 1.71, 5, "dad" , 1.89] <br />#
         the above list contains strings, integers, and floats{" "}
       </Code>
@@ -54,7 +54,7 @@ function IntroPyTwo() {
         dad <br /># output
       </Code>
 
-      <Code>
+      <Code id="chap2.3">
         print(Fam[-1]) <br />
         # print out the element in the index -1 <br />
         1.89 <br /># output
@@ -77,7 +77,7 @@ function IntroPyTwo() {
         the main list, contains 4 other lists
       </Code>
 
-      <Code>
+      <Code id="chap2.4">
         Print (fam2[1,1]) <br /># print out the element in row 1, index 1 = 1.68
       </Code>
 
@@ -112,7 +112,7 @@ function IntroPyTwo() {
         according to the format it is supposed to be excluded from the output
       </Code>
 
-      <Code>
+      <Code id="chap2.5">
         print(fam[5:]) <br /># print out everything after the 5th index: [1.71,
         "dad" , 1.89] <br />
         # the 5th index is the starting point; according to the format it is
@@ -154,7 +154,7 @@ function IntroPyTwo() {
         supposed to be excluded <br />
       </Code>
 
-      <Code>
+      <Code id="chap2.6">
         print(fam) <br />
         # print out the fam list, with index 0 and 1 changed <br />
         [ "lisa”, 1.74, "emma", 1.68, "mom" , 1.71, "dad" , 1.80] <br /># output
@@ -183,7 +183,7 @@ function IntroPyTwo() {
         "me", 1.79 ] <br /># output
       </Code>
 
-      <Code>
+      <Code id="chap2.7">
         del(fam[2]) <br />
         # delete the item in the 2nd index. <br />
         print(fam) <br />
