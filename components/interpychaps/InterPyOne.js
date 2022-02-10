@@ -124,6 +124,32 @@ function InterPyOne() {
         width={550}
         height={400}
       />
+      {/*  */}
+
+      <SubHeading>
+        Population pyramid with age, gender, and population.
+      </SubHeading>
+
+      <Sentence>
+        The population pyramid below is made of two histograms. In the right
+        histogram, the x-axis is the population in millions and the y-axis is
+        the age range of women. In the left histogram, the x-axis is the
+        population in millions, and the y-axis age range of the men.
+        Individually, these histograms are fairly interesting. Additionally, by
+        placing them next to each other, we're able to see the similarities and
+        differences between the men and the women; such as the fact that, the
+        largest population for both groups are in the age range of 40 to 44.
+      </Sentence>
+      <Image
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/pop-pyramid.png"
+        alt="Two histogram plots placed next to each other. 
+        In the right histogram,the x-axis is the population in millions and the y-axis is
+        the age range of women. In the left histogram, the x-axis is the
+        population in millions, and the y-axis age range of the men."
+        width={550}
+        height={400}
+      />
     </div>
   );
 }
