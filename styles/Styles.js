@@ -231,6 +231,9 @@ export const SubHeading = styled.h2`
   line-height: 2rem;
   color: darkblue;
   font-weight: 100;
+  @media (max-width: 500px) {
+    font-size: 1.3rem;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -238,12 +241,18 @@ export const Paragraph = styled.p`
   font-size: 1.5rem;
   text-indent: 50px;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const Sentence = styled.p`
   margin-bottom: 1rem;
   font-size: 1.4rem;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const HighlightedSentence = styled.p`
@@ -269,6 +278,9 @@ export const Litem = styled.li`
   margin-left: 2.3rem;
   list-style-type: square;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const LitemTwo = styled.li`
@@ -277,6 +289,9 @@ export const LitemTwo = styled.li`
   margin-left: 3.2rem;
   list-style-type: circle;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const PicWrapper = styled.div`
@@ -300,6 +315,9 @@ export const Code = styled.p`
   border-radius: 5px;
   line-height: 2rem;
   border: 1px solid grey;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `;
 
 export const LiCode = styled.p`
@@ -311,6 +329,9 @@ export const LiCode = styled.p`
   line-height: 2rem;
   border: 1px solid grey;
   margin-left: 2.3rem;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `;
 
 export const CodeRes = styled.span`
