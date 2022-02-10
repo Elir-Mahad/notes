@@ -184,6 +184,62 @@ function InterPyOne() {
         width={550}
         height={400}
       />
+      {/*  */}
+
+      <SubHeading>
+        How to add ticks (custom axis values) and historical data.
+      </SubHeading>
+
+      <Sentence>
+        {" "}
+        Ticks are custom labels for the axis values. For example: if the first
+        value in your y-axis is 10, then you can use ticks to replace 10 with
+        ‘10books’.{" "}
+      </Sentence>
+
+      <Code>
+        import matplotlib.pyplot as plt <br />
+        # import matplotlib <br />
+        year = [1950, 1951, 1952… 2100] <br />
+        # the variable year contains a list of years <br />
+        pop = [2.538, 2.57, 2.62, ..., 10.85] <br /># the variable pop contains
+        a list of populations
+      </Code>
+
+      <Code>
+        year = [1800, 1850, 1900] + year <br />
+        # add more data to the list years <br />
+        pop = [1.0, 1.262, 1.650] + pop <br /># add more data to the list pop
+      </Code>
+
+      <Code>
+        plt.plot(year, pop) <br />
+        # make a plot <br />
+        # x-axis values = year, y-axis values= population <br />
+        plt.xlabel('Year') <br />
+        # add x-axis label <br />
+        plt.ylabel('Population') <br />
+        # add y axis label <br />
+        plt.title('World Population Projections') <br /># add plot title
+      </Code>
+
+      <Code>
+        plt.yticks( <br />
+        [0, 2, 4, 6, 8, 10], <br />
+        ['0', '2B', '4B', '6B', '8B', '10B'] <br />
+        ) # add y-axis ticks <br />
+        # the value 2 in the y-axis <br />
+        will be replaced by 2B and so on <br />
+        plt.show() <br /># show the plot
+      </Code>
+
+      <Image
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/ticks-historical-data.png"
+        alt="A line graph, with years on x-axis (1800 to 2100), and population on y-axis (0 TO 10Billion), axis labels, and a title. The"
+        width={550}
+        height={400}
+      />
     </div>
   );
 }
