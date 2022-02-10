@@ -43,7 +43,7 @@ function PostMenu() {
         </PmIcon>
       )}
       {menuContent && (
-        <PmOptions>
+        <PmOptions onMouseLeave={hideContent}>
           <PmOtitle>Table of contents</PmOtitle>
           <ol style={{ listStylePosition: "inside", padding: "0rem" }}>
             {/* Chapter one below 3 parts */}
