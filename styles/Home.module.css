@@ -3,12 +3,13 @@
 }
 
 .pmicon:hover {
-  background-color: darkblue;
-  color: white;
+  background-color: darkgrey;
+  color: black;
 }
 
 .pmitem:hover {
-  background-color: lightblue;
+  background-color: black;
+  color: white;
 }
 
 /*  */

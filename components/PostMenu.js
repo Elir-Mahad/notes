@@ -45,7 +45,7 @@ function PostMenu() {
       {menuContent && (
         <PmOptions>
           <PmOtitle>Table of contents</PmOtitle>
-          <ol>
+          <ol style={{ listStylePosition: "inside", padding: "0rem" }}>
             {/* Chapter one below 3 parts */}
 
             <Link to="chap1.1" spy={true} smooth={true}>

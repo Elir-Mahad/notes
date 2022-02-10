@@ -404,7 +404,7 @@ export const PmOtitle = styled.p`
 
 export const PmOption = styled.li`
   margin-left: 0.5rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   margin-bottom: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
