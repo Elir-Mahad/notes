@@ -37,6 +37,7 @@ function Collab() {
         How to code with other people
       </PostTitle>
       <BlogBody>
+        {/*  */}
         <Sentence>
           When i was learning how to code, i spent a lot of time coding by
           myself. During this time, the one question that i consistently asked
@@ -47,7 +48,10 @@ function Collab() {
           No other questions occupied my mind. Everytime that my code worked, i
           felt a sense of accomplishment; and everytime that it didn't work, i
           found myself haunted by the new question:{" "}
-          <span style={{ color: "darkblue" }}>Why didn't it work ? </span>
+          <span style={{ color: "darkblue" }}>Why didn't it work ? </span>.
+        </Sentence>
+        {/*  */}
+        <Sentence>
           Eventually, i started to collaborate with other developers; and here,
           i found myself haunted by a new of question:{" "}
           <span style={{ color: "darkblue" }}>
@@ -56,6 +60,7 @@ function Collab() {
           </span>{" "}
           This question indicated a major shift in my persepective.
         </Sentence>
+        {/*  */}
         <Sentence>
           When your’e coding with other people, you’ll often find yourself
           managing branches, handling pull requests, engaging in code reviews
@@ -67,14 +72,22 @@ function Collab() {
           <UrlLink href="http://martinfowler.com/articles/continuousIntegration.html">
             (Martin fowler, 2006)
           </UrlLink>
-          . Jon Arild Tørresdal further elaborates on this when he states that
+          .
+        </Sentence>
+        {/*  */}
+        <Sentence>
+          Jon Arild Tørresdal further elaborates on this when he states that
           developer’s should be “adding small changes incrementally over time”
           by branching efficiently, committing frequently, and merging
           constantly.{" "}
           <UrlLink href="https://mrdevops.io/if-you-still-insist-on-feature-branching-you-are-hurting-your-business-and-our-profession-32e1109d4594">
             (Jon arild tørresdal, 2017 )
           </UrlLink>
-          . Generally, there are different opinions on how branches should be
+          .
+        </Sentence>
+        {/*  */}
+        <Sentence>
+          Generally, there are different opinions on how branches should be
           managed. Keeping this in mind, here are some general best practices
           for branch management that reinforce continuous integration:
         </Sentence>
