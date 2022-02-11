@@ -49,7 +49,7 @@ function Collab() {
           found myself haunted by the new question:{" "}
           <span style={{ color: "darkblue" }}>Why didn't it work ? </span>
           Eventually, i started to collaborate with other developers; and here,
-          i found myself haunted by a new set of questions:{" "}
+          i found myself haunted by a new of question:{" "}
           <span style={{ color: "darkblue" }}>
             Can another person understand my coding process, by simply reading
             my commits ?
@@ -61,7 +61,7 @@ function Collab() {
           managing branches, handling pull requests, engaging in code reviews
           and many other things. As you engage in these activities, you should
           always strive for continuous integration. According to Martin fowler,
-          continuous engagement is “a software development practice where
+          continuous integration is “a software development practice where
           members of a team integrate their work frequently, usually each person
           integrates at least daily — leading to multiple integrations per day.”
           <UrlLink href="http://martinfowler.com/articles/continuousIntegration.html">
@@ -105,8 +105,8 @@ function Collab() {
         <LitemTwo> This also leads to missed feedback opportunities.</LitemTwo>
 
         <Sentence>
-          With these quick overview, we will now look at a few different
-          processes for collaborating with others:{" "}
+          With this quick overview of branch management, we will now look at a
+          few different processes for collaborating with others:{" "}
         </Sentence>
         {/*  */}
         <Sentence>1. Pull the repo</Sentence>
