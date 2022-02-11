@@ -237,9 +237,9 @@ export const SubHeading = styled.h2`
 `;
 
 export const Paragraph = styled.p`
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
   text-indent: 50px;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
   line-height: 2rem;
   @media (max-width: 500px) {
     font-size: 1.2rem;
