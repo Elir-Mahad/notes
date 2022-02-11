@@ -11,7 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 function InterPyOne() {
   return (
     <div>
-      <SubHeading>How to make a plot with two lists. </SubHeading>
+      <SubHeading id="chap1.1">How to make a plot with two lists. </SubHeading>
 
       <Code>
         import matplotlib.pyplot as plt <br />
@@ -30,6 +30,7 @@ function InterPyOne() {
       </Code>
 
       <Image
+        id="chap1.2"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/regular-plot.png"
         alt="A line graph, with years on x-axis, and population on y-axis."
@@ -58,6 +59,7 @@ function InterPyOne() {
       </Code>
 
       <Image
+        id="chap1.3"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/scatter-plot.png"
         alt="A scatter graph with years on x-axis, population on y-axis."
@@ -94,7 +96,7 @@ function InterPyOne() {
         height={400}
       />
 
-      <Sentence>
+      <Sentence id="chap1.4">
         {" "}
         For more information: check out this{" "}
         <UrlLink href="https://corporatefinanceinsttute.com/resources/excel/study/histogram/">
@@ -115,6 +117,7 @@ function InterPyOne() {
       </Code>
 
       <Image
+        id="chap1.5"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/histogram-example.png"
         alt="A histogram plot with three bins, 
@@ -141,6 +144,7 @@ function InterPyOne() {
         largest population for both groups are in the age range of 40 to 44.
       </Sentence>
       <Image
+        id="chap1.6"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/pop-pyramid.png"
         alt="Two histogram plots placed next to each other. 
@@ -178,6 +182,7 @@ function InterPyOne() {
       </Code>
 
       <Image
+        id="chap1.7"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/axis-label-title.png"
         alt="A line graph, with years on x-axis, and population on y-axis, axis labels, and a title."
