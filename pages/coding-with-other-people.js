@@ -9,6 +9,8 @@ import {
   LiCode,
   CodeRes,
   LitemTwo,
+  UrlLink,
+  Paragraph,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
 //
@@ -46,8 +48,6 @@ function Collab() {
           felt a sense of accomplishment; and everytime that it didn't work, i
           found myself haunted by the new question:{" "}
           <span style={{ color: "darkblue" }}>Why didn't it work ? </span>
-        </Sentence>
-        <Sentence>
           Eventually, i started to collaborate with other developers; and here,
           i found myself haunted by a new set of questions:{" "}
           <span style={{ color: "darkblue" }}>
@@ -56,7 +56,62 @@ function Collab() {
           </span>{" "}
           This question indicated a major shift in my persepective.
         </Sentence>
-        <Sentence></Sentence>
+        <Sentence>
+          When your’e coding with other people, you’ll often find yourself
+          managing branches, handling pull requests, engaging in code reviews
+          and many other things. As you engage in these activities, you should
+          always strive for continuous integration. According to Martin fowler,
+          continuous engagement is “a software development practice where
+          members of a team integrate their work frequently, usually each person
+          integrates at least daily — leading to multiple integrations per day.”
+          <UrlLink href="http://martinfowler.com/articles/continuousIntegration.html">
+            (Martin fowler, 2006)
+          </UrlLink>
+          . Jon Arild Tørresdal further elaborates on this when he states that
+          developer’s should be “adding small changes incrementally over time”
+          by branching efficiently, committing frequently, and merging
+          constantly.{" "}
+          <UrlLink href="https://mrdevops.io/if-you-still-insist-on-feature-branching-you-are-hurting-your-business-and-our-profession-32e1109d4594">
+            (Jon arild tørresdal, 2017 )
+          </UrlLink>
+        </Sentence>
+        {/*  */}
+        <Sentence>
+          Generally, there are different opinions on how branches should be
+          managed. Keeping this in mind, here are some general guidelines for
+          branch management that reinforce continuous integration:
+        </Sentence>
+
+        <Litem>
+          Branches should have very short lifetimes (less than a day) before
+          being merged.
+        </Litem>
+
+        <Litem>
+          Developers should add small changes incrementally over time.{" "}
+        </Litem>
+
+        <Litem>
+          Developers should have less than three active branches in total.{" "}
+        </Litem>
+
+        <Litem>On the other hand, some bad practices include: </Litem>
+
+        <Litem>Having many branches simultaneously. </Litem>
+
+        <Litem>Having branches with long lifetimes (more than 4 days). </Litem>
+
+        <Litem>Submitting many changes at once in a large batch.</Litem>
+
+        <LitemTwo> This is disruptive and it makes finding bugs hard.</LitemTwo>
+
+        <LitemTwo> This also leads to missed feedback opportunities.</LitemTwo>
+
+        <Sentence>
+          With these quick overview, we will now look at a few different
+          processes for collaborating with others:{" "}
+        </Sentence>
+        {/*  */}
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
         <LiCode>git pull master</LiCode>
