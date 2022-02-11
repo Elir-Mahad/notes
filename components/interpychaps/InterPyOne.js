@@ -1,5 +1,11 @@
 import React from "react";
-import { SubHeading, Code, Sentence, UrlLink } from "../../styles/Styles";
+import {
+  SubHeading,
+  Code,
+  Sentence,
+  UrlLink,
+  Chapter,
+} from "../../styles/Styles";
 import Image from "next/image";
 
 const myLoader = ({ src, width, quality }) => {
@@ -11,6 +17,7 @@ const myLoader = ({ src, width, quality }) => {
 function InterPyOne() {
   return (
     <div>
+      <Chapter> Chapter 1</Chapter>
       <SubHeading>How to make a plot with two lists. </SubHeading>
 
       <Code>
