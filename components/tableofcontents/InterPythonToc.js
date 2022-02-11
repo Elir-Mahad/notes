@@ -49,37 +49,37 @@ function InterPythonToc() {
             {/* Chapter one below 7 parts */}
             <Link to="chap1.1" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: How to make a plot with two lists.
+                C1: How to make a plot with two lists
               </PmOption>
             </Link>
             <Link to="chap1.2" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: How to make a scatter plot with two lists.
+                C1: How to make a scatter plot with two lists
               </PmOption>
             </Link>
             <Link to="chap1.3" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: What are histograms ?
+                C1: What are histograms
               </PmOption>
             </Link>
             <Link to="chap1.4" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: How to make a histogram ?
+                C1: How to make a histogram
               </PmOption>
             </Link>
             <Link to="chap1.5" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: Population pyramid with age, gender, and population.
+                C1: Population pyramid with age, gender, and population
               </PmOption>
             </Link>
             <Link to="chap1.6" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: How to add axis labels and plot title.
+                C1: How to add axis labels and plot title
               </PmOption>
             </Link>
             <Link to="chap1.7" spy={true} smooth={true}>
               <PmOption onClick={hideContent} className={style.pmitem}>
-                C1: How to add ticks (custom axis values) and historical data.
+                C1: How to add ticks (custom axis values) and historical data
               </PmOption>
             </Link>
           </ol>
