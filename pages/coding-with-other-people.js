@@ -37,7 +37,7 @@ function Collab() {
         How to code with other people
       </PostTitle>
       <BlogBody>
-        <Sentence>
+        <Paragraph>
           When i was learning how to code, i spent a lot of time coding by
           myself. During this time, the one question that i consistently asked
           myself was:{" "}
@@ -55,8 +55,8 @@ function Collab() {
             my commits ?
           </span>{" "}
           This question indicated a major shift in my persepective.
-        </Sentence>
-        <Sentence>
+        </Paragraph>
+        <Paragraph>
           When your’e coding with other people, you’ll often find yourself
           managing branches, handling pull requests, engaging in code reviews
           and many other things. As you engage in these activities, you should
@@ -74,13 +74,10 @@ function Collab() {
           <UrlLink href="https://mrdevops.io/if-you-still-insist-on-feature-branching-you-are-hurting-your-business-and-our-profession-32e1109d4594">
             (Jon arild tørresdal, 2017 )
           </UrlLink>
-        </Sentence>
-        {/*  */}
-        <Sentence>
-          Generally, there are different opinions on how branches should be
+          . Generally, there are different opinions on how branches should be
           managed. Keeping this in mind, here are some general best practices
           for branch management that reinforce continuous integration:
-        </Sentence>
+        </Paragraph>
 
         <Litem>
           Branches should have very short lifetimes (less than a day) before
