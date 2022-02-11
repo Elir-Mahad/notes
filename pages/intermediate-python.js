@@ -7,6 +7,7 @@ import {
 } from "../styles/Styles.js";
 // import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
+import InterPythonToc from "../components/tableofcontents/InterPythonToc";
 import InterPyOne from "../components/interpychaps/InterPyOne.js";
 //
 function InterPython() {
@@ -33,6 +34,7 @@ function InterPython() {
           i will point them out.{" "}
         </Sentence>
         {/*  */}
+        <InterPythonToc />
         <InterPyOne />
       </BlogBody>
       {/* <Resources
