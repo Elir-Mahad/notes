@@ -34,7 +34,7 @@ function IntroPython() {
       <PostTitle className={style.weight100}>Intro to python</PostTitle>
       {/* <PostMenu /> */}
       <BlogBody>
-        <Sentence>
+        <Sentence id="chap1.1">
           {" "}
           In this post, i will record some of my notes from datacamps intro to
           python course. I am big fan of javascript, and i noticed that there

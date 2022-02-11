@@ -10,7 +10,7 @@ import {
 function IntroPyOne() {
   return (
     <div>
-      <Chapter id="chap1.1"> Chapter 1</Chapter>
+      <Chapter> Chapter 1</Chapter>
       <SubHeading>How to declare variables/constants in python ?</SubHeading>
       <Sentence>
         When declaring constants, you don’t have to preface the name of the
