@@ -78,8 +78,8 @@ function Collab() {
         {/*  */}
         <Sentence>
           Generally, there are different opinions on how branches should be
-          managed. Keeping this in mind, here are some general guidelines for
-          branch management that reinforce continuous integration:
+          managed. Keeping this in mind, here are some general best practices
+          for branch management that reinforce continuous integration:
         </Sentence>
 
         <Litem>
@@ -95,7 +95,7 @@ function Collab() {
           Developers should have less than three active branches in total.{" "}
         </Litem>
 
-        <Litem>On the other hand, some bad practices include: </Litem>
+        <Sentence>On the other hand, some bad practices include: </Sentence>
 
         <Litem>Having many branches simultaneously. </Litem>
 
