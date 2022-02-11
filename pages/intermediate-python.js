@@ -25,7 +25,7 @@ function InterPython() {
       <PostTitle className={style.weight100}>Intermediate python</PostTitle>
       {/* <PostMenu /> */}
       <BlogBody>
-        <Sentence>
+        <Sentence id="chap1.1">
           {" "}
           In this post, i will record some of my notes from datacamps
           intermediate python course. I am big fan of javascript, and i noticed

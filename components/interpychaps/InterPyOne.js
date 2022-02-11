@@ -11,7 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 function InterPyOne() {
   return (
     <div>
-      <SubHeading id="chap1.1">How to make a plot with two lists. </SubHeading>
+      <SubHeading>How to make a plot with two lists. </SubHeading>
 
       <Code>
         import matplotlib.pyplot as plt <br />
