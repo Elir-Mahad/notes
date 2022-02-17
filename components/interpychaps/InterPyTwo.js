@@ -142,6 +142,34 @@ function InterPyTwo() {
         "Algeria": 39.21, <br />
         "sealand": 2 {"}"} <br /># output - sealands value has been updated
       </Code>
+
+      {/* Fifth section below */}
+
+      <SubHeading> How to delete a key value pair in a dictionary ?</SubHeading>
+
+      <Code>
+        europe = {"{"} <br />
+        "spain" : "madrid", <br />
+        "france" : 'paris", <br />
+        "italy :'rome", <br />
+        "poland" : 'warsaw", <br />
+        "australia" : "vienna" {"}"} <br /># the dictionary Europe has the
+        following key value pairs
+      </Code>
+
+      <Code>
+        del(europe["australia"]) <br />
+        #delete key australia and its values <br />
+      </Code>
+
+      <Code>
+        print(europe) <br />
+        # print the dictionary <br />
+        {"{"} "spain" : "madrid", <br />
+        "france" : "paris", <br />
+        "italy" : "rome", <br />
+        "poland" : "warsaw" {"}"} <br /># output - Australia has been deleted
+      </Code>
     </div>
   );
 }
