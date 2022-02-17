@@ -68,20 +68,18 @@ function InterPyTwo() {
         "afghanistan": 30.55, <br />
         "albania": 2.77, <br />
         "Algeria": 39.21, <br />
-        "albania": 2.92
-        <br />
-        {"}"} <br /># the dictionary world has the following key value pairs
+        "albania": 2.92 {"}"} <br /># the dictionary world has the following key
+        value pairs
       </Code>
 
       <Code>
         print(world) <br />
         # print the dictionary <br />
-        {"{"} <br />
+        {"{"}
         "afghanistan": 30.55, <br />
         "albania": 2.92, <br />
-        "Algeria": 39.21 <br />
-        {"}"} # output - here you can see that the first value of Albania was
-        overridden by the second value
+        "Algeria": 39.2 {"}"} <br /># output - here you can see that the first
+        value of Albania was overridden by the second value
       </Code>
 
       <Sentence>
