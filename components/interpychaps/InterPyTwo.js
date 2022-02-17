@@ -49,6 +49,45 @@ function InterPyTwo() {
       </Sentence>
 
       <Code>print(world[“albania”])</Code>
+
+      {/*  */}
+
+      <SubHeading>
+        What happens if you assign two values to one key ?
+      </SubHeading>
+
+      <Sentence>
+        If you already assigned a key to a value, and then you assign the same
+        key to another value, then the latter value overrides the first value.
+        For example:{" "}
+      </Sentence>
+
+      <Code>
+        world = {"{"} <br />
+        "afghanistan": 30.55, <br />
+        "albania": 2.77, <br />
+        "Algeria": 39.21, <br />
+        "albania": 2.92
+        <br />
+        {"}"} <br /># the dictionary world has the following key value pairs
+      </Code>
+
+      <Code>
+        print(world) <br />
+        # print the dictionary <br />
+        {"{"} <br />
+        "afghanistan": 30.55, <br />
+        "albania": 2.92, <br />
+        "Algeria": 39.21 <br />
+        {"}"} # output - here you can see that the first value of Albania was
+        overridden by the second value
+      </Code>
+
+      <Sentence>
+        The keys have have to be immutable objects which means that they cannot
+        be changed. The values can be mutable, which means that they can be
+        changed.
+      </Sentence>
     </div>
   );
 }
