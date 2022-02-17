@@ -9,6 +9,7 @@ import {
 import style from "../styles/Home.module.css";
 import InterPythonToc from "../components/tableofcontents/InterPythonToc";
 import InterPyOne from "../components/interpychaps/InterPyOne.js";
+import InterPyTwo from "../components/interpychaps/InterPyTwo.js";
 //
 function InterPython() {
   return (
@@ -36,6 +37,7 @@ function InterPython() {
         {/*  */}
         <InterPythonToc />
         <InterPyOne />
+        <InterPyTwo />
       </BlogBody>
       {/* <Resources
         //
