@@ -4,6 +4,7 @@ import { Code, Sentence, SubHeading } from "../../styles/Styles";
 function InterPyTwo() {
   return (
     <div>
+      {/* First section below */}
       <SubHeading> What are dictionaries ?</SubHeading>
 
       <Sentence>
@@ -50,7 +51,7 @@ function InterPyTwo() {
 
       <Code>print(world[“albania”])</Code>
 
-      {/*  */}
+      {/* Second section below  */}
 
       <SubHeading>
         What happens if you assign two values to one key ?
@@ -88,6 +89,36 @@ function InterPyTwo() {
         be changed. The values can be mutable, which means that they can be
         changed.
       </Sentence>
+
+      {/* Third section below */}
+
+      <SubHeading>
+        How to add new key / value pair to an existing list ?
+      </SubHeading>
+
+      <Code>
+        world = {"{"} <br />
+        "afghanistan": 30.55, <br />
+        "albania": 2.77, <br />
+        "Algeria": 39.21, <br />
+        "albania": 2.92 <br />
+        {"}"} # the dictionary world has the following key value pairs
+      </Code>
+
+      <Code>
+        world [‘’sealand’’ ] = 0.00027 <br />
+        # add the key value pair sealand / 0.00027 to this dictionary <br />
+      </Code>
+
+      <Code>
+        print(world) <br />
+        # print the dictionary <br />
+        {"{"} "afghanistan": 30.55, <br />
+        "albania": 2.77, <br />
+        "Algeria": 39.21, <br />
+        "albania": 2.92, <br />
+        "sealand": 0.00027 {"}"}
+      </Code>
     </div>
   );
 }
