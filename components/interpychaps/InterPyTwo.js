@@ -99,7 +99,6 @@ function InterPyTwo() {
         "afghanistan": 30.55, <br />
         "albania": 2.77, <br />
         "Algeria": 39.21, <br />
-        "albania": 2.92 <br />
         {"}"} # the dictionary world has the following key value pairs
       </Code>
 
@@ -114,8 +113,34 @@ function InterPyTwo() {
         {"{"} "afghanistan": 30.55, <br />
         "albania": 2.77, <br />
         "Algeria": 39.21, <br />
-        "albania": 2.92, <br />
         "sealand": 0.00027 {"}"}
+      </Code>
+
+      {/* Fourth section below */}
+
+      <SubHeading>How to update the value of a key ? </SubHeading>
+
+      <Code>
+        world = {"{"} <br />
+        "afghanistan": 30.55, <br />
+        "albania": 2.77, <br />
+        "Algeria": 39.21, <br />
+        "sealand": 0.00027 {"}"} <br />
+        # the dictionary world has the following key value pairs <br />
+      </Code>
+
+      <Code>
+        world ["sealand"] = 2 <br />
+        # update the value of the key sealand <br />
+      </Code>
+
+      <Code>
+        print(world) <br />
+        # print the dictionary <br />
+        {"{"} "afghanistan': 30.55, <br />
+        "albania": 2.77, <br />
+        "Algeria": 39.21, <br />
+        "sealand": 2 {"}"} <br /># output - sealands value has been updated
       </Code>
     </div>
   );
