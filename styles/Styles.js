@@ -264,6 +264,15 @@ export const HighlightedSentence = styled.p`
   font-style: italic;
 `;
 
+export const HighlightedTitle = styled.span`
+  border-bottom: 2px dotted black;
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
+`;
+
 // export const ListHeading = styled.h2`
 // margin-bottom: 1rem;
 //   // font-size: 1.3rem;
