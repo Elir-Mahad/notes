@@ -1,5 +1,11 @@
 import React from "react";
-import { Code, PicBorder, Sentence, SubHeading } from "../../styles/Styles";
+import {
+  Code,
+  PicBorder,
+  Sentence,
+  SubHeading,
+  UrlLink,
+} from "../../styles/Styles";
 import Image from "next/image";
 
 const myLoader = ({ src, width, quality }) => {
@@ -353,6 +359,148 @@ function InterPyTwo() {
         Pandas is a data manipulation tool that was built on numpy. In pandas,
         we store the tabular data (I.e, data from a table) in an object called
         the DataFrame.
+      </Sentence>
+
+      {/* section 11 below */}
+
+      <SubHeading> How to create a data DataFrame ?</SubHeading>
+
+      <Sentence>There are two ways for creating a DataFrame.</Sentence>
+
+      <Sentence>
+        First method: you can create a DataFrame manually by using a dictionary.
+        In the dictionary, the keys are the column labels, and the values are
+        the data. For example lets look at the following dictionary:
+      </Sentence>
+
+      <Code>
+        dict = {"{"} <br />
+        "country":["Brazil", "Russia", "India", "China", "South Africa"],
+        <br />
+        "capital":["Brasilia", "Moscow", "New Delhi", "Beijing", "Pretoria"],{" "}
+        <br />
+        "area":[8.516, 17.10, 3.286, 9.597, 1.221], <br />
+        "population":[200.4, 143.5, 1252, 1357, 52.98] {"}"}
+      </Code>
+
+      <Sentence>
+        In this dictionary, the keys are the the column labels, and the values
+        are the data lists. We can convert this dictionary into a DataFrame like
+        this:
+      </Sentence>
+
+      <Code>
+        import pandas as pd <br />
+        # import the pandas package as pd <br />
+        brics = pd.DataFrame(dict) <br /># the variable brics stores the
+        DataFrame of the dictionary called dict <br />
+      </Code>
+
+      <Code>
+        print(brics)
+        <br /># print brics
+      </Code>
+
+      {/* INSERT BRICS-DATAFRAME */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/brics-dataframe.png"
+        alt=""
+        width={550}
+        height={158}
+      />
+
+      <Sentence>
+        In the above DataFrame, pandas automatically assigned the row labels 0
+        to 4. We can replace these numbers with custom labels like this:
+      </Sentence>
+
+      <Code>
+        brics.index = ["BR", "RU", "IN", "CH", "SA"] <br /># assign these list
+        elements as the index of the brics DataFrame
+      </Code>
+
+      {/* INSERT BRICS-DATAFRAME-CUSTOM-INDEX */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/brics-dataframe-custom-index.png"
+        alt=""
+        width={550}
+        height={158}
+      />
+
+      <Sentence>
+        Second method: you can create a dataframe by importing data from a csv
+        file. Csv stands for comma separated values. For example let's consider
+        the following data from the csv file brics.csv
+      </Sentence>
+
+      <Code>
+        ,country,capital,area,population <br />
+        BR,Brazil,Brasilia,8.516,200.4 <br />
+        RU,Russia,Moscow,17.10,143.5 <br />
+        IN,India,New Delhi,3.286,1252 <br />
+        CH,China,Beijing,9.597,1357 <br />
+        SA,South Africa,Pretoria,1.221,52.98 <br />
+      </Code>
+
+      <Sentence>
+        Now let's store this data in a variable and then print it.
+      </Sentence>
+
+      <Code>
+        brics = pd.read_csv("path/to/brics.csv") <br />
+        # the variable brics stores a process <br />
+        # pandas will read the csv file through its path <br />
+        print(brics) <br /># print brics
+      </Code>
+
+      {/* INSERT BRICS-DATAFRAME-CSV */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/brics-dataframe-csv.png"
+        alt=""
+        width={550}
+        height={158}
+      />
+
+      <Sentence>
+        In the above DataFrame, pandas assigned the row labels 0 to 4 as the
+        index. It also interpreted our row labels (ru, in, etc) as the values of
+        the first column (column 0). This is a wrong interpretation because we
+        want our row lables to be the index. We can declare that the first
+        column (row labels) should be the index, and then re-print our dataframe
+        like this:
+      </Sentence>
+
+      <Code>
+        brics = pd.read_csv("path/to/brics.csv", index_col = 0) <br />
+        # the variable brics stores a process <br />
+        # pandas will read the csv file through its path <br />
+        # it will assign column 0 as the index <br />
+        print(brics) <br /># print brics
+      </Code>
+
+      {/* INSERT BRICKS-DATAFRAME-CSV-CUSTOM-INDEX */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/brics-dataframe-csv-custom-index.png"
+        alt=""
+        width={550}
+        height={193}
+      />
+
+      <Sentence>
+        The pandas read.csv provides a lot of ways to customize your DataFrame.
+        Read more about the package{" "}
+        <UrlLink href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html">
+          here
+        </UrlLink>{" "}
+        .
       </Sentence>
     </div>
   );
