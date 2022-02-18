@@ -290,7 +290,7 @@ function InterPyTwo() {
           alt="A dictionary containing 5 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
           width={550}
-          height={400}
+          height={254}
         />
       </PicBorder>
 
@@ -320,7 +320,7 @@ function InterPyTwo() {
           alt="A dictionary containing 5 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
           width={550}
-          height={400}
+          height={254}
         />
       </PicBorder>
 
@@ -331,10 +331,10 @@ function InterPyTwo() {
       <Image
         id=""
         loader={myLoader}
-        src="Elir-Mahad/notes/main/assets/interpygraphs/list-dictionaries.png"
+        src="Elir-Mahad/notes/main/assets/interpygraphs/lists-dictionaries.png"
         alt="Table containing comparisons between lists and dictionaries."
         width={550}
-        height={400}
+        height={259}
       />
     </div>
   );
