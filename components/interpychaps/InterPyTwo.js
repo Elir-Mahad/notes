@@ -323,6 +323,19 @@ function InterPyTwo() {
           height={400}
         />
       </PicBorder>
+
+      {/* Ninth section below */}
+
+      <SubHeading>Comparison between lists and dictionaries </SubHeading>
+
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/list-dictionaries.png"
+        alt="Table containing comparisons between lists and dictionaries."
+        width={550}
+        height={400}
+      />
     </div>
   );
 }
