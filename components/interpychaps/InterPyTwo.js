@@ -1,5 +1,5 @@
 import React from "react";
-import { Code, Sentence, SubHeading } from "../../styles/Styles";
+import { Code, PicBorder, Sentence, SubHeading } from "../../styles/Styles";
 import Image from "next/image";
 
 const myLoader = ({ src, width, quality }) => {
@@ -191,15 +191,17 @@ function InterPyTwo() {
         sub-dictionaries. For example:{" "}
       </Sentence>
 
-      <Image
-        id="chap1.2"
-        loader={myLoader}
-        src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
-        alt="A dictionary containing 4 sub dictionaries. 
+      <PicBorder>
+        <Image
+          id="chap1.2"
+          loader={myLoader}
+          src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
+          alt="A dictionary containing 4 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
-        width={550}
-        height={400}
-      />
+          width={550}
+          height={400}
+        />
+      </PicBorder>
 
       {/* Seventh section below */}
 
@@ -207,15 +209,17 @@ function InterPyTwo() {
 
       <Sentence>Lets look at the below dictionary:</Sentence>
 
-      <Image
-        id="chap1.2"
-        loader={myLoader}
-        src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
-        alt="A dictionary containing 4 sub dictionaries. 
+      <PicBorder>
+        <Image
+          id="chap1.2"
+          loader={myLoader}
+          src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
+          alt="A dictionary containing 4 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
-        width={550}
-        height={400}
-      />
+          width={550}
+          height={400}
+        />
+      </PicBorder>
 
       <Sentence>
         If we want to print the capital of france, then we can do it like this:

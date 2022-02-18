@@ -300,6 +300,12 @@ export const PicWrapper = styled.div`
   width: 50rem;
 `;
 
+export const PicBorder = styled.div`
+  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 5px;
+`;
+
 export const UrlLink = styled.a`
   color: darkblue;
   border-bottom: 1px solid darkblue;
