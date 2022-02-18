@@ -11,7 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 function InterPyTwo() {
   return (
     <div>
-      {/* First section below */}
+      {/* section 1 below */}
       <SubHeading> What are dictionaries ?</SubHeading>
 
       <Sentence>
@@ -58,7 +58,7 @@ function InterPyTwo() {
 
       <Code>print(world[“albania”])</Code>
 
-      {/* Second section below  */}
+      {/* section 2 below  */}
 
       <SubHeading>
         What happens if you assign two values to one key ?
@@ -95,7 +95,7 @@ function InterPyTwo() {
         changed.
       </Sentence>
 
-      {/* Third section below */}
+      {/* section 3 below */}
 
       <SubHeading>
         How to add new key / value pair to an existing list ?
@@ -123,7 +123,7 @@ function InterPyTwo() {
         "sealand": 0.00027 {"}"}
       </Code>
 
-      {/* Fourth section below */}
+      {/* section 4 below */}
 
       <SubHeading>How to update the value of a key ? </SubHeading>
 
@@ -150,7 +150,7 @@ function InterPyTwo() {
         "sealand": 2 {"}"} <br /># output - sealands value has been updated
       </Code>
 
-      {/* Fifth section below */}
+      {/* section 5 below */}
 
       <SubHeading> How to delete a key value pair in a dictionary ?</SubHeading>
 
@@ -178,7 +178,7 @@ function InterPyTwo() {
         "poland" : "warsaw" {"}"} <br /># output - Australia has been deleted
       </Code>
 
-      {/* Sixth section below */}
+      {/* section 6 below */}
 
       <SubHeading>
         {" "}
@@ -203,7 +203,7 @@ function InterPyTwo() {
         />
       </PicBorder>
 
-      {/* Seventh section below */}
+      {/* section 7 below */}
 
       <SubHeading>How to target a key that’s in a sub-dictionary ?</SubHeading>
 
@@ -236,7 +236,7 @@ function InterPyTwo() {
         paris <br /># output
       </Code>
 
-      {/* Eight section below */}
+      {/* section 8 below */}
 
       <SubHeading>
         Two methods to add a sub-dictionary to a dictionary ?
@@ -324,7 +324,7 @@ function InterPyTwo() {
         />
       </PicBorder>
 
-      {/* Ninth section below */}
+      {/* section 9 below */}
 
       <SubHeading>Comparison between lists and dictionaries </SubHeading>
 
@@ -336,6 +336,24 @@ function InterPyTwo() {
         width={550}
         height={259}
       />
+
+      {/* section 10 below */}
+
+      <SubHeading>What is the Pandas package?</SubHeading>
+
+      <Sentence>
+        {" "}
+        2d numpy arrays are usually good for one data type. Most datasets are
+        made of multiple datatypes. For example, a table dataset might have
+        capital names as strings and populations as floats. In these type of
+        situations you should use the pandas package.
+      </Sentence>
+
+      <Sentence>
+        Pandas is a data manipulation tool that was built on numpy. In pandas,
+        we store the tabular data (I.e, data from a table) in an object called
+        the DataFrame.
+      </Sentence>
     </div>
   );
 }
