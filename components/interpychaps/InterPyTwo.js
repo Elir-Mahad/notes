@@ -529,6 +529,51 @@ function InterPyTwo() {
         width={550}
         height={184}
       />
+      {/* section 13 below */}
+      <SubHeading>Using square brackets to select rows and columns.</SubHeading>
+      <Sentence>
+        You can index and select rows, column, observations from Pandas
+        DataFrames in many different ways. The simplest, but not the most
+        powerful way, is to use square brackets.
+      </Sentence>
+      <SubHeading>
+        How to use square brackets to print a pandas series with one selected
+        column ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the country column in a series; so we will be
+        using the single square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas package as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        print(cars['country']) <br /># print out country column as Pandas Series
+      </Code>
+      {/* INSERT ONE-COLUMN-SERIES */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/one-column-series.png"
+        alt=""
+        width={550}
+        height={184}
+      />
     </div>
   );
 }
