@@ -1,5 +1,12 @@
 import React from "react";
 import { Code, Sentence, SubHeading } from "../../styles/Styles";
+import Image from "next/image";
+
+const myLoader = ({ src, width, quality }) => {
+  return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
+    quality || 75
+  }`;
+};
 
 function InterPyTwo() {
   return (
@@ -169,6 +176,55 @@ function InterPyTwo() {
         "france" : "paris", <br />
         "italy" : "rome", <br />
         "poland" : "warsaw" {"}"} <br /># output - Australia has been deleted
+      </Code>
+
+      {/* Sixth section below */}
+
+      <SubHeading>
+        {" "}
+        Creating sub-dictionaries: dictionaries within dictionaries
+      </SubHeading>
+
+      <Sentence>
+        Lists can contain other lists. Similarly, dictionaries can contain key :
+        value pairs, where the values are again dictionaries. These are called
+        sub-dictionaries. For example:{" "}
+      </Sentence>
+
+      <Image
+        id="chap1.2"
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
+        alt="A dictionary containing 4 sub dictionaries. 
+        Each sub dictionary is a country containing that countries capital and population. "
+        width={550}
+        height={400}
+      />
+
+      {/* Seventh section below */}
+
+      <SubHeading>How to target a key that’s in a sub-dictionary ?</SubHeading>
+
+      <Sentence>Lets look at the below dictionary:</Sentence>
+
+      <Image
+        id="chap1.2"
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
+        alt="A dictionary containing 4 sub dictionaries. 
+        Each sub dictionary is a country containing that countries capital and population. "
+        width={550}
+        height={400}
+      />
+
+      <Sentence>
+        If we want to print the capital of france, then we can do it like this:
+      </Sentence>
+
+      <Code>
+        print(europe['france']['capital']) <br />
+        # print the value of the sub-dictionary: france and key: capital <br />
+        paris <br /># output
       </Code>
     </div>
   );
