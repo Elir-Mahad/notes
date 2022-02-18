@@ -193,7 +193,7 @@ function InterPyTwo() {
 
       <PicBorder>
         <Image
-          id="chap1.2"
+          id=""
           loader={myLoader}
           src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
           alt="A dictionary containing 4 sub dictionaries. 
@@ -207,11 +207,16 @@ function InterPyTwo() {
 
       <SubHeading>How to target a key that’s in a sub-dictionary ?</SubHeading>
 
-      <Sentence>Lets look at the below dictionary:</Sentence>
+      <Sentence>
+        {" "}
+        In the below example, you are working with a dictionary that contains
+        data about Europe. For each country, you have the keys capital and
+        population. Let’s look at the data now:
+      </Sentence>
 
       <PicBorder>
         <Image
-          id="chap1.2"
+          id=""
           loader={myLoader}
           src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
           alt="A dictionary containing 4 sub dictionaries. 
@@ -230,6 +235,94 @@ function InterPyTwo() {
         # print the value of the sub-dictionary: france and key: capital <br />
         paris <br /># output
       </Code>
+
+      {/* Eight section below */}
+
+      <SubHeading>
+        Two methods to add a sub-dictionary to a dictionary ?
+      </SubHeading>
+
+      <Sentence>
+        {" "}
+        In the below example, you are working with a dictionary that contains
+        data about Europe. For each country, you have the keys capital and
+        population. Let’s look at the data now:
+      </Sentence>
+
+      <PicBorder>
+        <Image
+          id=""
+          loader={myLoader}
+          src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
+          alt="A dictionary containing 4 sub dictionaries. 
+        Each sub dictionary is a country containing that countries capital and population. "
+          width={550}
+          height={400}
+        />
+      </PicBorder>
+
+      <Sentence>
+        {" "}
+        Now we want to add a new sub-dictionary with information about Italy. We
+        can do this via two methods:{" "}
+      </Sentence>
+
+      <Sentence>
+        {" "}
+        In the first method simultaneously: <br />
+        - create the sub-dictionary key / values <br />
+        - add it to the larger dictionary. <br />
+      </Sentence>
+
+      <Code>
+        europe["italy"] = {"{"} <br />
+        'capital' : 'rome', <br />
+        'population' : 59.83 {"}"} <br />
+        # simultaneously create and add <br /># the sub-dictionary key / value
+        pair to the larger dictionary
+      </Code>
+
+      <PicBorder>
+        <Image
+          id=""
+          loader={myLoader}
+          src="Elir-Mahad/notes/main/assets/interpygraphs/add-sub-dictionary.png"
+          alt="A dictionary containing 5 sub dictionaries. 
+        Each sub dictionary is a country containing that countries capital and population. "
+          width={550}
+          height={400}
+        />
+      </PicBorder>
+
+      <Sentence>
+        In the second method first store the sub-dictionary values in a variable
+        then simultaneously: <br />
+        - set that variable as the value of the sub-dictionary key <br />
+        - add the key value pair to the larger dictionary <br />
+      </Sentence>
+
+      <Code>
+        data = {"{"}
+        'capital' : 'rome', <br />
+        'population':59.83
+        {"}"} <br />
+        # create sub-dictionary data that contains data about italy <br />
+        europe["italy"] = data <br />
+        # add the sub-dictionary data <br />
+        as the value of the key italy
+      </Code>
+
+      <PicBorder>
+        <Image
+          id=""
+          loader={myLoader}
+          src="Elir-Mahad/notes/main/assets/interpygraphs/add-sub-dictionary.png"
+          alt="A dictionary containing 5 sub dictionaries. 
+        Each sub dictionary is a country containing that countries capital and population. "
+          width={550}
+          height={400}
+        />
+      </PicBorder>
     </div>
   );
 }
