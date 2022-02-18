@@ -199,7 +199,7 @@ function InterPyTwo() {
           alt="A dictionary containing 4 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
           width={550}
-          height={400}
+          height={433}
         />
       </PicBorder>
 
@@ -222,7 +222,7 @@ function InterPyTwo() {
           alt="A dictionary containing 4 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
           width={550}
-          height={400}
+          height={433}
         />
       </PicBorder>
 
@@ -257,7 +257,7 @@ function InterPyTwo() {
           alt="A dictionary containing 4 sub dictionaries. 
         Each sub dictionary is a country containing that countries capital and population. "
           width={550}
-          height={400}
+          height={433}
         />
       </PicBorder>
 
