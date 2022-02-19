@@ -430,7 +430,7 @@ function InterPyTwo() {
         .
       </Sentence>
       {/* section 12 below  */}
-      <SubHeading>How to creating a DataFrame using (cars data) ? </SubHeading>
+      <SubHeading>How to create a DataFrame using (cars data) ? </SubHeading>
       <HighlightedTitle>Overview</HighlightedTitle>
       <Sentence>
         For this exercise, you will work with vehicle data from different
@@ -536,6 +536,7 @@ function InterPyTwo() {
         DataFrames in many different ways. The simplest, but not the most
         powerful way, is to use square brackets.
       </Sentence>
+      {/* Section 14 below */}
       <SubHeading>
         How to use square brackets to print a pandas series with one selected
         column ?
@@ -573,6 +574,524 @@ function InterPyTwo() {
         alt=""
         width={550}
         height={184}
+      />
+      {/* section 15 below */}
+      <SubHeading>
+        How to use square brackets to print a pandas DataFrame with one selected
+        column ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the country column in a DataFrame; so we will
+        be using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        # print(cars[['country']]) <br /># print out country column as Pandas
+        DataFrame
+      </Code>
+      {/* INSERT ONE-COLUMN-DATAFRAME */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/one-column-dataframe.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      {/* section 16 below */}
+      <SubHeading>
+        How to use square brackets to print a pandas DataFrame with multiple
+        selected columns ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the country and drives_right columns in a
+        DataFrame; so we will be using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        print(cars[['country', 'drives_right']]) <br /># print out a DataFrame
+        with country and drives_right columns
+      </Code>
+      {/* INSERT TWO-COLUMNS-DATAFRAME */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/two-columns-dataframe.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      {/* section 17 below */}
+      <SubHeading>
+        How to use square brackets to print a pandas DataFrame with multiple
+        selected rows ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the first three rows (US,AUS,JPN) in a
+        DataFrame; so we will be using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        print(cars[0:3]) <br /># Print out first 3 rows / observations
+      </Code>
+      {/* INSERT THREE-ROWS-DATAFRAME */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/three-rows-dataframe.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      {/* section 18 below */}
+      <SubHeading>Using loc and iloc to select rows and columns.</SubHeading>
+      <Sentence>
+        With loc and iloc you can do practically any data selection operation on
+        DataFrames you can think of. loc is label-based, which means that you
+        have to specify rows and columns based on their row and column labels.
+        iloc is integer index based, so you have to specify rows and columns by
+        their integer index.
+      </Sentence>
+      {/* section 19 below */}
+      <SubHeading>
+        How to use loc to print a pandas series with one selected row ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the Russia row in a series; so we will be using
+        the single square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        cars.loc['RU'] <br /># Print out observation that has the label RU
+      </Code>
+      {/* INSERT LOC-SERIES-ONE-ROW  */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-series-one-row.png"
+        alt=""
+        width={550}
+        height={118}
+      />
+      {/* section 20 below */}
+      <SubHeading>
+        How to use loc to print a pandas DataFrame with one selected row ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the Russia row in a DataFrame; so we will be
+        using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        cars.loc[['RU']] <br /># print out observation that has the label RU
+      </Code>
+      {/* INSERT LOC-ILOC-DATAFRAME-ONE-ROW  */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-one-row.png"
+        alt=""
+        width={550}
+        height={73}
+      />
+      {/* section 21 below */}
+      <SubHeading>
+        How to use iloc to print a pandas DataFrame with one selected row ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the Russia row in a DataFrame; so we will be
+        using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        cars.iloc[[4]] <br /># print out observation that has the label RU
+      </Code>
+      {/* INSERT LOC-ILOC-DATAFRAME-ONE-ROW */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-one-row.png"
+        alt=""
+        width={550}
+        height={73}
+      />
+      {/* section 22 below */}
+      <SubHeading>
+        How to use loc to print a pandas DataFrame with two selected rows ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the Russia and australia rows in a DataFrame;
+        so we will be using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        cars.loc[['RU', 'AUS']] <br /># print out observation that has the label
+        RU
+      </Code>
+      {/* INSERT LOC-ILOC-DATAFRAME-TWO-ROW  */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-two-row.png"
+        alt=""
+        width={550}
+        height={73}
+      />
+      {/* section 23 below */}
+      <SubHeading>
+        How to use iloc to print a pandas DataFrame with two selected rows ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the Russia and australia rows in a DataFrame;
+        so we will be using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        cars.iloc[[4,1]] <br /># print out observation that has the label RU
+      </Code>
+      {/* INSERT LOC-ILOC-DATAFRAME-TWO-ROW */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-two-row.png"
+        alt=""
+        width={550}
+        height={73}
+      />
+      {/* section 24 below */}
+      <SubHeading>
+        How to use loc to print the value of a selected row and column?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out drives_right value of Morocco. Since we are
+        only printing one value, we will be using the single square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        print(cars.loc['MOR', 'drives_right']) <br /># print the drives_right
+        value of Morocco
+      </Code>
+      {/* INSERT LOC-INTERSECTION-VALUE  */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-intersection-value.png"
+        alt=""
+        width={550}
+        height={49}
+      />
+      {/* section 25 below */}
+      <SubHeading>
+        How to use loc to print a pandas DataFrame, with two selected columns of
+        two selected observations (rows) ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the drives_right value of Russia and Morocco in
+        a DataFrame; so we will be using the double square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        print(cars.loc[['RU','MOR'], ['country', 'drives_right']]) <br /># print
+        out the drives_right value of Russia and Morocco
+      </Code>
+      {/* INSERT LOC-TWO-INTERSECTION-VALUES */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-two-intersection-values.png"
+        alt=""
+        width={550}
+        height={81}
+      />
+      {/* section 26 below */}
+      <SubHeading>
+        How to use loc to print a series with a selected column ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the drives_right value of all
+        observations(rows) in a pandas series; so we will be using the single
+        square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        pring(cars.loc[:, 'drives_right']) <br /># print out the drives_right
+        value of all observations
+      </Code>
+      {/* INSERT LOC-SERIES-ONE-COLUMN */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-series-one-column.png"
+        alt=""
+        width={550}
+        height={185}
+      />
+      {/* section 27 below */}
+      <SubHeading>
+        How to use loc to print a DataFrame with a selected column ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the drives_right value of all
+        observations(rows) in a pandas DataFrame; so we will be using the double
+        square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        pring(cars.loc[:, ['drives_right']]) <br /># print out the drives_right
+        value of all observations
+      </Code>
+      {/* INSERT LOC-DATAFRAME-ONE-COLUMN */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-dataframe-one-column.png"
+        alt=""
+        width={550}
+        height={185}
+      />
+      {/* section 28 below  */}
+      <SubHeading>
+        How to use loc to print a DataFrame with two selected column ?
+      </SubHeading>
+      <Sentence>
+        For this example, we are going to be using the cars.csv:
+      </Sentence>
+      {/* INSERT COUNTRIES-CARS-EXAMPLE */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
+        alt=""
+        width={550}
+        height={184}
+      />
+      <Sentence>
+        Our goal is to print out the cars_per_cap and drives_right values of all
+        observations(rows) in a pandas DataFrame; so we will be using the double
+        square brackets.
+      </Sentence>
+      <Code>
+        import pandas as pd <br />
+        # import pandas as pd <br />
+        cars = pd.read_csv('cars.csv', index_col = 0) <br /># import the
+        cars.csv data: cars and the index is column 0
+      </Code>
+      <Code>
+        print(cars.loc[:, ['cars_per_cap','drives_right']]) <br /># print out
+        the cars_per_cap and drives_right value of all observations
+      </Code>
+      {/* INSERT LOC-DATAFRAME-TWO-COLUMN */}
+      <Image
+        id=""
+        loader={myLoader}
+        src="Elir-Mahad/notes/main/assets/interpygraphs/loc-dataframe-two-columns.png"
+        alt=""
+        width={550}
+        height={185}
       />
     </div>
   );
