@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww15800\viewh7940\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 What is git ?
+\f1\b0 \
+\
+Git is a software program that stores and organizes your code. It also tracks all the changes that are made to your code. \
+\
+As a result, you are able to compare all the changes that you make to your code over time.\
+\
+Most of the actions that can be executed, only add to actions that have already happened. Its difficult to delete an action. \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\b \cf0 The three forms that your files can be can reside in
+\f1\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0  \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Modified:
+\f1\b0  this means that you have changed the file but have not committed it to your database yet. \
+	\
+	This is done when you edit and save a file.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Staged:
+\f1\b0  this means that you have marked a modified file in its current version to go into your next commit. \
+\
+	This is done through the command \
+\
+	git add .\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b Committed:
+\f1\b0  this means that the data is safely stored in your local database. \
+\
+	This is done through the command\
+\
+	 git commit -m \'93description of commit\'94\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\b \cf0 The three sections of a git project. 
+\f1\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b The working tree\
+
+\f1\b0 \
+	- This is a single checkout of one version of your project.\
+\
+	- Files in the working tree are pulled out of the Git directory and placed on your computer for\
+	you to use or modify.\
+\
+	- This is where your code gets stored when you save it without staging it. \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b The staging area
+\f1\b0 \
+\
+	- This is a file, generally contained in your Git directory.\
+\
+	- This file stores information about what will go into your next commit. \
+\
+	- Its technical name in Git parlance is the \'93index\'94, but the phrase \'93staging area\'94 is often used.\
+\
+	- This is where your code get stored when you stage it, via the command git add .\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b The Git directory
+\f1\b0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	- This is where your code gets stored when you commit it, via a commit message\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	- If a particular version of a file is in the Git directory, it\'92s considered committed. \
+\
+	- This is what is copied when you clone a repository.\
+\
+	\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 How to identify where exactly a file is located:
+\f1\b0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 If a particular version of a file was changed, but has not been staged, then it is in the working tree.\
+\
+If a particular version of a file has been modified, and staged, then its in the staging area.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+If a particular version of a file has been staged, and committed, then it\'92s in the Git directory. \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 What happens when you do an action on git ?\
+
+\f1\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 Every time you save or commit the state of your project, git takes a picture of what all your files look like at that moment and stores a reference to that snapshot.\
+\
+If files have not changed, Git doesn\'92t store the file again.\
+\
+The entire history of the project is right there on your local disk (similar to browser history).\
+You can\'92t lose information in transit or get file corruption without Git being able to detect it. \
+\
+When you do actions in Git, nearly all of them only add data to the Git database. \
+It is hard to get the system to do anything that is not undoable or to make it erase data in any way.\
+\
+Source: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F\
+}
