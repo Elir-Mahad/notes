@@ -20,6 +20,20 @@ function ReactBp() {
           rel="stylesheet"
         />
       </Head>
+      <PostTitle className={style.weight100}>React best practices</PostTitle>
+      <BlogBody>
+        <Sentence>Hello react</Sentence>
+      </BlogBody>
+      {/* <Resources
+        //
+        topic=""
+        firstResTitle=""
+        firstLink=""
+        secondResTitle=""
+        secondLink=""
+        thirdResTitle=""
+        thirdLink=""
+      /> */}
     </div>
   );
 }
