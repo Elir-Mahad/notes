@@ -7,6 +7,7 @@ import {
 } from "../styles/Styles.js";
 // import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
+import FolderStructure from "../components/reactbpchaps/FolderStructure.js";
 //
 function ReactBp() {
   return (
@@ -23,6 +24,7 @@ function ReactBp() {
       <PostTitle className={style.weight100}>React best practices</PostTitle>
       <BlogBody>
         <Sentence>Hello react</Sentence>
+        <FolderStructure />
       </BlogBody>
       {/* <Resources
         //
