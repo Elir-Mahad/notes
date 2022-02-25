@@ -23,7 +23,12 @@ function ReactBp() {
       </Head>
       <PostTitle className={style.weight100}>React best practices</PostTitle>
       <BlogBody>
-        <Sentence>Hello react</Sentence>
+        <Sentence>
+          I think when you keep maintainability and scalability in mind when
+          orchestrating your components and organizing your project structure,
+          you'll less likely end up with a mess of source code that needs major
+          refactoring.{" "}
+        </Sentence>
         <FolderStructure />
       </BlogBody>
       {/* <Resources

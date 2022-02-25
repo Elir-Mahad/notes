@@ -1,9 +1,14 @@
 import React from "react";
+import { Chapter, Sentence, SubHeading } from "../../styles/Styles";
 
 function FolderStructure() {
   return (
     <div>
-      <h1>F s</h1>
+      <SubHeading>Create a good folder-structure</SubHeading>
+
+      <Sentence> Intro</Sentence>
+
+      <Sentence>Technical folder separation</Sentence>
     </div>
   );
 }
