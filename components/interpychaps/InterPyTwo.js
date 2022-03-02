@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Chapter,
   Code,
   HighlightedSentence,
   HighlightedTitle,
@@ -22,6 +23,7 @@ function InterPyTwo() {
   return (
     <div>
       {/* section 1 below */}
+      <Chapter id="chap2.1">Chapter two</Chapter>
       <SubHeading> What are dictionaries ?</SubHeading>
       <Sentence>
         A dictionary is essentially a javascript object. It’s an object with key
