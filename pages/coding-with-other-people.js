@@ -48,7 +48,7 @@ function Collab() {
           No other questions occupied my mind. Everytime that my code worked, i
           felt a sense of accomplishment; and everytime that it didn't work, i
           found myself haunted by the new question:{" "}
-          <span style={{ color: "darkblue" }}>Why didn't it work ? </span>.
+          <span style={{ color: "darkblue" }}>Why didn't it work ? </span>
         </Sentence>
         {/*  */}
         <Sentence>

@@ -90,14 +90,14 @@ function Menu() {
               <BlogName onClick={hideContent}>Intermediate python</BlogName>
             </Link>
             {/*  */}
-            <Link
+            {/* <Link
               href="/coding-with-other-people"
               as={process.env.BACKEND_URL + "/coding-with-other-people"}
             >
               <BlogName onClick={hideContent}>
                 How to code with other people
               </BlogName>
-            </Link>
+            </Link> */}
 
             {/* <Link
               href="/connect-github-account-to-computer"
