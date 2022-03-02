@@ -61,7 +61,7 @@ function InterPyTwo() {
         Now if we want to print the population of Albania, we can do that that
         with:
       </Sentence>
-      <Code>print(world[“albania”])</Code>
+      <Code id="chap2.2">print(world[“albania”])</Code>
       {/* section 2 below  */}
       <SubHeading>
         What happens if you assign two values to one key ?
@@ -88,7 +88,7 @@ function InterPyTwo() {
         "Algeria": 39.2 {"}"} <br /># output - here you can see that the first
         value of Albania was overridden by the second value
       </Code>
-      <Sentence>
+      <Sentence id="chap2.3">
         The keys have have to be immutable objects which means that they cannot
         be changed. The values can be mutable, which means that they can be
         changed.
@@ -108,7 +108,7 @@ function InterPyTwo() {
         world [‘’sealand’’ ] = 0.00027 <br />
         # add the key value pair sealand / 0.00027 to this dictionary <br />
       </Code>
-      <Code>
+      <Code id="chap2.4">
         print(world) <br />
         # print the dictionary <br />
         {"{"} "afghanistan": 30.55, <br />
@@ -130,7 +130,7 @@ function InterPyTwo() {
         world ["sealand"] = 2 <br />
         # update the value of the key sealand <br />
       </Code>
-      <Code>
+      <Code id="chap2.5">
         print(world) <br />
         # print the dictionary <br />
         {"{"} "afghanistan': 30.55, <br />
@@ -153,7 +153,7 @@ function InterPyTwo() {
         del(europe["australia"]) <br />
         #delete key australia and its values <br />
       </Code>
-      <Code>
+      <Code id="chap2.6">
         print(europe) <br />
         # print the dictionary <br />
         {"{"} "spain" : "madrid", <br />
@@ -173,7 +173,7 @@ function InterPyTwo() {
       </Sentence>
       <PicBorder>
         <Image
-          id=""
+          id="chap2.7"
           loader={myLoader}
           src="Elir-Mahad/notes/main/assets/interpygraphs/sub-dictionaries.png"
           alt="A dictionary containing 4 sub dictionaries. 
@@ -204,7 +204,7 @@ function InterPyTwo() {
       <Sentence>
         If we want to print the capital of france, then we can do it like this:
       </Sentence>
-      <Code>
+      <Code id="chap2.8">
         print(europe['france']['capital']) <br />
         # print the value of the sub-dictionary: france and key: capital <br />
         paris <br /># output
@@ -277,7 +277,7 @@ function InterPyTwo() {
       </Code>
       <PicBorder>
         <Image
-          id=""
+          id="chap2.9"
           loader={myLoader}
           src="Elir-Mahad/notes/main/assets/interpygraphs/add-sub-dictionary.png"
           alt="A dictionary containing 5 sub dictionaries. 
@@ -289,7 +289,7 @@ function InterPyTwo() {
       {/* section 9 below */}
       <SubHeading>Comparison between lists and dictionaries </SubHeading>
       <Image
-        id=""
+        id="chap2.10"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/lists-dictionaries.png"
         alt="Table containing comparisons between lists and dictionaries."
@@ -305,7 +305,7 @@ function InterPyTwo() {
         capital names as strings and populations as floats. In these type of
         situations you should use the pandas package.
       </Sentence>
-      <Sentence>
+      <Sentence id="chap2.11">
         Pandas is a data manipulation tool that was built on numpy. In pandas,
         we store the tabular data (I.e, data from a table) in an object called
         the DataFrame.
@@ -423,7 +423,7 @@ function InterPyTwo() {
         width={550}
         height={193}
       />
-      <Sentence>
+      <Sentence id="chap2.12">
         The pandas read.csv provides a lot of ways to customize your DataFrame.
         Read more about the package{" "}
         <UrlLink href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html">
@@ -524,7 +524,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
+        id="chap2.13"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -533,7 +533,7 @@ function InterPyTwo() {
       />
       {/* section 13 below */}
       <SubHeading>Using square brackets to select rows and columns.</SubHeading>
-      <Sentence>
+      <Sentence id="chap2.14">
         You can index and select rows, column, observations from Pandas
         DataFrames in many different ways. The simplest, but not the most
         powerful way, is to use square brackets.
@@ -570,7 +570,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT ONE-COLUMN-SERIES */}
       <Image
-        id=""
+        id="chap2.15"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/one-column-series.png"
         alt=""
@@ -610,7 +610,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT ONE-COLUMN-DATAFRAME */}
       <Image
-        id=""
+        id="chap2.16"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/one-column-dataframe.png"
         alt=""
@@ -627,7 +627,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -650,7 +649,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT TWO-COLUMNS-DATAFRAME */}
       <Image
-        id=""
+        id="chap2.17"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/two-columns-dataframe.png"
         alt=""
@@ -667,7 +666,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -689,7 +687,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT THREE-ROWS-DATAFRAME */}
       <Image
-        id=""
+        id="chap2.18"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/three-rows-dataframe.png"
         alt=""
@@ -698,7 +696,7 @@ function InterPyTwo() {
       />
       {/* section 18 below */}
       <SubHeading>Using loc and iloc to select rows and columns.</SubHeading>
-      <Sentence>
+      <Sentence id="chap2.19">
         With loc and iloc you can do practically any data selection operation on
         DataFrames you can think of. loc is label-based, which means that you
         have to specify rows and columns based on their row and column labels.
@@ -714,7 +712,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -736,7 +733,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-SERIES-ONE-ROW  */}
       <Image
-        id=""
+        id="chap2.20"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-series-one-row.png"
         alt=""
@@ -752,7 +749,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -774,7 +770,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-ILOC-DATAFRAME-ONE-ROW  */}
       <Image
-        id=""
+        id="chap2.21"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-one-row.png"
         alt=""
@@ -790,7 +786,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -812,7 +807,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-ILOC-DATAFRAME-ONE-ROW */}
       <Image
-        id=""
+        id="chap2.22"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-one-row.png"
         alt=""
@@ -828,7 +823,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -851,7 +845,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-ILOC-DATAFRAME-TWO-ROW  */}
       <Image
-        id=""
+        id="chap2.23"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-two-row.png"
         alt=""
@@ -867,7 +861,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -889,7 +882,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-ILOC-DATAFRAME-TWO-ROW */}
       <Image
-        id=""
+        id="chap2.24"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-iloc-dataframe-two-row.png"
         alt=""
@@ -905,7 +898,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -928,7 +920,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-INTERSECTION-VALUE  */}
       <Image
-        id=""
+        id="chap2.25"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-intersection-value.png"
         alt=""
@@ -945,7 +937,6 @@ function InterPyTwo() {
       </Sentence>
       {/* INSERT COUNTRIES-CARS-EXAMPLE */}
       <Image
-        id=""
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/countries-cars-example.png"
         alt=""
@@ -968,7 +959,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-TWO-INTERSECTION-VALUES */}
       <Image
-        id=""
+        id="chap2.26"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-two-intersection-values.png"
         alt=""
@@ -1008,7 +999,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-SERIES-ONE-COLUMN */}
       <Image
-        id=""
+        id="chap2.27"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-series-one-column.png"
         alt=""
@@ -1048,7 +1039,7 @@ function InterPyTwo() {
       </Code>
       {/* INSERT LOC-DATAFRAME-ONE-COLUMN */}
       <Image
-        id=""
+        id="chap2.28"
         loader={myLoader}
         src="Elir-Mahad/notes/main/assets/interpygraphs/loc-dataframe-one-column.png"
         alt=""
