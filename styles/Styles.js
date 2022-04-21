@@ -471,13 +471,13 @@ export const PmOption = styled.li`
 
 //
 
-export const OsInput = styled.input`
+export const CheckMark = styled.input`
   padding-right: 1rem;
   height: 1.1rem;
   width: 1.1rem;
 `;
 
-export const OsName = styled.p`
+export const CheckListItemTitle = styled.p`
   font-size: 1.2rem;
   @media (max-width: 450px) {
     font-size: 1rem;
