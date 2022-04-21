@@ -469,12 +469,23 @@ export const PmOption = styled.li`
   }
 `;
 
-//
+// Checklist Box below
 
-export const CheckMark = styled.input`
+export const CheckListBox = styled.div`
+  border: 1px solid black;
+  padding: 1rem;
+`;
+
+export const CheckListMarkTitle = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const CheckListCheckMark = styled.input`
   padding-right: 1rem;
   height: 1.1rem;
   width: 1.1rem;
+  margin-right: 1rem;
 `;
 
 export const CheckListItemTitle = styled.p`
@@ -482,4 +493,20 @@ export const CheckListItemTitle = styled.p`
   @media (max-width: 450px) {
     font-size: 1rem;
   }
+`;
+
+export const CheckListItemDescription = styled.p`
+  //
+`;
+
+export const CheckListItemImages = styled.div`
+  display: flex;
+`;
+
+export const CheckListItemBadImage = styled.div`
+  //
+`;
+
+export const CheckListItemGoodImage = styled.div`
+  //
 `;
