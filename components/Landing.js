@@ -32,7 +32,7 @@ function Landing() {
             <LpTbLogo>
               <Image
                 loader={myLoader}
-                src="Elir-Mahad/notes/main/assets/logo.png"
+                src="Elir-Mahad/notes/main/assets/Personal/logo.png"
                 alt="a logo"
                 width={80}
                 height={120}
@@ -43,7 +43,7 @@ function Landing() {
               <RealName>Mohamood, Mahad</RealName>
               <Image
                 loader={myLoader}
-                src="Elir-Mahad/notes/main/assets/barcode.png"
+                src="Elir-Mahad/notes/main/assets/Personal/barcode.png"
                 alt="a barcode"
                 width={160}
                 height={30}
@@ -97,7 +97,7 @@ function Landing() {
         <LpPic>
           <Image
             loader={myLoader}
-            src="Elir-Mahad/notes/main/assets/cropchess.jpeg"
+            src="Elir-Mahad/notes/main/assets/Personal/cropchess.jpeg"
             alt="Picture of Mahad Mohamood"
             width={400}
             height={400}
