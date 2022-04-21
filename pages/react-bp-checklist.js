@@ -7,9 +7,9 @@ import {
 } from "../styles/Styles.js";
 // import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
-import FolderStructure from "../components/reactbpchaps/FolderStructure.js";
+import FolderStructure from "../components/react-checklist-chaps/FolderStructure.js";
 //
-function ReactBp() {
+function ReactBpCheckList() {
   return (
     <div>
       <Head>
@@ -23,12 +23,6 @@ function ReactBp() {
       </Head>
       <PostTitle className={style.weight100}>React best practices</PostTitle>
       <BlogBody>
-        <Sentence>
-          I think when you keep maintainability and scalability in mind when
-          orchestrating your components and organizing your project structure,
-          you'll less likely end up with a mess of source code that needs major
-          refactoring.{" "}
-        </Sentence>
         <FolderStructure />
       </BlogBody>
       {/* <Resources
@@ -45,4 +39,4 @@ function ReactBp() {
   );
 }
 
-export default ReactBp;
+export default ReactBpCheckList;
