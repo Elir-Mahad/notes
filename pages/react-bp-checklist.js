@@ -7,7 +7,7 @@ import {
 } from "../styles/Styles.js";
 // import Resources from "../components/Resources";
 import style from "../styles/Home.module.css";
-import FolderStructure from "../components/react-checklist-chaps/FolderStructure.js";
+import CheckList from "../components/react-checklist-chaps/CheckList.js";
 //
 function ReactBpCheckList() {
   return (
@@ -23,7 +23,7 @@ function ReactBpCheckList() {
       </Head>
       <PostTitle className={style.weight100}>React best practices</PostTitle>
       <BlogBody>
-        <FolderStructure />
+        <CheckList />
       </BlogBody>
       {/* <Resources
         //

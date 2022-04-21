@@ -468,3 +468,18 @@ export const PmOption = styled.li`
     font-size: 0.9rem;
   }
 `;
+
+//
+
+export const OsInput = styled.input`
+  padding-right: 1rem;
+  height: 1.1rem;
+  width: 1.1rem;
+`;
+
+export const OsName = styled.p`
+  font-size: 1.2rem;
+  @media (max-width: 450px) {
+    font-size: 1rem;
+  }
+`;
