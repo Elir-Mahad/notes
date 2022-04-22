@@ -1,204 +1,170 @@
 {
   "rules": [
     {
-      "id": "1",
+      "id": "",
+      "title": "Import files in order of built-in, external, internal",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Use camelCase for prop names or PascalCase if the prop value is a react component",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Don’t use underscore in method name",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Reserverd prop Naming",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Name components using PascalCase and instances using camelCase",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
       "title": "Use JSX shorthand",
+      "tag": "",
       "description": " Try to use JSX shorthand for passing boolean variables. Let’s say you want to control the title visibility of a Navbar component",
       "gistBadId": "8a00c9b00870deb84a41788f1bfc5e1f",
       "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
     },
     {
-      "id": "2",
-      "title": "Use ternary operators",
+      "id": "",
+      "title": "Use double quotes for jsx attributes and single quotes for all other js",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Always wrap jsx in parentheses",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Use Fragments instead of divs when possible",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Use self-closing tags for components that don't have children",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Don’t add curly braces to string props",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Always include alt prop in your image tags",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+    {
+      "id": "",
+      "title": "Use ternary operators to shorten conditionals",
+      "tag": "",
       "description": "Within JSX, there are multiple ways for React developers to set up conditions. You can use the if/else or switch statements, but a third way is a ternary operator.",
       "gistBadId": "9f1441a2cbd375f4b5bc8d2c8c7d2b02",
       "gistGoodId": "43bb469558b3f771de8d94e6cd737784"
     },
     {
-      "id": "3",
-      "title": "666",
+      "id": "",
+      "title": "Don’t write js code in jsx",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
     },
     {
-      "id": "4",
-      "title": "",
+      "id": "",
+      "title": "Don’t define a function inside render",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
     },
     {
-      "id": "5",
-      "title": "",
+      "id": "",
+      "title": "Use object literals to improve code readability",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
     },
     {
-      "id": "6",
-      "title": "",
+      "id": "",
+      "title": "Use Implicit return instead of explicit return",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
     },
     {
-      "id": "7",
-      "title": "",
+      "id": "",
+      "title": "Use css in javascript",
+      "tag": "",
+      "description": "",
+      "gistBadId": "",
+      "gistGoodId": ""
+    },
+
+    {
+      "id": "",
+      "title": "Use template literals instead of concatenation",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
     },
     {
-      "id": "8",
-      "title": "",
+      "id": "",
+      "title": "Use memo to avoid unecessary rendering",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
     },
     {
-      "id": "9",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "10",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "11",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "12",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "13",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "14",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "15",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "16",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "17",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "18",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "19",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "20",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "21",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "22",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "23",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "24",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "25",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "25",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "27",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "28",
-      "title": "",
-      "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
-    },
-    {
-      "id": "29",
-      "title": "",
+      "id": "",
+      "title": "Use object destructuring",
+      "tag": "",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
