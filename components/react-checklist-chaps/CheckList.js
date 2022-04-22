@@ -36,8 +36,12 @@ function CheckList() {
           want to control the title visibility of a Navbar component.
         </CheckListItemDescription>
         <CheckListItemImages>
-          <CheckListItemBadImage>{/*  */}</CheckListItemBadImage>
-          <CheckListItemGoodImage>{/*  */}</CheckListItemGoodImage>
+          <CheckListItemBadImage>
+            <Gist id="8a00c9b00870deb84a41788f1bfc5e1f" />
+          </CheckListItemBadImage>
+          <CheckListItemGoodImage>
+            <Gist id="94e0f0f8fa8cb7e2d45d5801256259aa" />
+          </CheckListItemGoodImage>
         </CheckListItemImages>
       </CheckListBox>
     </div>
