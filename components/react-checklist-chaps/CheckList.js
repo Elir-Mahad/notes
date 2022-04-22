@@ -11,13 +11,7 @@ import {
   CheckListItemBadImage,
   CheckListItemGoodImage,
 } from "../../styles/Styles";
-import Image from "next/image";
 //
-const myLoader = ({ src, width, quality }) => {
-  return `https://raw.githubusercontent.com/${src}?w=${width}&q=${
-    quality || 75
-  }`;
-};
 
 function CheckList() {
   return (
@@ -41,24 +35,8 @@ function CheckList() {
           want to control the title visibility of a Navbar component.
         </CheckListItemDescription>
         <CheckListItemImages>
-          <CheckListItemBadImage>
-            <Image
-              loader={myLoader}
-              src="Elir-Mahad/notes/main/assets/react-checklist/jsx-short-hand/jsx-shorthand-bad.png"
-              alt="a logo"
-              width={364}
-              height={82}
-            />
-          </CheckListItemBadImage>
-          <CheckListItemGoodImage>
-            <Image
-              loader={myLoader}
-              src="Elir-Mahad/notes/main/assets/react-checklist/jsx-short-hand/jsx-shorthand-good.png"
-              alt="a logo"
-              width={364}
-              height={78}
-            />
-          </CheckListItemGoodImage>
+          <CheckListItemBadImage>{/*  */}</CheckListItemBadImage>
+          <CheckListItemGoodImage>{/*  */}</CheckListItemGoodImage>
         </CheckListItemImages>
       </CheckListBox>
     </div>
