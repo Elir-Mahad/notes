@@ -12,9 +12,11 @@ import {
   CheckListItemGoodImage,
 } from "../../styles/Styles";
 import Gist from "react-gist";
+import data from "./data.json";
 //
 
 function CheckList() {
+  const data1 = data;
   return (
     <div>
       <SubHeading>React checklist</SubHeading>
@@ -25,6 +27,15 @@ function CheckList() {
         improve your React application’s health. These rules are widely
         accepted. As such, having this knowledge is imperative.
       </Sentence>
+      {/*  */}
+      {data1.students.map((item) => (
+        <div>
+          <div className="profile-box" key={item.id}>
+            <h1 className="student-fullname">{item.firstName}</h1>
+            <p> Email: {item.email} </p>
+          </div>
+        </div>
+      ))}
       {/*  */}
       <CheckListBox>
         <CheckListMarkTitle>
