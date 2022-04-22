@@ -501,6 +501,9 @@ export const CheckListItemDescription = styled.p`
 
 export const CheckListItemImages = styled.div`
   display: flex;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const CheckListItemBadImage = styled.div`
