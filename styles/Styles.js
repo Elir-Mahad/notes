@@ -501,15 +501,23 @@ export const CheckListItemDescription = styled.p`
 
 export const CheckListItemImages = styled.div`
   display: flex;
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     flex-direction: column;
   }
 `;
 
 export const CheckListItemBadImage = styled.div`
-  //
+  // border: 1px solid black;
+  width: 50%;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `;
 
 export const CheckListItemGoodImage = styled.div`
-  //
+  // border: 1px solid black;
+  width: 50%;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `;
