@@ -3,7 +3,7 @@
     {
       "id": "",
       "title": "Import files in order of built-in, external, internal",
-      "tag": "",
+      "tag": "import",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -11,7 +11,7 @@
     {
       "id": "",
       "title": "Use camelCase for prop names or PascalCase if the prop value is a react component",
-      "tag": "",
+      "tag": "naming",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -19,7 +19,7 @@
     {
       "id": "",
       "title": "Don’t use underscore in method name",
-      "tag": "",
+      "tag": "naming",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -27,7 +27,7 @@
     {
       "id": "",
       "title": "Reserverd prop Naming",
-      "tag": "",
+      "tag": "naming",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -35,7 +35,7 @@
     {
       "id": "",
       "title": "Name components using PascalCase and instances using camelCase",
-      "tag": "",
+      "tag": "naming",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -43,7 +43,7 @@
     {
       "id": "",
       "title": "Use JSX shorthand",
-      "tag": "",
+      "tag": "jsx",
       "description": " Try to use JSX shorthand for passing boolean variables. Let’s say you want to control the title visibility of a Navbar component",
       "gistBadId": "8a00c9b00870deb84a41788f1bfc5e1f",
       "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
@@ -51,7 +51,7 @@
     {
       "id": "",
       "title": "Use double quotes for jsx attributes and single quotes for all other js",
-      "tag": "",
+      "tag": "jsx",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -59,7 +59,7 @@
     {
       "id": "",
       "title": "Always wrap jsx in parentheses",
-      "tag": "",
+      "tag": "jsx",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -67,7 +67,7 @@
     {
       "id": "",
       "title": "Use Fragments instead of divs when possible",
-      "tag": "",
+      "tag": "jsx",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -75,7 +75,7 @@
     {
       "id": "",
       "title": "Use self-closing tags for components that don't have children",
-      "tag": "",
+      "tag": "jsx",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -83,7 +83,7 @@
     {
       "id": "",
       "title": "Don’t add curly braces to string props",
-      "tag": "",
+      "tag": "jsx",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -91,7 +91,7 @@
     {
       "id": "",
       "title": "Always include alt prop in your image tags",
-      "tag": "",
+      "tag": "jsx",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -99,7 +99,7 @@
     {
       "id": "",
       "title": "Use ternary operators to shorten conditionals",
-      "tag": "",
+      "tag": "javascript",
       "description": "Within JSX, there are multiple ways for React developers to set up conditions. You can use the if/else or switch statements, but a third way is a ternary operator.",
       "gistBadId": "9f1441a2cbd375f4b5bc8d2c8c7d2b02",
       "gistGoodId": "43bb469558b3f771de8d94e6cd737784"
@@ -107,7 +107,7 @@
     {
       "id": "",
       "title": "Don’t write js code in jsx",
-      "tag": "",
+      "tag": "javascript",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -115,7 +115,7 @@
     {
       "id": "",
       "title": "Don’t define a function inside render",
-      "tag": "",
+      "tag": "javascript",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -123,7 +123,7 @@
     {
       "id": "",
       "title": "Use object literals to improve code readability",
-      "tag": "",
+      "tag": "javascript",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -131,7 +131,7 @@
     {
       "id": "",
       "title": "Use Implicit return instead of explicit return",
-      "tag": "",
+      "tag": "javascript",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -139,7 +139,7 @@
     {
       "id": "",
       "title": "Use css in javascript",
-      "tag": "",
+      "tag": "javascript",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -148,7 +148,7 @@
     {
       "id": "",
       "title": "Use template literals instead of concatenation",
-      "tag": "",
+      "tag": "javascript",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -156,7 +156,7 @@
     {
       "id": "",
       "title": "Use memo to avoid unecessary rendering",
-      "tag": "",
+      "tag": "performance",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
@@ -164,7 +164,7 @@
     {
       "id": "",
       "title": "Use object destructuring",
-      "tag": "",
+      "tag": "performance",
       "description": "",
       "gistBadId": "",
       "gistGoodId": ""
