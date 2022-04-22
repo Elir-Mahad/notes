@@ -1,26 +1,18 @@
 {
-  "students": [
+  "rules": [
     {
-      "city": "Fush\u00eb-Muhurr",
-      "company": "Yadel",
-      "email": "iorton0@imdb.com",
-      "firstName": "Ingaberg",
-      "grades": ["78", "100", "92", "86", "89", "88", "91", "87"],
       "id": "1",
-      "lastName": "Orton",
-      "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg",
-      "skill": "Oracle"
+      "title": "Use JSX shorthand",
+      "description": " Try to use JSX shorthand for passing boolean variables. Let’s say you want to control the title visibility of a Navbar component",
+      "gistBadId": "8a00c9b00870deb84a41788f1bfc5e1f",
+      "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
     },
     {
-      "city": "Sanghan",
-      "company": "Avamm",
-      "email": "cboards1@weibo.com",
-      "firstName": "Clarke",
-      "grades": ["75", "89", "95", "93", "99", "82", "89", "76"],
-      "id": "2",
-      "lastName": "Boards",
-      "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasautreprehenderit.jpg",
-      "skill": "Sports"
+      "id": "1",
+      "title": "Use JSX shorthand",
+      "description": " Try to use JSX shorthand for passing boolean variables. Let’s say you want to control the title visibility of a Navbar component",
+      "gistBadId": "8a00c9b00870deb84a41788f1bfc5e1f",
+      "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
     }
   ]
 }

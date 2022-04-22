@@ -16,7 +16,7 @@ import data from "./data.json";
 //
 
 function CheckList() {
-  const data1 = data;
+  const bestPractices = data;
   return (
     <div>
       <SubHeading>React checklist</SubHeading>
@@ -28,33 +28,27 @@ function CheckList() {
         accepted. As such, having this knowledge is imperative.
       </Sentence>
       {/*  */}
-      {data1.students.map((item) => (
-        <div>
-          <div className="profile-box" key={item.id}>
-            <h1 className="student-fullname">{item.firstName}</h1>
-            <p> Email: {item.email} </p>
-          </div>
-        </div>
+      {bestPractices.rules.map((item) => (
+        <CheckListBox key={item.id}>
+          <CheckListMarkTitle>
+            <CheckListCheckMark type="checkbox" />
+            <CheckListItemTitle>{item.title}</CheckListItemTitle>
+          </CheckListMarkTitle>
+          <CheckListItemDescription>
+            {item.description}
+          </CheckListItemDescription>
+          <CheckListItemImages>
+            <CheckListItemBadImage>
+              <p>Bad</p>
+              <Gist id={item.gistBadId} />
+            </CheckListItemBadImage>
+            <CheckListItemGoodImage>
+              <p>Good</p>
+              <Gist id={item.gistGoodId} />
+            </CheckListItemGoodImage>
+          </CheckListItemImages>
+        </CheckListBox>
       ))}
-      {/*  */}
-      <CheckListBox>
-        <CheckListMarkTitle>
-          <CheckListCheckMark type="checkbox" />
-          <CheckListItemTitle>Use JSX shorthand</CheckListItemTitle>
-        </CheckListMarkTitle>
-        <CheckListItemDescription>
-          Try to use JSX shorthand for passing boolean variables. Let’s say you
-          want to control the title visibility of a Navbar component.
-        </CheckListItemDescription>
-        <CheckListItemImages>
-          <CheckListItemBadImage>
-            <Gist id="8a00c9b00870deb84a41788f1bfc5e1f" />
-          </CheckListItemBadImage>
-          <CheckListItemGoodImage>
-            <Gist id="94e0f0f8fa8cb7e2d45d5801256259aa" />
-          </CheckListItemGoodImage>
-        </CheckListItemImages>
-      </CheckListBox>
     </div>
   );
 }
