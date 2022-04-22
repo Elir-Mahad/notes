@@ -8,11 +8,11 @@
       "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
     },
     {
-      "id": "1",
-      "title": "Use JSX shorthand",
-      "description": " Try to use JSX shorthand for passing boolean variables. Let’s say you want to control the title visibility of a Navbar component",
-      "gistBadId": "8a00c9b00870deb84a41788f1bfc5e1f",
-      "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
+      "id": "2",
+      "title": "Use ternary operators",
+      "description": "Within JSX, there are multiple ways for React developers to set up conditions. You can use the if/else or switch statements, but a third way is a ternary operator.",
+      "gistBadId": "9f1441a2cbd375f4b5bc8d2c8c7d2b02",
+      "gistGoodId": "43bb469558b3f771de8d94e6cd737784"
     }
   ]
 }
