@@ -49,32 +49,21 @@ const Expandable = ({
         )}
       </div>
       {isToggled && (
-        <div className="anime-details">
-          <div className="firstrow">
-            <p>
-              {showType} . {numOfEpisodes} Ep
-            </p>
-            <p>{episodeLength} minutes per Ep</p>
-          </div>
-          <div className="secondrow">
-            <p>
-              Playing <br />
-              {startYear} - {endYear}
-            </p>
-            <p>
-              score: <br />
-              {averageRating}
-            </p>
-          </div>
-          <p style={{ marginBottom: "0.5rem" }}>
-            Total time: {totalTime} minutes
-          </p>
-
-          <p className="description">{shortSynopsis}</p>
-          <a href={streamUrl} target="_blank">
-            Watch
-          </a>
-        </div>
+        <>
+          <CheckListItemDescription>
+            {item.description}
+          </CheckListItemDescription>
+          <CheckListItemImages>
+            <CheckListItemGist>
+              <CheckListGistType>Bad</CheckListGistType>
+              <Gist id={item.gistBadId} />
+            </CheckListItemGist>
+            <CheckListItemGist>
+              <CheckListGistType>Good</CheckListGistType>
+              <Gist id={item.gistGoodId} />
+            </CheckListItemGist>
+          </CheckListItemImages>
+        </>
       )}
     </div>
   );
