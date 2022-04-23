@@ -8,6 +8,8 @@ import {
   CheckListMarkTitle,
   CheckListLine,
   CheckListTag,
+  HighlightedSentence,
+  UrlLink,
 } from "../../styles/Styles";
 import data from "./data.json";
 import Expandable from "./Expandable";
@@ -18,12 +20,21 @@ function CheckList() {
   return (
     <div>
       <SubHeading>React checklist</SubHeading>
+      <HighlightedSentence>
+        The content of this blog was taken from{" "}
+        <UrlLink href="https://betterprogramming.pub/21-best-practices-for-a-clean-react-project-df788a682fb">
+          Mohammad Faisl
+        </UrlLink>
+        . I've reproduced his best practices blog as a checklist for my personal
+        usage.
+      </HighlightedSentence>
       <Sentence>
-        React is very unopinionated about how things should be structured. This
-        is exactly why it’s our responsibility to keep our projects clean and
-        maintainable. Today, we will talk about some best practices to follow to
-        improve your React application’s health. These rules are widely
-        accepted. As such, having this knowledge is imperative.
+        As a self-taught developer, i've had a solid share of haphazard
+        development which only ever produced Spaghetti code. After refactoring a
+        few of my projects, i began to see the value of following best practices
+        at all times. I came across a few different react best practices blogs.
+        Below is a react best practices checklist. I plan to add more things to
+        it as i continue my research.
       </Sentence>
       {/*  */}
       {bestPractices.rules.map((item) => (

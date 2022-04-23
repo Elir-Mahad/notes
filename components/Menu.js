@@ -30,7 +30,6 @@ function Menu() {
     setMenuContent(false);
     setOpenIcon(true);
     setCloseIcon(false);
-    ß;
   };
   //
   return (
