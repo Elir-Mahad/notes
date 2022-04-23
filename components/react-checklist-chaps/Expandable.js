@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useToggle } from "../../hooks/useToggle";
-import { BsInfoCircle } from "react-icons/bs";
-import { CgCloseR } from "react-icons/cg";
+import { GoTriangleDown } from "react-icons/go";
+import { GoTriangleUp } from "react-icons/go";
 import {
   CheckListItemDescription,
   CheckListItemImages,
@@ -36,12 +36,12 @@ const Expandable = ({
       <div>
         {plusIcon && (
           <button onClick={showGrades}>
-            <BsInfoCircle />
+            <GoTriangleDown />
           </button>
         )}
         {minusIcon && (
           <button onClick={hideGrades}>
-            <CgCloseR />
+            <GoTriangleUp />
           </button>
         )}
       </div>
