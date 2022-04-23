@@ -533,7 +533,9 @@ export const CheckListItemGist = styled.div`
 `;
 
 export const ExpandableBox = styled.div`
-  border-bottom: 1px solid black;
+  // border: 1px solid black;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 `;
 
 export const ExpandableButtons = styled.div`
