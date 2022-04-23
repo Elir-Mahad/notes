@@ -39,19 +39,6 @@ function CheckList() {
             </CheckListMarkTitle>
             <CheckListTag>#{item.tag}</CheckListTag>
           </CheckListLine>
-          <CheckListItemDescription>
-            {item.description}
-          </CheckListItemDescription>
-          <CheckListItemImages>
-            <CheckListItemGist>
-              <CheckListGistType>Bad</CheckListGistType>
-              <Gist id={item.gistBadId} />
-            </CheckListItemGist>
-            <CheckListItemGist>
-              <CheckListGistType>Good</CheckListGistType>
-              <Gist id={item.gistGoodId} />
-            </CheckListItemGist>
-          </CheckListItemImages>
         </CheckListBox>
       ))}
     </div>
