@@ -8,10 +8,10 @@ import {
   CheckListItemDescription,
   CheckListMarkTitle,
   CheckListItemImages,
-  CheckListItemBadImage,
-  CheckListItemGoodImage,
   CheckListLine,
   CheckListTag,
+  CheckListItemGist,
+  CheckListGistType,
 } from "../../styles/Styles";
 import Gist from "react-gist";
 import data from "./data.json";
@@ -43,14 +43,14 @@ function CheckList() {
             {item.description}
           </CheckListItemDescription>
           <CheckListItemImages>
-            <CheckListItemBadImage>
-              <p>Bad</p>
+            <CheckListItemGist>
+              <CheckListGistType>Bad</CheckListGistType>
               <Gist id={item.gistBadId} />
-            </CheckListItemBadImage>
-            <CheckListItemGoodImage>
-              <p>Good</p>
+            </CheckListItemGist>
+            <CheckListItemGist>
+              <CheckListGistType>Good</CheckListGistType>
               <Gist id={item.gistGoodId} />
-            </CheckListItemGoodImage>
+            </CheckListItemGist>
           </CheckListItemImages>
         </CheckListBox>
       ))}
@@ -59,3 +59,12 @@ function CheckList() {
 }
 
 export default CheckList;
+
+// {
+//   "id": "",
+//   "title": "Reserverd prop Naming",
+//   "tag": "naming",
+//   "description": "",
+//   "gistBadId": "f6b8b6cf72ab6bd6cfdf401ebfa0a6f4",
+//   "gistGoodId": "3fa67af386f6bc395e4a15736aee4df9"
+// },

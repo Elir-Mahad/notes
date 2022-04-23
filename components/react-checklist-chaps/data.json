@@ -10,30 +10,6 @@
     },
     {
       "id": "",
-      "title": "Use camelCase for prop names or PascalCase if the prop value is a react component",
-      "tag": "naming",
-      "description": "",
-      "gistBadId": "1f95d64c42ade473de3ec2835cb5c1cd",
-      "gistGoodId": "3de8f226631921f58c968166c7cb8abc"
-    },
-    {
-      "id": "",
-      "title": "Don’t use underscore in method name",
-      "tag": "naming",
-      "description": "",
-      "gistBadId": "cc58097d595561206e8207b749c3da92",
-      "gistGoodId": "7e3d46c3c9967a3fe3897aff697712a0"
-    },
-    {
-      "id": "",
-      "title": "Reserverd prop Naming",
-      "tag": "naming",
-      "description": "",
-      "gistBadId": "f6b8b6cf72ab6bd6cfdf401ebfa0a6f4",
-      "gistGoodId": "3fa67af386f6bc395e4a15736aee4df9"
-    },
-    {
-      "id": "",
       "title": "Name components using PascalCase and instances using camelCase",
       "tag": "naming",
       "description": "",
@@ -42,9 +18,25 @@
     },
     {
       "id": "",
-      "title": "Use JSX shorthand",
+      "title": "Use camelCase for prop names or PascalCase if the prop value is a react component",
+      "tag": "naming",
+      "description": "",
+      "gistBadId": "1f95d64c42ade473de3ec2835cb5c1cd",
+      "gistGoodId": "3de8f226631921f58c968166c7cb8abc"
+    },
+    {
+      "id": "",
+      "title": "Don’t use underscore in method and /or function name",
+      "tag": "naming",
+      "description": "",
+      "gistBadId": "cc58097d595561206e8207b749c3da92",
+      "gistGoodId": "7e3d46c3c9967a3fe3897aff697712a0"
+    },
+    {
+      "id": "",
+      "title": "Use JSX shorthand for passing boolean variables",
       "tag": "jsx",
-      "description": " Try to use JSX shorthand for passing boolean variables. Let’s say you want to control the title visibility of a Navbar component",
+      "description": "",
       "gistBadId": "8a00c9b00870deb84a41788f1bfc5e1f",
       "gistGoodId": "94e0f0f8fa8cb7e2d45d5801256259aa"
     },
@@ -100,7 +92,7 @@
       "id": "",
       "title": "Use ternary operators to shorten conditionals",
       "tag": "javascript",
-      "description": "Within JSX, there are multiple ways for React developers to set up conditions. You can use the if/else or switch statements, but a third way is a ternary operator.",
+      "description": "",
       "gistBadId": "9f1441a2cbd375f4b5bc8d2c8c7d2b02",
       "gistGoodId": "43bb469558b3f771de8d94e6cd737784"
     },

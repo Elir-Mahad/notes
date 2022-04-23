@@ -517,17 +517,17 @@ export const CheckListItemImages = styled.div`
   }
 `;
 
-export const CheckListItemBadImage = styled.div`
-  // border: 1px solid black;
-  width: 50%;
-  @media (max-width: 900px) {
-    width: 100%;
-  }
+export const CheckListGistType = styled.a`
+  color: darkblue;
+  padding: 0rem;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  border-bottom: 1px solid black;
 `;
 
-export const CheckListItemGoodImage = styled.div`
-  // border: 1px solid black;
+export const CheckListItemGist = styled.div`
   width: 50%;
+  margin-bottom: 0.2rem;
   @media (max-width: 900px) {
     width: 100%;
   }
