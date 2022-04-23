@@ -30,6 +30,7 @@ function Menu() {
     setMenuContent(false);
     setOpenIcon(true);
     setCloseIcon(false);
+    ß;
   };
   //
   return (
@@ -58,6 +59,12 @@ function Menu() {
               <BlogName onClick={hideContent}>Portfolio</BlogName>
             </Link>
             {/*  */}
+            <Link
+              href="/react-bp-checklist"
+              as={process.env.BACKEND_URL + "/react-bp-chechlist"}
+            >
+              <BlogName onClick={hideContent}>React best practices</BlogName>
+            </Link>
             <Link
               href="/add-remote-url-to-local-repo"
               as={process.env.BACKEND_URL + "/add-remote-url-to-local-repo"}
