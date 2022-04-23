@@ -60,7 +60,7 @@ function Menu() {
             {/*  */}
             <Link
               href="/react-bp-checklist"
-              as={process.env.BACKEND_URL + "/react-bp-chechlist"}
+              as={process.env.BACKEND_URL + "/react-bp-checklist"}
             >
               <BlogName onClick={hideContent}>React best practices</BlogName>
             </Link>
