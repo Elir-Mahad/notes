@@ -15,6 +15,7 @@ import {
 } from "../../styles/Styles";
 import Gist from "react-gist";
 import data from "./data.json";
+import Expandable from "./Expandable";
 //
 
 function CheckList() {
@@ -39,6 +40,7 @@ function CheckList() {
             </CheckListMarkTitle>
             <CheckListTag>#{item.tag}</CheckListTag>
           </CheckListLine>
+          <Expandable />
         </CheckListBox>
       ))}
     </div>
