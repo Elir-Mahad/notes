@@ -34,6 +34,7 @@ function CheckList() {
             <CheckListCheckMark type="checkbox" />
             <CheckListItemTitle>{item.title}</CheckListItemTitle>
           </CheckListMarkTitle>
+          <p>{item.tag}</p>
           <CheckListItemDescription>
             {item.description}
           </CheckListItemDescription>

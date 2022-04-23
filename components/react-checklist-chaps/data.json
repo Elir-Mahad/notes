@@ -5,8 +5,8 @@
       "title": "Import files in order of built-in, external, internal",
       "tag": "import",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "2969f66c5160d033f8c7a7a856418fe3",
+      "gistGoodId": "70c945509b72ba01446fb76857c154c5.js"
     },
     {
       "id": "",
@@ -21,24 +21,24 @@
       "title": "Don’t use underscore in method name",
       "tag": "naming",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "cc58097d595561206e8207b749c3da92",
+      "gistGoodId": "7e3d46c3c9967a3fe3897aff697712a0"
     },
     {
       "id": "",
       "title": "Reserverd prop Naming",
       "tag": "naming",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "f6b8b6cf72ab6bd6cfdf401ebfa0a6f4",
+      "gistGoodId": "3fa67af386f6bc395e4a15736aee4df9"
     },
     {
       "id": "",
       "title": "Name components using PascalCase and instances using camelCase",
       "tag": "naming",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "1d2560f8adb9f3ef2344619db8cc00e3",
+      "gistGoodId": "fdc02b4785b11f60f0c6875d1ec826be"
     },
     {
       "id": "",
@@ -53,8 +53,8 @@
       "title": "Use double quotes for jsx attributes and single quotes for all other js",
       "tag": "jsx",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "85bb932733333df13cbefaf2e732efa7",
+      "gistGoodId": "f1fb80c2a0f2e1b860faf69b21878caa"
     },
     {
       "id": "",
@@ -77,8 +77,8 @@
       "title": "Use self-closing tags for components that don't have children",
       "tag": "jsx",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "ad09846414dd42fdb4984fa5d4d1175b",
+      "gistGoodId": "151bfb12ceabdaf0cf9da5ea930ff8c0"
     },
     {
       "id": "",
@@ -93,8 +93,8 @@
       "title": "Always include alt prop in your image tags",
       "tag": "jsx",
       "description": "",
-      "gistBadId": "",
-      "gistGoodId": ""
+      "gistBadId": "9c38e719e5a2a290a0ce88ad728ef784",
+      "gistGoodId": "b50fa1621968478c2b5608ea0c404380"
     },
     {
       "id": "",
