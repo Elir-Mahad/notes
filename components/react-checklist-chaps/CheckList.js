@@ -10,6 +10,8 @@ import {
   CheckListItemImages,
   CheckListItemBadImage,
   CheckListItemGoodImage,
+  CheckListLine,
+  CheckListTag,
 } from "../../styles/Styles";
 import Gist from "react-gist";
 import data from "./data.json";
@@ -30,11 +32,13 @@ function CheckList() {
       {/*  */}
       {bestPractices.rules.map((item) => (
         <CheckListBox key={item.id}>
-          <CheckListMarkTitle>
-            <CheckListCheckMark type="checkbox" />
-            <CheckListItemTitle>{item.title}</CheckListItemTitle>
-          </CheckListMarkTitle>
-          <p>{item.tag}</p>
+          <CheckListLine>
+            <CheckListMarkTitle>
+              <CheckListCheckMark type="checkbox" />
+              <CheckListItemTitle>{item.title}</CheckListItemTitle>
+            </CheckListMarkTitle>
+            <CheckListTag>#{item.tag}</CheckListTag>
+          </CheckListLine>
           <CheckListItemDescription>
             {item.description}
           </CheckListItemDescription>

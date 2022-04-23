@@ -476,6 +476,12 @@ export const CheckListBox = styled.div`
   padding: 1rem;
 `;
 
+export const CheckListLine = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 export const CheckListMarkTitle = styled.div`
   display: flex;
   align-items: center;
@@ -493,6 +499,11 @@ export const CheckListItemTitle = styled.p`
   @media (max-width: 450px) {
     font-size: 1rem;
   }
+`;
+
+export const CheckListTag = styled.p`
+  border: 1px solid black;
+  padding: 0.5rem;
 `;
 
 export const CheckListItemDescription = styled.p`
