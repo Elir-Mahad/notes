@@ -7,6 +7,8 @@ import {
   CheckListItemImages,
   CheckListItemGist,
   CheckListGistType,
+  ExpandableButtons,
+  ExpandableButton,
 } from "../../styles/Styles";
 import Gist from "react-gist";
 //
@@ -33,18 +35,18 @@ const Expandable = ({
 
   return (
     <div>
-      <div>
+      <ExpandableButtons>
         {plusIcon && (
-          <button onClick={showGrades}>
+          <ExpandableButton onClick={showGrades}>
             <GoTriangleDown />
-          </button>
+          </ExpandableButton>
         )}
         {minusIcon && (
-          <button onClick={hideGrades}>
+          <ExpandableButton onClick={hideGrades}>
             <GoTriangleUp />
-          </button>
+          </ExpandableButton>
         )}
-      </div>
+      </ExpandableButtons>
       {isToggled && (
         <>
           <CheckListItemDescription>

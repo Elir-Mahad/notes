@@ -532,3 +532,11 @@ export const CheckListItemGist = styled.div`
     width: 100%;
   }
 `;
+
+export const ExpandableButtons = styled.div`
+  //
+`;
+
+export const ExpandableButton = styled.button`
+  //
+`;
