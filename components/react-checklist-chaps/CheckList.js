@@ -40,7 +40,7 @@ function CheckList() {
             </CheckListMarkTitle>
             <CheckListTag>#{item.tag}</CheckListTag>
           </CheckListLine>
-          <Expandable />
+          <Expandable item={item} />
         </CheckListBox>
       ))}
     </div>
