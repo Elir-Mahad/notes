@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useToggle } from "../../../hooks/useToggle";
+import { useToggle } from "../../hooks/useToggle";
 import { BsInfoCircle } from "react-icons/bs";
 import { CgCloseR } from "react-icons/cg";
 //
