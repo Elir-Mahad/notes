@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import { useToggle } from "../../hooks/useToggle";
 import { BsInfoCircle } from "react-icons/bs";
 import { CgCloseR } from "react-icons/cg";
+import Gist from "react-gist";
+import {
+  CheckListItemDescription,
+  CheckListItemImages,
+  CheckListItemGist,
+  CheckListGistType,
+} from "../../styles/Styles";
 //
 const Expandable = ({
   //
@@ -24,11 +31,9 @@ const Expandable = ({
   const [plusIcon, setPlusIcon] = useState(true);
   const [minusIcon, setMinusIcon] = useState(false);
 
-  const streamUrl = `https://gogoanime.fi/category/${slugName}`;
-
   return (
-    <div className="expandable-box">
-      <div className="expandable-buttons">
+    <div>
+      <div>
         {plusIcon && (
           <button onClick={showGrades}>
             <BsInfoCircle />
