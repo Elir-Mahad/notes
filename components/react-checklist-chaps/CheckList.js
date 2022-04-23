@@ -23,7 +23,7 @@ function CheckList() {
       <HighlightedSentence>
         The content of this blog was taken from{" "}
         <UrlLink href="https://betterprogramming.pub/21-best-practices-for-a-clean-react-project-df788a682fb">
-          Mohammad Faisl
+          Mohammad Faisal
         </UrlLink>
         . I've reproduced his best practices blog as a checklist for my personal
         usage.
