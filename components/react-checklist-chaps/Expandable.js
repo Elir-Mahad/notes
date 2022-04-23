@@ -9,6 +9,8 @@ import {
   CheckListGistType,
   ExpandableButtons,
   ExpandableButton,
+  ExpandableBox,
+  ExpandableContent,
 } from "../../styles/Styles";
 import Gist from "react-gist";
 //
@@ -34,7 +36,7 @@ const Expandable = ({
   const [minusIcon, setMinusIcon] = useState(false);
 
   return (
-    <div>
+    <ExpandableBox>
       <ExpandableButtons>
         {plusIcon && (
           <ExpandableButton onClick={showGrades}>
@@ -48,7 +50,7 @@ const Expandable = ({
         )}
       </ExpandableButtons>
       {isToggled && (
-        <>
+        <ExpandableContent>
           <CheckListItemDescription>
             {item.description}
           </CheckListItemDescription>
@@ -62,9 +64,9 @@ const Expandable = ({
               <Gist id={item.gistGoodId} />
             </CheckListItemGist>
           </CheckListItemImages>
-        </>
+        </ExpandableContent>
       )}
-    </div>
+    </ExpandableBox>
   );
 };
 

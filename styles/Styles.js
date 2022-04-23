@@ -472,8 +472,7 @@ export const PmOption = styled.li`
 // Checklist Box below
 
 export const CheckListBox = styled.div`
-  border: 1px solid black;
-  padding: 1rem;
+  //
 `;
 
 export const CheckListLine = styled.div`
@@ -533,10 +532,25 @@ export const CheckListItemGist = styled.div`
   }
 `;
 
+export const ExpandableBox = styled.div`
+  border-bottom: 1px solid black;
+`;
+
 export const ExpandableButtons = styled.div`
-  //
+  position: relative;
+  top: -2rem;
+  height: 1rem;
 `;
 
 export const ExpandableButton = styled.button`
-  //
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: right;
+  top: 0rem;
+  font-size: 1.2rem;
+`;
+
+export const ExpandableContent = styled.div`
+  width: 95%;
 `;
