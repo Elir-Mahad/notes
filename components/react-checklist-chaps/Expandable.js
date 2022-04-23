@@ -5,15 +5,7 @@ import { CgCloseR } from "react-icons/cg";
 //
 const Expandable = ({
   //
-  startYear,
-  endYear,
-  showType,
-  numOfEpisodes,
-  episodeLength,
-  averageRating,
-  shortSynopsis,
-  totalTime,
-  slugName,
+  item,
 }) => {
   //
   const [isToggled, toggle] = useToggle(false);
