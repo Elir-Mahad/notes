@@ -8,6 +8,7 @@ import {
   CheckListItemGist,
   CheckListGistType,
 } from "../../styles/Styles";
+import Gist from "react-gist";
 //
 const Expandable = ({
   //
