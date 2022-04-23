@@ -5,15 +5,10 @@ import {
   CheckListItemTitle,
   CheckListBox,
   CheckListCheckMark,
-  CheckListItemDescription,
   CheckListMarkTitle,
-  CheckListItemImages,
   CheckListLine,
   CheckListTag,
-  CheckListItemGist,
-  CheckListGistType,
 } from "../../styles/Styles";
-import Gist from "react-gist";
 import data from "./data.json";
 import Expandable from "./Expandable";
 //
