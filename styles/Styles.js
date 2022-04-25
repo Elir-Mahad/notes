@@ -500,9 +500,13 @@ export const CheckListItemTitle = styled.p`
   }
 `;
 
-export const CheckListTag = styled.p`
-  border: 1px solid black;
+export const CheckListTag = styled.span`
   padding: 0.5rem;
+  background-color: lightgrey;
+  // color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  //
 `;
 
 export const CheckListItemDescription = styled.p`

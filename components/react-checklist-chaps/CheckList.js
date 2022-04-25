@@ -42,9 +42,10 @@ function CheckList() {
           <CheckListLine>
             <CheckListMarkTitle>
               <CheckListCheckMark type="checkbox" />
-              <CheckListItemTitle>{item.title}</CheckListItemTitle>
+              <CheckListItemTitle>
+                {item.title} <CheckListTag>#{item.tag}</CheckListTag>
+              </CheckListItemTitle>
             </CheckListMarkTitle>
-            {/* <CheckListTag>#{item.tag}</CheckListTag> */}
           </CheckListLine>
           <Expandable item={item} />
         </CheckListBox>
